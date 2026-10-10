@@ -1,0 +1,166 @@
+player_id,name,short_name,key_cricinfo,team,matches,runs,balls_faced,innings,dismissals,best_score,wickets,balls_bowled,runs_conceded,impact,wins,strike_rate,economy,batting_average,role,impact_rank
+d32cf49a,Hayley Matthews,HK Matthews,474308,West Indies,6.0,145.0,146.0,6.0,6.0,48.0,10.0,138.0,145.0,345.0,3.0,99.3,6.3,24.2,all-rounder,1
+ea9c54de,Fatima Sana,Fatima Sana,1144886,Pakistan,5.0,85.0,77.0,5.0,4.0,55.0,11.0,107.0,124.0,305.0,1.0,110.4,6.95,21.2,all-rounder,2
+a139c379,Danni Wyatt-Hodge,DN Wyatt,254168,England,7.0,302.0,202.0,7.0,5.0,105.0,0.0,0.0,0.0,302.0,6.0,149.5,,60.4,batter,3
+d8f20ba5,Orla Prendergast,O Prendergast,1150585,Ireland,5.0,181.0,144.0,5.0,5.0,63.0,6.0,120.0,122.0,301.0,1.0,125.7,6.1,36.2,all-rounder,4
+63e3b6b3,Marizanne Kapp,M Kapp,351836,South Africa,6.0,124.0,87.0,5.0,4.0,81.0,8.0,138.0,115.0,284.0,4.0,142.5,5.0,31.0,all-rounder,5
+583ce32c,Shree Charani,N Shree Charani,1464461,India,5.0,0.0,0.0,0.0,0.0,0.0,14.0,120.0,117.0,280.0,3.0,,5.85,,bowler,6
+d8f59089,Shafali Verma,Shafali Verma,1182523,India,5.0,179.0,118.0,5.0,5.0,55.0,5.0,98.0,104.0,279.0,3.0,151.7,6.37,35.8,all-rounder,7
+be150fc8,Ellyse Perry,EA Perry,275487,Australia,7.0,198.0,149.0,7.0,4.0,71.0,4.0,30.0,30.0,278.0,7.0,132.9,6.0,49.5,all-rounder,8
+f13d3eba,Kathryn Bryce,KE Bryce,914675,Scotland,5.0,94.0,80.0,5.0,5.0,60.0,8.0,111.0,132.0,254.0,1.0,117.5,7.14,18.8,all-rounder,9
+52d1dbc8,Beth Mooney,BL Mooney,381258,Australia,7.0,238.0,167.0,7.0,5.0,74.0,0.0,0.0,0.0,238.0,7.0,142.5,,47.6,batter,10
+ac56b5a7,Chamari Athapaththu,AC Jayangani,318853,Sri Lanka,5.0,172.0,109.0,5.0,4.0,106.0,3.0,90.0,118.0,232.0,3.0,157.8,7.87,43.0,all-rounder,11
+99e23670,Sophie Molineux,S Molineux,944373,Australia,7.0,12.0,6.0,2.0,2.0,7.0,11.0,144.0,162.0,232.0,7.0,200.0,6.75,6.0,bowler,12
+abc9f8a4,Freya Kemp,FG Kemp,1195947,England,7.0,90.0,57.0,5.0,2.0,44.0,7.0,102.0,122.0,230.0,6.0,157.9,7.18,45.0,all-rounder,13
+f3a18a0c,Nat Sciver-Brunt,NR Sciver,515905,England,4.0,227.0,159.0,4.0,2.0,75.0,0.0,0.0,0.0,227.0,3.0,142.8,,113.5,batter,14
+06659caa,Tazmin Brits,T Brits,600731,South Africa,4.0,225.0,174.0,4.0,3.0,114.0,0.0,0.0,0.0,225.0,3.0,129.3,,75.0,batter,15
+7673c908,Amelia Kerr,AC Kerr,803971,New Zealand,5.0,124.0,106.0,5.0,5.0,45.0,5.0,114.0,137.0,224.0,2.0,117.0,7.21,24.8,all-rounder,16
+f0b4e47d,Georgia Wareham,G Wareham,946057,Australia,7.0,82.0,45.0,4.0,3.0,41.0,7.0,100.0,75.0,222.0,7.0,182.2,4.5,27.3,all-rounder,17
+a0a65375,Katherine Fraser,K Fraser,1146661,Scotland,5.0,77.0,66.0,5.0,5.0,23.0,7.0,108.0,148.0,217.0,1.0,116.7,8.22,15.4,all-rounder,18
+c6625a26,Charlie Dean,CE Dean,1039421,England,7.0,13.0,6.0,2.0,0.0,9.0,10.0,156.0,192.0,213.0,6.0,216.7,7.38,,bowler,19
+bc969efb,Ashleigh Gardner,A Gardner,858809,Australia,6.0,150.0,88.0,6.0,3.0,58.0,3.0,96.0,121.0,210.0,6.0,170.5,7.56,50.0,all-rounder,20
+c3394c16,Darcey Carter,DEM Carter,1352119,Scotland,5.0,208.0,186.0,5.0,4.0,72.0,0.0,30.0,32.0,208.0,1.0,111.8,6.4,52.0,all-rounder,21
+5d2eda89,Smriti Mandhana,S Mandhana,597806,India,5.0,205.0,146.0,5.0,5.0,74.0,0.0,0.0,0.0,205.0,3.0,140.4,,41.0,batter,22
+cdb82f1c,Sophie Ecclestone,S Ecclestone,878039,England,7.0,4.0,1.0,1.0,0.0,4.0,10.0,163.0,163.0,204.0,6.0,400.0,6.0,,bowler,23
+201fef33,Deepti Sharma,DB Sharma,597811,India,5.0,60.0,35.0,5.0,1.0,29.0,7.0,114.0,134.0,200.0,3.0,171.4,7.05,60.0,all-rounder,24
+ea544967,Nadine de Klerk,N de Klerk,939249,South Africa,6.0,96.0,85.0,5.0,4.0,37.0,5.0,96.0,156.0,196.0,4.0,112.9,9.75,24.0,all-rounder,25
+65d9b6b6,Annabel Sutherland,A Sutherland,1071705,Australia,7.0,59.0,38.0,3.0,2.0,27.0,6.0,124.0,159.0,179.0,7.0,155.3,7.69,29.5,all-rounder,26
+a7cd72b2,Shemaine Campbelle,SA Campbelle,424631,West Indies,6.0,176.0,147.0,6.0,5.0,90.0,0.0,0.0,0.0,176.0,3.0,119.7,,35.2,batter,27
+c34a15e6,Kavisha Dilhari,WK Dilhari,923703,Sri Lanka,5.0,75.0,68.0,4.0,4.0,21.0,5.0,108.0,134.0,175.0,3.0,110.3,7.44,18.8,all-rounder,28
+b3020075,Babette de Leede,B de Leede,877473,Netherlands,5.0,175.0,182.0,5.0,4.0,56.0,0.0,0.0,0.0,175.0,0.0,96.2,,43.8,batter,29
+f0b4294e,Nilakshi de Silva,NND de Silva,557764,Sri Lanka,5.0,148.0,122.0,5.0,2.0,54.0,1.0,36.0,40.0,168.0,3.0,121.3,6.67,74.0,all-rounder,30
+4b0e3049,Aaliyah Alleyne,AA Alleyne,661441,West Indies,6.0,7.0,4.0,2.0,0.0,5.0,8.0,109.0,125.0,167.0,3.0,175.0,6.88,,bowler,31
+108c4c09,Shabnim Ismail,S Ismail,276997,South Africa,6.0,5.0,6.0,3.0,1.0,2.0,8.0,132.0,153.0,165.0,4.0,83.3,6.95,5.0,bowler,32
+00823a96,Kirstie Gordon,KL Gordon,577317,Scotland,5.0,23.0,18.0,2.0,1.0,23.0,7.0,120.0,134.0,163.0,1.0,127.8,6.7,23.0,bowler,33
+2ca65aee,Sarah Bryce,SJ Bryce,914677,Scotland,5.0,159.0,119.0,5.0,4.0,49.0,0.0,0.0,0.0,159.0,1.0,133.6,,39.8,batter,34
+4ba0289e,Heather Knight,HC Knight,358259,England,7.0,154.0,121.0,5.0,5.0,58.0,0.0,0.0,0.0,154.0,6.0,127.3,,30.8,batter,35
+75820733,Chinelle Henry,CA Henry,474190,West Indies,5.0,92.0,70.0,5.0,3.0,51.0,3.0,48.0,71.0,152.0,2.0,131.4,8.88,30.7,all-rounder,36
+0d518f89,Ayabonga Khaka,A Khaka,387261,South Africa,6.0,5.0,5.0,3.0,1.0,4.0,7.0,126.0,173.0,145.0,4.0,100.0,8.24,5.0,bowler,37
+47b32a5a,Iris Zwilling,IJR Zwilling,1185795,Netherlands,5.0,24.0,24.0,4.0,3.0,13.0,6.0,115.0,181.0,144.0,0.0,100.0,9.44,8.0,all-rounder,38
+efb6cb2a,Brooke Halliday,BM Halliday,594654,New Zealand,5.0,142.0,132.0,5.0,4.0,41.0,0.0,0.0,0.0,142.0,2.0,107.6,,35.5,batter,39
+d2763568,Dani Gibson,DR Gibson,886203,England,7.0,42.0,28.0,4.0,1.0,30.0,5.0,78.0,103.0,142.0,6.0,150.0,7.92,42.0,all-rounder,40
+53cd8da6,Harmanpreet Kaur,H Kaur,372317,India,5.0,141.0,107.0,5.0,4.0,56.0,0.0,0.0,0.0,141.0,3.0,131.8,,35.2,batter,41
+d2b1f515,Annerie Dercksen,A Dercksen,1163087,South Africa,6.0,141.0,108.0,6.0,5.0,52.0,0.0,0.0,0.0,141.0,4.0,130.6,,28.2,batter,42
+c6a019f5,Caroline de Lange,C de Lange,914839,Netherlands,5.0,1.0,8.0,3.0,2.0,1.0,7.0,120.0,144.0,141.0,0.0,12.5,7.2,0.5,bowler,43
+53bb50f0,Sadia Iqbal,Sadia Iqbal,1204917,Pakistan,5.0,1.0,2.0,2.0,1.0,1.0,7.0,120.0,143.0,141.0,1.0,50.0,7.15,1.0,bowler,44
+686362af,Nonkululeko Mlaba,N Mlaba,971203,South Africa,6.0,0.0,1.0,1.0,1.0,0.0,7.0,144.0,141.0,140.0,4.0,0.0,5.88,0.0,bowler,45
+38b4583c,Lauren Bell,LK Bell,878025,England,7.0,0.0,0.0,0.0,0.0,0.0,7.0,156.0,203.0,140.0,6.0,,7.81,,bowler,46
+de69af96,Sophie Devine,SFM Devine,231740,New Zealand,4.0,98.0,63.0,4.0,4.0,45.0,2.0,63.0,85.0,138.0,1.0,155.6,8.1,24.5,all-rounder,47
+1b9d1579,Gaby Lewis,GH Lewis,774347,Ireland,5.0,137.0,134.0,5.0,5.0,59.0,0.0,0.0,0.0,137.0,1.0,102.2,,27.4,batter,48
+e60f81c9,Laura Wolvaardt,L Wolvaardt,922481,South Africa,6.0,134.0,124.0,6.0,6.0,45.0,0.0,0.0,0.0,134.0,4.0,108.1,,22.3,batter,49
+ad3940a5,Ritu Moni,Ritu Moni,478808,Bangladesh,5.0,32.0,51.0,4.0,3.0,16.0,5.0,102.0,102.0,132.0,2.0,62.7,6.0,10.7,all-rounder,50
+5c30d455,Georgia Voll,G Voll,1215360,Australia,7.0,130.0,92.0,7.0,6.0,45.0,0.0,0.0,0.0,130.0,7.0,141.3,,21.7,batter,51
+6d48df01,Heather Siegers,HDJ Siegers,577359,Netherlands,4.0,70.0,60.0,4.0,4.0,24.0,3.0,84.0,118.0,130.0,0.0,116.7,8.43,17.5,all-rounder,52
+3827f6a2,Nigar Sultana,Nigar Sultana,924177,Bangladesh,5.0,127.0,133.0,5.0,4.0,36.0,0.0,0.0,0.0,127.0,2.0,95.5,,31.8,batter,53
+4e6ef14f,Phoebe Litchfield,P Litchfield,1176132,Australia,4.0,126.0,89.0,4.0,4.0,50.0,0.0,0.0,0.0,126.0,4.0,141.6,,31.5,batter,54
+0b69a844,Kim Garth,KJ Garth,418423,Australia,7.0,5.0,3.0,1.0,0.0,5.0,6.0,138.0,145.0,125.0,7.0,166.7,6.3,,bowler,55
+e15f4fa4,Ayesha Zafar,Ayesha Zafar,915489,Pakistan,5.0,64.0,63.0,5.0,5.0,32.0,3.0,30.0,29.0,124.0,1.0,101.6,5.8,12.8,all-rounder,56
+f888a374,Aimee Maguire,AK Maguire,1351945,Ireland,5.0,3.0,5.0,2.0,1.0,2.0,6.0,114.0,148.0,123.0,1.0,60.0,7.79,3.0,bowler,57
+66078174,Nahida Akter,Nahida Akter,924183,Bangladesh,4.0,2.0,7.0,2.0,1.0,2.0,6.0,80.0,84.0,122.0,1.0,28.6,6.3,2.0,bowler,58
+3a9e9cb2,Sophia Dunkley,SIR Dunkley,885815,England,3.0,120.0,86.0,3.0,2.0,57.0,0.0,0.0,0.0,120.0,3.0,139.5,,60.0,batter,59
+53bee17f,Deandra Dottin,DJS Dottin,355349,West Indies,6.0,98.0,95.0,6.0,5.0,26.0,1.0,24.0,48.0,118.0,3.0,103.2,12.0,19.6,all-rounder,60
+c981d3c2,Nashra Sandhu,Nashra Sandhu,941803,Pakistan,5.0,13.0,19.0,4.0,3.0,9.0,5.0,114.0,108.0,113.0,1.0,68.4,5.68,4.3,bowler,61
+86fdf668,Muneeba Ali,Muneeba Ali,941795,Pakistan,5.0,110.0,104.0,5.0,5.0,41.0,0.0,0.0,0.0,110.0,1.0,105.8,,22.0,batter,62
+8a452195,Rachel Slater,R Slater,1184969,Scotland,4.0,8.0,6.0,2.0,1.0,7.0,5.0,87.0,100.0,108.0,1.0,133.3,6.9,8.0,bowler,63
+2b150c6b,Sterre Kalis,SL Kalis,774311,Netherlands,5.0,104.0,108.0,5.0,5.0,44.0,0.0,0.0,0.0,104.0,0.0,96.3,,20.8,batter,64
+4de0779a,Izzy Sharp,IG Sharp,1294098,New Zealand,5.0,103.0,79.0,5.0,5.0,62.0,0.0,0.0,0.0,103.0,2.0,130.4,,20.6,batter,65
+a50797a4,Marufa Akter,Marufa Akter,1332561,Bangladesh,5.0,2.0,1.0,1.0,0.0,2.0,5.0,110.0,128.0,102.0,2.0,200.0,6.98,,bowler,66
+a811cb83,Ashmini Munisar,A Munisar,1352168,West Indies,3.0,0.0,0.0,0.0,0.0,0.0,5.0,72.0,86.0,100.0,1.0,,7.17,,bowler,67
+9ff1e91e,Gull Feroza,Gull Feroza,1144870,Pakistan,5.0,100.0,84.0,5.0,4.0,63.0,0.0,0.0,0.0,100.0,1.0,119.0,,25.0,batter,68
+340202b0,Linsey Smith,LCN Smith,517577,England,7.0,0.0,0.0,0.0,0.0,0.0,5.0,168.0,197.0,100.0,6.0,,7.04,,bowler,69
+a6412417,Sanjida Akter Meghla,Sanjida Akter Meghla,1205142,Bangladesh,4.0,0.0,0.0,0.0,0.0,0.0,5.0,90.0,117.0,100.0,2.0,,7.8,,bowler,70
+e6f05a84,Juairiya Ferdous,Juairiya Ferdous,1352221,Bangladesh,5.0,98.0,85.0,5.0,5.0,50.0,0.0,0.0,0.0,98.0,2.0,115.3,,19.6,batter,71
+910dd54e,Alice Capsey,A Capsey,1187120,England,7.0,97.0,76.0,5.0,5.0,40.0,0.0,0.0,0.0,97.0,6.0,127.6,,19.4,batter,72
+b05e45e4,Amy Jones,AE Jones,515874,England,7.0,95.0,77.0,7.0,7.0,53.0,0.0,0.0,0.0,95.0,6.0,123.4,,13.6,batter,73
+94de63bf,Sobhana Mostary,S Mostary,1145089,Bangladesh,5.0,94.0,110.0,5.0,5.0,42.0,0.0,0.0,0.0,94.0,2.0,85.5,,18.8,batter,74
+cb08b611,Jemimah Rodrigues,JI Rodrigues,883405,India,5.0,92.0,77.0,5.0,5.0,34.0,0.0,0.0,0.0,92.0,3.0,119.5,,18.4,batter,75
+0d56e9a5,Tuba Hassan,Tuba Hassan,1204959,Pakistan,3.0,31.0,33.0,3.0,2.0,23.0,3.0,72.0,79.0,91.0,1.0,93.9,6.58,15.5,all-rounder,76
+92cf79a8,Stafanie Taylor,SR Taylor,355359,West Indies,5.0,90.0,72.0,4.0,2.0,47.0,0.0,0.0,0.0,90.0,2.0,125.0,,45.0,batter,77
+60c250bf,Izzy Gaze,IC Gaze,1211545,New Zealand,5.0,88.0,79.0,5.0,5.0,39.0,0.0,0.0,0.0,88.0,2.0,111.4,,17.6,batter,78
+843e067e,M Ayodhya,M Ayodhya,1503617,Sri Lanka,5.0,4.0,8.0,2.0,1.0,3.0,4.0,114.0,123.0,84.0,3.0,50.0,6.47,4.0,bowler,79
+4d4605e6,Chloe Tryon,CL Tryon,453370,South Africa,6.0,43.0,38.0,5.0,3.0,12.0,2.0,84.0,101.0,83.0,4.0,113.2,7.21,14.3,all-rounder,80
+397369e0,Arlene Kelly,AN Kelly,592593,Ireland,5.0,22.0,23.0,2.0,2.0,15.0,3.0,102.0,128.0,82.0,1.0,95.7,7.53,11.0,all-rounder,81
+5a50471c,Cara Murray,C Murray,1135028,Ireland,5.0,1.0,4.0,2.0,2.0,1.0,4.0,96.0,114.0,81.0,1.0,25.0,7.12,0.5,bowler,82
+d945db3e,Nensi Patel,NH Patel,1068284,New Zealand,5.0,0.0,0.0,0.0,0.0,0.0,4.0,96.0,121.0,80.0,2.0,,7.56,,bowler,83
+42d9dd09,Afy Fletcher,ASS Fletcher,355351,West Indies,6.0,0.0,0.0,0.0,0.0,0.0,4.0,132.0,154.0,80.0,3.0,,7.0,,bowler,84
+721e0199,Richa Ghosh,RM Ghosh,1212830,India,5.0,80.0,52.0,5.0,3.0,34.0,0.0,0.0,0.0,80.0,3.0,153.8,,26.7,batter,85
+865eae1f,Maddy Green,ML Green,438265,New Zealand,5.0,76.0,58.0,5.0,1.0,35.0,0.0,0.0,0.0,76.0,2.0,131.0,,76.0,batter,86
+fa9db243,P Molkenboer,P Molkenboer,1385478,Netherlands,5.0,75.0,79.0,5.0,5.0,41.0,0.0,0.0,0.0,75.0,0.0,94.9,,15.0,batter,87
+e8fa03ed,Amy Hunter,A Hunter,1229014,Ireland,5.0,75.0,78.0,5.0,5.0,39.0,0.0,0.0,0.0,75.0,1.0,96.2,,15.0,batter,88
+89895ae1,Shorna Akter,Shorna Akter,1352206,Bangladesh,5.0,74.0,57.0,5.0,3.0,39.0,0.0,0.0,0.0,74.0,2.0,129.8,,24.7,batter,89
+84fdd3cf,Sharmin Akhter,Sharmin Akhter,535868,Bangladesh,5.0,74.0,89.0,5.0,4.0,37.0,0.0,0.0,0.0,74.0,2.0,83.1,,18.5,batter,90
+aaf037b1,Rabeya Khan,Rabeya Khan,1204964,Bangladesh,5.0,14.0,12.0,3.0,1.0,8.0,3.0,96.0,84.0,74.0,2.0,116.7,5.25,14.0,bowler,91
+ffd5fcd8,Ava Canning,A Canning,1229015,Ireland,1.0,10.0,9.0,1.0,0.0,10.0,3.0,24.0,27.0,70.0,0.0,111.1,6.75,,bowler,92
+0b78b7c1,Rameen Shamim,Rameen Shamim,1144881,Pakistan,3.0,10.0,19.0,3.0,3.0,6.0,3.0,60.0,93.0,70.0,0.0,52.6,9.3,3.3,bowler,93
+b55fb828,Sugandika Kumari,BMSM Kumari,631609,Sri Lanka,5.0,9.0,12.0,3.0,2.0,7.0,3.0,96.0,138.0,69.0,3.0,75.0,8.62,4.5,bowler,94
+090c0213,Ailsa Lister,A Lister,1184173,Scotland,4.0,67.0,54.0,4.0,4.0,33.0,0.0,0.0,0.0,67.0,1.0,124.1,,16.8,batter,95
+85021bcd,Harshitha Samarawickrama,H Madavi,557839,Sri Lanka,5.0,61.0,53.0,4.0,4.0,29.0,0.0,0.0,0.0,61.0,3.0,115.1,,15.2,batter,96
+321c980e,Karishma Ramharack,K Ramharack,769517,West Indies,5.0,0.0,0.0,0.0,0.0,0.0,3.0,82.0,112.0,60.0,3.0,,8.2,,bowler,97
+5f22ccae,Nandani Sharma,NSS Sharma,1289676,India,3.0,0.0,0.0,0.0,0.0,0.0,3.0,49.0,71.0,60.0,2.0,,8.69,,bowler,98
+6c3aef71,Radha Yadav,RP Yadav,960737,India,2.0,0.0,0.0,0.0,0.0,0.0,3.0,36.0,52.0,60.0,1.0,,8.67,,bowler,99
+d6164dc0,Qiana Joseph,Q Joseph,769485,West Indies,4.0,39.0,47.0,4.0,4.0,16.0,1.0,42.0,65.0,59.0,2.0,83.0,9.29,9.8,all-rounder,100
+e22f8ec1,Jahzara Claxton,JKC Claxton,1352172,West Indies,6.0,53.0,69.0,6.0,5.0,21.0,0.0,6.0,18.0,53.0,3.0,76.8,18.0,10.6,batter,101
+9af58032,Jess Kerr,JM Kerr,1068933,New Zealand,5.0,13.0,12.0,3.0,0.0,6.0,2.0,96.0,127.0,53.0,2.0,108.3,7.94,,bowler,102
+9a58f2c8,Silver Siegers,S Siegers,1022083,Netherlands,5.0,11.0,11.0,3.0,2.0,10.0,2.0,96.0,158.0,51.0,0.0,100.0,9.88,5.5,bowler,103
+8e7be59c,Priyanaz Chatterji,PA Chatterji,526987,Scotland,5.0,30.0,33.0,4.0,4.0,12.0,1.0,32.0,60.0,50.0,1.0,90.9,11.25,7.5,all-rounder,104
+83558266,Alana King,A King,944393,Australia,4.0,10.0,10.0,3.0,1.0,5.0,2.0,48.0,50.0,50.0,4.0,100.0,6.25,10.0,bowler,105
+a2c23f31,Imesha Dulani,I Dulani,924291,Sri Lanka,4.0,48.0,61.0,4.0,4.0,20.0,0.0,0.0,0.0,48.0,2.0,78.7,,12.0,batter,106
+bf350134,Tasmia Rubab,Tasmia Rubab,1405003,Pakistan,2.0,7.0,11.0,2.0,1.0,7.0,2.0,48.0,81.0,47.0,0.0,63.6,10.12,7.0,bowler,107
+dff806f4,Nicola Carey,NJ Carey,381217,Australia,7.0,46.0,29.0,3.0,1.0,26.0,0.0,6.0,4.0,46.0,7.0,158.6,4.0,46.0,batter,108
+a2632c7c,Jannillea Glasgow,J Glasgow,1268602,West Indies,6.0,42.0,50.0,5.0,3.0,15.0,0.0,0.0,0.0,42.0,3.0,84.0,,14.0,batter,109
+07248d8e,Leah Paul,L Paul,1026403,Ireland,5.0,42.0,57.0,5.0,4.0,20.0,0.0,0.0,0.0,42.0,1.0,73.7,,10.5,batter,110
+9c3d4e8a,Yastika Bhatia,YH Bhatia,960715,India,4.0,41.0,35.0,3.0,3.0,23.0,0.0,0.0,0.0,41.0,2.0,117.1,,13.7,batter,111
+420d4d31,NM Meepage,NM Meepage,1380033,Sri Lanka,4.0,1.0,2.0,1.0,0.0,1.0,2.0,90.0,101.0,41.0,3.0,50.0,6.73,,bowler,112
+7298db76,Renuka Singh,Renuka Singh,960853,India,2.0,0.0,0.0,0.0,0.0,0.0,2.0,42.0,62.0,40.0,1.0,,8.86,,bowler,113
+80a0cd77,Bree Illing,BG Illing,1251598,New Zealand,5.0,0.0,0.0,0.0,0.0,0.0,2.0,102.0,125.0,40.0,2.0,,7.35,,bowler,114
+def7b1bb,Rebecca Stokell,R Stokell,1094717,Ireland,5.0,40.0,46.0,5.0,4.0,16.0,0.0,0.0,0.0,40.0,1.0,87.0,,10.0,batter,115
+a6ec88f4,Hannah Landheer,HWA Landheer,1184105,Netherlands,2.0,0.0,1.0,1.0,1.0,0.0,2.0,42.0,53.0,40.0,0.0,0.0,7.57,0.0,bowler,116
+d58e9bfb,A Tector,A Tector,1444444,Ireland,5.0,38.0,37.0,3.0,2.0,28.0,0.0,15.0,20.0,38.0,1.0,102.7,8.0,19.0,batter,117
+89bbc67a,Suzie Bates,SW Bates,54565,New Zealand,3.0,38.0,25.0,2.0,1.0,19.0,0.0,6.0,10.0,38.0,2.0,152.0,10.0,38.0,batter,118
+9a9a056d,S Khurana,S Khurana,1425899,Netherlands,3.0,37.0,37.0,3.0,3.0,36.0,0.0,0.0,0.0,37.0,0.0,100.0,,12.3,batter,119
+4f86926b,Louise Little,L Little,1094718,Ireland,4.0,36.0,24.0,4.0,0.0,26.0,0.0,0.0,0.0,36.0,1.0,150.0,,,batter,120
+ec691a5b,Kaushini Nuthyangana,EMKNH Senavirathna,1321016,Sri Lanka,5.0,36.0,27.0,4.0,3.0,24.0,0.0,0.0,0.0,36.0,3.0,133.3,,12.0,batter,121
+dc596fac,Iram Javed,Iram Javed,572633,Pakistan,4.0,36.0,38.0,4.0,4.0,14.0,0.0,0.0,0.0,36.0,1.0,94.7,,9.0,batter,122
+f2670a3d,Dilara Akter,Dilara Akter,1346729,Bangladesh,4.0,35.0,41.0,4.0,4.0,26.0,0.0,0.0,0.0,35.0,2.0,85.4,,8.8,batter,123
+2904b4b6,Aliya Riaz,Aliya Riaz,572645,Pakistan,4.0,35.0,45.0,4.0,4.0,18.0,0.0,0.0,0.0,35.0,0.0,77.8,,8.8,batter,124
+575494db,Georgia Plimmer,GE Plimmer,1208951,New Zealand,3.0,30.0,37.0,3.0,3.0,18.0,0.0,0.0,0.0,30.0,1.0,81.1,,10.0,batter,125
+42e4b276,Robine Rijke,R Rijke,877469,Netherlands,5.0,30.0,37.0,5.0,4.0,13.0,0.0,24.0,34.0,30.0,0.0,81.1,8.5,7.5,all-rounder,126
+789fe152,PN Sproul,PN Sproul,1469054,Scotland,3.0,27.0,23.0,3.0,3.0,27.0,0.0,0.0,0.0,27.0,0.0,117.4,,9.0,batter,127
+53068b45,Hasini Perera,GWHM Perera,371185,Sri Lanka,3.0,25.0,21.0,2.0,2.0,23.0,0.0,0.0,0.0,25.0,3.0,119.0,,12.5,batter,128
+ecbcfef6,Malki Madara,M Madara,1371669,Sri Lanka,1.0,5.0,15.0,1.0,1.0,5.0,1.0,24.0,51.0,25.0,0.0,33.3,12.75,5.0,bowler,129
+9e866b59,Vishmi Gunaratne,RMVD Gunaratne,1290105,Sri Lanka,3.0,24.0,32.0,3.0,3.0,17.0,0.0,0.0,0.0,24.0,1.0,75.0,,8.0,batter,130
+022745d5,Frederique Overdijk,F Overdijk,1185796,Netherlands,5.0,24.0,23.0,4.0,4.0,9.0,0.0,36.0,59.0,24.0,0.0,104.3,9.83,6.0,all-rounder,131
+a51e6c6e,Diana Baig,Diana Baig,572638,Pakistan,2.0,1.0,8.0,1.0,0.0,1.0,1.0,18.0,41.0,21.0,1.0,12.5,13.67,,bowler,132
+dead3b10,MIW van den Raad,MIW van den Raad,1393522,Netherlands,3.0,1.0,2.0,2.0,1.0,1.0,1.0,42.0,73.0,21.0,0.0,50.0,10.43,1.0,bowler,133
+60471339,Lea Tahuhu,LMM Tahuhu,380929,New Zealand,2.0,0.0,0.0,0.0,0.0,0.0,1.0,32.0,41.0,20.0,1.0,,7.69,,bowler,134
+d5eb8b84,Rosemary Mair,RA Mair,701751,New Zealand,3.0,0.0,0.0,0.0,0.0,0.0,1.0,72.0,86.0,20.0,1.0,,7.17,,bowler,135
+7b51bfa4,Fariha Trisna,Fariha Trisna,1195124,Bangladesh,1.0,0.0,0.0,0.0,0.0,0.0,1.0,24.0,32.0,20.0,1.0,,8.0,,bowler,136
+1b1c23bb,Jane Maguire,J Maguire,1229018,Ireland,1.0,0.0,0.0,0.0,0.0,0.0,1.0,24.0,28.0,20.0,1.0,,7.0,,bowler,137
+c347ffe6,Lucy Hamilton,LK Hamilton,1343643,Australia,5.0,0.0,0.0,0.0,0.0,0.0,1.0,84.0,68.0,20.0,5.0,,4.86,,bowler,138
+66498395,Alana Dalzell,A Dalzell,1229005,Ireland,2.0,20.0,23.0,2.0,2.0,14.0,0.0,24.0,37.0,20.0,0.0,87.0,9.25,10.0,all-rounder,139
+7027d12f,Hannah Rainey,HRA Rainey,1095834,Scotland,2.0,0.0,0.0,0.0,0.0,0.0,1.0,42.0,58.0,20.0,0.0,,8.29,,bowler,140
+6d76bc23,Suné Luus,S Luus,487007,South Africa,3.0,17.0,23.0,3.0,3.0,11.0,0.0,0.0,0.0,17.0,1.0,73.9,,5.7,batter,141
+2fa916b3,Kawya Kavindi,K Kavindi,1371878,Sri Lanka,2.0,17.0,28.0,1.0,1.0,17.0,0.0,19.0,26.0,17.0,1.0,60.7,8.21,17.0,batter,142
+d5fa2ab3,Megan McColl,M McColl,1146027,Scotland,5.0,14.0,16.0,5.0,3.0,10.0,0.0,0.0,0.0,14.0,1.0,87.5,,4.7,batter,143
+f8e27d4a,Hansima Karunaratne,H Karunaratne,631722,Sri Lanka,3.0,12.0,12.0,2.0,2.0,11.0,0.0,0.0,0.0,12.0,2.0,100.0,,6.0,batter,144
+e4ff6a62,Saira Jabeen,Saira Jabeen,1480245,Pakistan,4.0,12.0,17.0,4.0,4.0,5.0,0.0,0.0,0.0,12.0,1.0,70.6,,3.0,batter,145
+fa8a3eb0,Natalia Pervaiz,Natalia Pervaiz,1125059,Pakistan,2.0,11.0,18.0,2.0,2.0,7.0,0.0,0.0,0.0,11.0,0.0,61.1,,5.5,batter,146
+34304210,Sinalo Jafta,S Jafta,499254,South Africa,6.0,8.0,12.0,4.0,3.0,5.0,0.0,0.0,0.0,8.0,4.0,66.7,,2.7,batter,147
+eadc8924,Arundhati Reddy,A Reddy,960867,India,2.0,6.0,7.0,1.0,0.0,6.0,0.0,30.0,50.0,6.0,1.0,85.7,10.0,,bowler,148
+8c5775f3,Dane van Niekerk,D van Niekerk,364413,South Africa,3.0,4.0,5.0,1.0,1.0,4.0,0.0,0.0,0.0,4.0,3.0,80.0,,4.0,batter,149
+581eec7e,G Fontenla,G Fontenla,1446538,Scotland,4.0,3.0,2.0,1.0,1.0,3.0,0.0,42.0,67.0,3.0,1.0,150.0,9.57,3.0,bowler,150
+34b8cd68,Prema Rawat,P Rawat,1464463,India,1.0,3.0,2.0,1.0,0.0,3.0,0.0,12.0,21.0,3.0,0.0,150.0,10.5,,bowler,151
+9e5f4ad7,Kayla Reyneke,K Reyneke,1331328,South Africa,2.0,2.0,6.0,2.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,33.3,,1.0,batter,152
+33946d69,Shreyanka Patil,SR Patil,1289948,India,2.0,1.0,1.0,1.0,0.0,1.0,0.0,19.0,17.0,1.0,2.0,100.0,5.37,,bowler,153
+426eaf06,Taj Nehar,Taj Nehar,1440554,Bangladesh,1.0,1.0,12.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,8.3,,1.0,batter,154
+bd8689b0,Bharti Fulmali,BS Fulmali,961179,India,1.0,1.0,3.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,33.3,,1.0,batter,155
+17608a6f,Megan Schutt,ML Schutt,420314,Australia,1.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,10.0,0.0,1.0,,5.0,,bowler,156
+5aa8574b,I van der Woning,I van der Woning,1271055,Netherlands,3.0,0.0,2.0,1.0,1.0,0.0,0.0,36.0,75.0,0.0,0.0,0.0,12.5,0.0,bowler,157
+4d622fee,Kranti Gaud,K Goud,1464471,India,3.0,0.0,0.0,0.0,0.0,0.0,0.0,36.0,52.0,0.0,2.0,,8.67,,bowler,158
+72166006,Grace Harris,GM Harris,381268,Australia,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,,,batter,159
+816af623,Zaida James,Z James,1268281,West Indies,1.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,9.0,0.0,1.0,,9.0,,bowler,160
+9bd0d19d,LA McBride,LA McBride,1469047,Ireland,2.0,0.0,0.0,0.0,0.0,0.0,0.0,39.0,49.0,0.0,0.0,,7.54,,bowler,161
+4357f6f8,Eyman Fatima,Eyman Fatima,1352091,Pakistan,1.0,0.0,6.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,batter,162
+d92d3563,Chloe Abel,C Abel,1236784,Scotland,3.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,24.0,0.0,1.0,,12.0,,bowler,163
+3faa312e,Shawnisha Hector,S Hector,1204928,West Indies,1.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,9.0,0.0,1.0,,9.0,,bowler,164
+fb0c0bcc,Sultana Khatun,Sultana Khatun,1371855,Bangladesh,1.0,0.0,1.0,1.0,0.0,0.0,0.0,12.0,15.0,0.0,0.0,0.0,7.5,,bowler,165

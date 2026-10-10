@@ -1,0 +1,815 @@
+{
+ "player_id": "a0a65375",
+ "name": "Katherine Fraser",
+ "team": "Scotland",
+ "candidate_id": "C31",
+ "pattern": "TEAM_FIRST_WIN",
+ "headline": "Katherine Fraser led Scotland's first-ever win in the ICC Women's T20 World Cup (v Ireland)",
+ "facts": [
+  {
+   "id": "F372",
+   "type": "runs_in_match",
+   "text": "Katherine Fraser scored 15 off 16 balls v Ireland on 2026-06-13",
+   "value": 15,
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F373",
+   "type": "balls_in_match",
+   "text": "balls faced v Ireland",
+   "value": 16,
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F374",
+   "type": "wickets_in_match",
+   "text": "Katherine Fraser took 3 for 19 from 24 balls v Ireland on 2026-06-13",
+   "value": 3,
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F375",
+   "type": "runs_conceded_in_match",
+   "text": "runs conceded v Ireland",
+   "value": 19,
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F376",
+   "type": "match_result",
+   "text": "Scotland v Ireland, Old Trafford, Manchester: Scotland won by 40 runs",
+   "value": "Scotland",
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F377",
+   "type": "prior_occurrences_team",
+   "text": "Scotland wins in ICC Women's T20 World Cup before 2026-06-13: 0",
+   "value": 0,
+   "source": "graph:history"
+  },
+  {
+   "id": "F574",
+   "type": "window_matches",
+   "text": "Katherine Fraser played 5 matches in ICC Women's T20 World Cup 2026",
+   "value": 5,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F575",
+   "type": "window_runs",
+   "text": "77 runs off 66 balls in ICC Women's T20 World Cup 2026",
+   "value": 77,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F576",
+   "type": "window_balls_faced",
+   "text": "balls faced in window",
+   "value": 66,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F577",
+   "type": "window_wickets",
+   "text": "7 wickets from 108 balls in ICC Women's T20 World Cup 2026",
+   "value": 7,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F578",
+   "type": "window_balls_bowled",
+   "text": "balls bowled in window",
+   "value": 108,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F579",
+   "type": "impact_rank",
+   "text": "ranked 18 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+   "value": 18,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F580",
+   "type": "impact",
+   "text": "impact score (runs + 20 x wickets)",
+   "value": 217.0,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F581",
+   "type": "strike_rate",
+   "text": "strike rate 116.7 in ICC Women's T20 World Cup 2026",
+   "value": 116.7,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F582",
+   "type": "economy",
+   "text": "economy 8.22 in ICC Women's T20 World Cup 2026",
+   "value": 8.22,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F583",
+   "type": "runs_in_match",
+   "text": "Katherine Fraser scored 23 off 13 balls v England on 2026-06-20",
+   "value": 23,
+   "source": "cricsheet:1490692"
+  },
+  {
+   "id": "F584",
+   "type": "balls_in_match",
+   "text": "balls faced v England",
+   "value": 13,
+   "source": "cricsheet:1490692"
+  },
+  {
+   "id": "F590",
+   "type": "wickets_in_match",
+   "text": "Katherine Fraser took 3 for 19 from 24 balls v Ireland on 2026-06-13",
+   "value": 3,
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F591",
+   "type": "runs_conceded_in_match",
+   "text": "runs conceded v Ireland",
+   "value": 19,
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F593",
+   "type": "team",
+   "text": "Katherine Fraser plays for Scotland",
+   "value": "Scotland",
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F594",
+   "type": "competition",
+   "text": "competition: ICC Women's T20 World Cup 2026",
+   "value": "ICC Women's T20 World Cup 2026",
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F595",
+   "type": "attention_views",
+   "text": "Katherine Fraser's Wikipedia article views during the window: 2443",
+   "value": 2443,
+   "source": "Wikimedia pageviews (public API)"
+  },
+  {
+   "id": "F596",
+   "type": "expected_views",
+   "text": "expected views for this level of performance (SEEN gap model estimate, rounded): 19000",
+   "value": 19000,
+   "source": "SEEN gap model (OLS on significance, market tier, prior fame)"
+  },
+  {
+   "id": "F597",
+   "type": "attention_rank",
+   "text": "attention rank in the window: 86",
+   "value": 86,
+   "source": "Wikimedia pageviews (public API)"
+  }
+ ],
+ "language": "en",
+ "generated_at": "2026-09-27T19:25:34+00:00",
+ "mode": "llm+template",
+ "formats": {
+  "video_script": "[00:00-00:05] Meet Scotland's star of the ICC Women's T20 World Cup 2026: Katherine Fraser.\n[00:05-00:20] History was made at Old Trafford! Prior to facing Ireland, Scotland had won exactly 0 [F377] matches in the ICC Women's T20 World Cup. Fraser changed everything, powering a 40-run [F376] victory.\n[00:20-00:40] She contributed 15 [F372] off 16 [F373] balls and then dismantled Ireland's batting lineup, claiming 3 [F374] for 19 [F375] from 24 [F374] deliveries! A week later against England, she struck a rapid 23 [F583] off 13 [F584] balls.\n[00:40-00:55] Over her 5 [F574] matches, Fraser amassed 77 [F575] runs from 66 [F576] balls with a strike rate of 116.7 [F581], while grabbing 7 [F577] wickets across 108 [F578] balls at an economy of 8.22 [F582]. That placed her 18th [F579] out of 165 [F579] tournament players by total impact!\n[00:55-01:00] Katherine Fraser is putting Scottish cricket on the global map. Track her journey in the app!",
+  "article": "Scotland secured a historic triumph at the ICC Women's T20 World Cup 2026, driven by a stellar all-round display from Katherine Fraser. Before their meeting with Ireland on June 13, 2026, Scotland had recorded 0 [F377] wins in ICC Women's T20 World Cup history. At Old Trafford, Manchester, that duck was emphatically broken with a 40-run [F376] victory.\n\nFraser led the charge with bat and ball, chipping in with 15 [F372] runs off 16 [F373] deliveries before tearing through Ireland's order to capture 3 [F374] wickets for 19 [F375] runs from 24 [F374] balls. She proved her dynamism again versus England on June 20, scoring an aggressive 23 [F583] from 13 [F584] balls.\n\nAcross her 5 [F574] tournament matches, Fraser contributed 77 [F575] runs from 66 [F576] balls at a strike rate of 116.7 [F581], while sending down 108 [F578] balls to capture 7 [F577] wickets at an economy rate of 8.22 [F582]. Her efforts produced an impact score of 217.0 [F580], ranking her 18 [F579] out of 165 [F579] players in the entire competition.",
+  "social_posts": "Post 1: Katherine Fraser led Scotland's first-ever win in the ICC Women's T20 World Cup (v Ireland) [F377] #Scotland #WomensCricket\n\nPost 2: Katherine Fraser (Scotland) — 77 runs off 66 balls [F575] at a strike rate of 116.7 [F581]; 7 wickets from 108 balls [F577] at an economy of 8.22 [F582]. Ranked #18 of 165 by impact in ICC Women's T20 World Cup 2026 [F579].\n\nPost 3: Know her name: Katherine Fraser. Katherine Fraser scored 15 off 16 balls v Ireland on 2026-06-13 [F372]. Follow for the next match.",
+  "infographic": "{\n \"title\": \"Katherine Fraser\",\n \"subtitle\": \"Scotland \\u00b7 ICC Women's T20 World Cup 2026\",\n \"headline\": \"Katherine Fraser led Scotland's first-ever win in the ICC Women's T20 World Cup (v Ireland)\",\n \"stats\": [\n  {\n   \"label\": \"Runs\",\n   \"value\": 77,\n   \"fact\": \"F575\"\n  },\n  {\n   \"label\": \"Wickets\",\n   \"value\": 7,\n   \"fact\": \"F577\"\n  },\n  {\n   \"label\": \"Strike rate\",\n   \"value\": 116.7,\n   \"fact\": \"F581\"\n  },\n  {\n   \"label\": \"Economy\",\n   \"value\": 8.22,\n   \"fact\": \"F582\"\n  },\n  {\n   \"label\": \"Impact rank\",\n   \"value\": 18,\n   \"fact\": \"F579\"\n  }\n ],\n \"footer\": \"Source: Cricsheet ball-by-ball data (ODC-BY) \\u00b7 SEEN Unseen XI\"\n}",
+  "creator_brief": "CREATOR BRIEF — Katherine Fraser (Scotland)\n\nAngles:\n  1. Katherine Fraser led Scotland's first-ever win in the ICC Women's T20 World Cup (v Ireland)\n  2. The match that made it: Katherine Fraser scored 15 off 16 balls v Ireland on 2026-06-13 [F372].\n  3. Why it is rare: Scotland wins in ICC Women's T20 World Cup before 2026-06-13: 0 [F377].\n\nVerified facts (use only these numbers, keep the [F#] tags in your notes):\n  [F372] Katherine Fraser scored 15 off 16 balls v Ireland on 2026-06-13 (source: cricsheet:1490678)\n  [F373] balls faced v Ireland (source: cricsheet:1490678)\n  [F374] Katherine Fraser took 3 for 19 from 24 balls v Ireland on 2026-06-13 (source: cricsheet:1490678)\n  [F375] runs conceded v Ireland (source: cricsheet:1490678)\n  [F376] Scotland v Ireland, Old Trafford, Manchester: Scotland won by 40 runs (source: cricsheet:1490678)\n  [F377] Scotland wins in ICC Women's T20 World Cup before 2026-06-13: 0 (source: graph:history)\n  [F574] Katherine Fraser played 5 matches in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F575] 77 runs off 66 balls in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F576] balls faced in window (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F577] 7 wickets from 108 balls in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F578] balls bowled in window (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F579] ranked 18 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n--- guidance (not claims) ---\nDo: name her, name the country, say the number with its context, link the official highlight.\nDon't: speculate about fitness, selection or anything personal; nothing about odds or bookmakers.\nAssets: infographic spec (JSON), sixty-second script, quiz. Clip slot: ICC-cleared highlight required (not included).\nHashtags: #Scotland #WomensCricket #ICCWomensT20WorldCup2026\nSponsor tag: [available slot — presented by ...]\nAttribution: submit your post link in the SEEN creator page.",
+  "commentator_note": "COMMENTATOR NOTE — Katherine Fraser (Scotland)\nPronunciation: Katherine Fraser (confirm with team media manager)\n\n- Katherine Fraser scored 15 off 16 balls v Ireland on 2026-06-13 [F372]\n- Katherine Fraser took 3 for 19 from 24 balls v Ireland on 2026-06-13 [F374]\n- Scotland wins in ICC Women's T20 World Cup before 2026-06-13: 0 [F377]\n- 77 runs off 66 balls in ICC Women's T20 World Cup 2026 [F575]\n- 7 wickets from 108 balls in ICC Women's T20 World Cup 2026 [F577]\n- ranked 18 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026 [F579]\n- strike rate 116.7 in ICC Women's T20 World Cup 2026 [F581]\n- economy 8.22 in ICC Women's T20 World Cup 2026 [F582]\n- Katherine Fraser scored 23 off 13 balls v England on 2026-06-20 [F583]\n- Katherine Fraser took 3 for 19 from 24 balls v Ireland on 2026-06-13 [F590]\n--- guidance (not claims) ---\nMilestone watch: check career totals before the next match (graph coverage: the formats loaded into SEEN).",
+  "quiz": "[\n {\n  \"question\": \"How many runs did Katherine Fraser score in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   75,\n   77,\n   79,\n   95\n  ],\n  \"answer\": 77,\n  \"fact\": \"F575\"\n },\n {\n  \"question\": \"How many wickets did Katherine Fraser take in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   4,\n   7,\n   15,\n   20\n  ],\n  \"answer\": 7,\n  \"fact\": \"F577\"\n },\n {\n  \"question\": \"Where did Katherine Fraser rank by impact among all players in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   14,\n   18,\n   20,\n   41\n  ],\n  \"answer\": 18,\n  \"fact\": \"F579\"\n }\n]",
+  "sponsor_hook": "Katherine Fraser (Scotland): Katherine Fraser led Scotland's first-ever win in the ICC Women's T20 World Cup (v Ireland) [F377] Attention gap: 2,443 article views in the window against roughly 19,000 expected for this level of performance. An early-stage partnership opportunity with measurable upside; activation ideas: 'Unseen XI presented by', athlete story series, local-language content."
+ },
+ "checks": {
+  "video_script": {
+   "passed": true,
+   "summary": "18/18 numeric claims matched; 0 banned topics; 1 unknown names",
+   "claims": [
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F377"
+    },
+    {
+     "text": "40",
+     "status": "matched",
+     "fact": "F376"
+    },
+    {
+     "text": "15",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "16",
+     "status": "matched",
+     "fact": "F373"
+    },
+    {
+     "text": "3",
+     "status": "matched",
+     "fact": "F590"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F591"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F374"
+    },
+    {
+     "text": "23",
+     "status": "matched",
+     "fact": "F583"
+    },
+    {
+     "text": "13",
+     "status": "matched",
+     "fact": "F584"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F574"
+    },
+    {
+     "text": "77",
+     "status": "matched",
+     "fact": "F575"
+    },
+    {
+     "text": "66",
+     "status": "matched",
+     "fact": "F576"
+    },
+    {
+     "text": "116.7",
+     "status": "matched",
+     "fact": "F581"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F577"
+    },
+    {
+     "text": "108",
+     "status": "matched",
+     "fact": "F578"
+    },
+    {
+     "text": "8.22",
+     "status": "matched",
+     "fact": "F582"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F579"
+    }
+   ],
+   "banned": [],
+   "unknown_names": [
+    "Old Trafford"
+   ]
+  },
+  "social_posts": {
+   "passed": true,
+   "summary": "11/11 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "77",
+     "status": "matched",
+     "fact": "F575"
+    },
+    {
+     "text": "66",
+     "status": "matched",
+     "fact": "F576"
+    },
+    {
+     "text": "116.7",
+     "status": "matched",
+     "fact": "F581"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F577"
+    },
+    {
+     "text": "108",
+     "status": "matched",
+     "fact": "F578"
+    },
+    {
+     "text": "8.22",
+     "status": "matched",
+     "fact": "F582"
+    },
+    {
+     "text": "18",
+     "status": "matched",
+     "fact": "F579"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F579"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "15",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "16",
+     "status": "matched",
+     "fact": "F373"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "article": {
+   "passed": true,
+   "summary": "23/23 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "13",
+     "status": "matched",
+     "fact": "F584"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F377"
+    },
+    {
+     "text": "40",
+     "status": "matched",
+     "fact": "F376"
+    },
+    {
+     "text": "15",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "16",
+     "status": "matched",
+     "fact": "F373"
+    },
+    {
+     "text": "3",
+     "status": "matched",
+     "fact": "F590"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F591"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F374"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F579"
+    },
+    {
+     "text": "23",
+     "status": "matched",
+     "fact": "F583"
+    },
+    {
+     "text": "13",
+     "status": "matched",
+     "fact": "F584"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F574"
+    },
+    {
+     "text": "77",
+     "status": "matched",
+     "fact": "F575"
+    },
+    {
+     "text": "66",
+     "status": "matched",
+     "fact": "F576"
+    },
+    {
+     "text": "116.7",
+     "status": "matched",
+     "fact": "F581"
+    },
+    {
+     "text": "108",
+     "status": "matched",
+     "fact": "F578"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F577"
+    },
+    {
+     "text": "8.22",
+     "status": "matched",
+     "fact": "F582"
+    },
+    {
+     "text": "217.0",
+     "status": "matched",
+     "fact": "F580"
+    },
+    {
+     "text": "18",
+     "status": "matched",
+     "fact": "F579"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F579"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "infographic": {
+   "passed": true,
+   "summary": "5/5 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "77",
+     "status": "matched",
+     "fact": "F575"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F577"
+    },
+    {
+     "text": "116.7",
+     "status": "matched",
+     "fact": "F581"
+    },
+    {
+     "text": "8.22",
+     "status": "matched",
+     "fact": "F582"
+    },
+    {
+     "text": "18",
+     "status": "matched",
+     "fact": "F579"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "creator_brief": {
+   "passed": true,
+   "summary": "22/22 numeric claims matched; 0 banned topics; 1 unknown names",
+   "claims": [
+    {
+     "text": "15",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "16",
+     "status": "matched",
+     "fact": "F373"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F377"
+    },
+    {
+     "text": "15",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "16",
+     "status": "matched",
+     "fact": "F373"
+    },
+    {
+     "text": "3",
+     "status": "matched",
+     "fact": "F590"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F591"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F374"
+    },
+    {
+     "text": "40",
+     "status": "matched",
+     "fact": "F376"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F377"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F574"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "77",
+     "status": "matched",
+     "fact": "F575"
+    },
+    {
+     "text": "66",
+     "status": "matched",
+     "fact": "F576"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F577"
+    },
+    {
+     "text": "108",
+     "status": "matched",
+     "fact": "F578"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "18",
+     "status": "matched",
+     "fact": "F579"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F579"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F579"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    }
+   ],
+   "banned": [],
+   "unknown_names": [
+    "Old Trafford"
+   ]
+  },
+  "commentator_note": {
+   "passed": true,
+   "summary": "25/25 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "15",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "16",
+     "status": "matched",
+     "fact": "F373"
+    },
+    {
+     "text": "3",
+     "status": "matched",
+     "fact": "F590"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F591"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F374"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F377"
+    },
+    {
+     "text": "77",
+     "status": "matched",
+     "fact": "F575"
+    },
+    {
+     "text": "66",
+     "status": "matched",
+     "fact": "F576"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F577"
+    },
+    {
+     "text": "108",
+     "status": "matched",
+     "fact": "F578"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "18",
+     "status": "matched",
+     "fact": "F579"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F579"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F579"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "116.7",
+     "status": "matched",
+     "fact": "F581"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "8.22",
+     "status": "matched",
+     "fact": "F582"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F372"
+    },
+    {
+     "text": "23",
+     "status": "matched",
+     "fact": "F583"
+    },
+    {
+     "text": "13",
+     "status": "matched",
+     "fact": "F584"
+    },
+    {
+     "text": "3",
+     "status": "matched",
+     "fact": "F590"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F591"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F374"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "quiz": {
+   "passed": true,
+   "summary": "3/3 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "77",
+     "status": "matched",
+     "fact": "F575"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F577"
+    },
+    {
+     "text": "18",
+     "status": "matched",
+     "fact": "F579"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "sponsor_hook": {
+   "passed": true,
+   "summary": "2/2 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "2,443",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "19,000",
+     "status": "matched",
+     "fact": "F596"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  }
+ },
+ "gap_summary": {
+  "impact_rank": 18,
+  "attention_rank": 86,
+  "gap_rank": 20,
+  "views_window_total": 2443,
+  "expected_views": 19025.0,
+  "no_article": false,
+  "gap_confidence": "high"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "n_fit": 152,
+ "n_total": 165,
+ "performance_model": {
+  "beta": {
+   "intercept": 7.1897,
+   "significance": 3.3753
+  },
+  "r2": 0.1996,
+  "resid_sd": 1.3115
+ },
+ "structural_model": {
+  "beta": {
+   "intercept": 4.8782,
+   "significance": 1.5692,
+   "log_market_tier": 0.0629,
+   "log1p_baseline_daily": 0.8788
+  },
+  "r2": 0.8116,
+  "resid_sd": 0.6363
+ },
+ "beta": {
+  "intercept": 4.8782,
+  "significance": 1.5692,
+  "log_market_tier": 0.0629,
+  "log1p_baseline_daily": 0.8788
+ },
+ "r2": 0.1996,
+ "resid_sd": 1.3115
+}

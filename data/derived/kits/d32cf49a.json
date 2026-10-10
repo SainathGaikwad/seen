@@ -1,0 +1,769 @@
+{
+ "player_id": "d32cf49a",
+ "name": "Hayley Matthews",
+ "team": "West Indies",
+ "candidate_id": "C1",
+ "pattern": "TOP_PERFORMER",
+ "headline": "Hayley Matthews ranked #1 of 165 players by impact in ICC Women's T20 World Cup 2026",
+ "facts": [
+  {
+   "id": "F1",
+   "type": "window_matches",
+   "text": "Hayley Matthews played 6 matches in ICC Women's T20 World Cup 2026",
+   "value": 6,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F2",
+   "type": "window_runs",
+   "text": "145 runs off 146 balls in ICC Women's T20 World Cup 2026",
+   "value": 145,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F3",
+   "type": "window_balls_faced",
+   "text": "balls faced in window",
+   "value": 146,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F4",
+   "type": "window_wickets",
+   "text": "10 wickets from 138 balls in ICC Women's T20 World Cup 2026",
+   "value": 10,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F5",
+   "type": "window_balls_bowled",
+   "text": "balls bowled in window",
+   "value": 138,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F6",
+   "type": "impact_rank",
+   "text": "ranked 1 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+   "value": 1,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F7",
+   "type": "impact",
+   "text": "impact score (runs + 20 x wickets)",
+   "value": 345.0,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F8",
+   "type": "strike_rate",
+   "text": "strike rate 99.3 in ICC Women's T20 World Cup 2026",
+   "value": 99.3,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F9",
+   "type": "economy",
+   "text": "economy 6.3 in ICC Women's T20 World Cup 2026",
+   "value": 6.3,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F10",
+   "type": "runs_in_match",
+   "text": "Hayley Matthews scored 48 off 37 balls v New Zealand on 2026-06-13",
+   "value": 48,
+   "source": "cricsheet:1490680"
+  },
+  {
+   "id": "F11",
+   "type": "balls_in_match",
+   "text": "balls faced v New Zealand",
+   "value": 37,
+   "source": "cricsheet:1490680"
+  },
+  {
+   "id": "F17",
+   "type": "wickets_in_match",
+   "text": "Hayley Matthews took 3 for 15 from 24 balls v Sri Lanka on 2026-06-21",
+   "value": 3,
+   "source": "cricsheet:1490693"
+  },
+  {
+   "id": "F18",
+   "type": "runs_conceded_in_match",
+   "text": "runs conceded v Sri Lanka",
+   "value": 15,
+   "source": "cricsheet:1490693"
+  },
+  {
+   "id": "F20",
+   "type": "team",
+   "text": "Hayley Matthews plays for West Indies",
+   "value": "West Indies",
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F21",
+   "type": "competition",
+   "text": "competition: ICC Women's T20 World Cup 2026",
+   "value": "ICC Women's T20 World Cup 2026",
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F22",
+   "type": "attention_views",
+   "text": "Hayley Matthews's Wikipedia article views during the window: 6111",
+   "value": 6111,
+   "source": "Wikimedia pageviews (public API)"
+  },
+  {
+   "id": "F23",
+   "type": "expected_views",
+   "text": "expected views for this level of performance (SEEN gap model estimate, rounded): 24500",
+   "value": 24500,
+   "source": "SEEN gap model (OLS on significance, market tier, prior fame)"
+  },
+  {
+   "id": "F24",
+   "type": "attention_rank",
+   "text": "attention rank in the window: 52",
+   "value": 52,
+   "source": "Wikimedia pageviews (public API)"
+  }
+ ],
+ "language": "en",
+ "generated_at": "2026-09-27T19:22:06+00:00",
+ "mode": "llm+template",
+ "formats": {
+  "video_script": "[00:00-00:05] Hayley Matthews brought absolute dominance for the West Indies [F20] at the ICC Women's T20 World Cup 2026 [F21]!\n[00:05-00:20] Out of 165 [F6] competitors, she stood at the very top, ranked 1 [F6] by total impact with a massive score of 345.0 [F7].\n[00:20-00:40] She delivered everywhere: smashing 48 [F10] off 37 [F11] balls against New Zealand, then dismantling Sri Lanka with a spell of 3 [F17] for 15 [F18] from 24 [F17] balls.\n[00:40-00:55] Across 6 [F1] matches, she piled up 145 [F2] runs from 146 [F2] deliveries at a 99.3 [F8] strike rate, and collected 10 [F4] wickets from 138 [F4] balls with a 6.3 [F9] economy.\n[00:55-01:00] Hayley Matthews showed true all-round mastery. Follow SEEN to catch her next match!",
+  "article": "West Indies [F20] all-rounder Hayley Matthews produced a tournament-defining campaign at the ICC Women's T20 World Cup 2026 [F1], finishing ranked 1 of 165 [F6] players by overall impact with an impact score of 345.0 [F7]. Across 6 [F1] matches, Matthews showcased her dual threat by contributing heavily with both bat and ball.\n\nAt the crease, she compiled 145 [F2] runs from 146 [F3] balls, recording a strike rate of 99.3 [F8]. Her highlight innings came on 2026-06-13 [F10], when she hit 48 [F10] runs from 37 [F11] balls against New Zealand. With the ball, she proved just as critical, taking 10 [F4] wickets from 138 [F5] balls while maintaining an economy rate of 6.3 [F9]. Her best bowling display came against Sri Lanka on 2026-06-21 [F17], where she took 3 [F17] wickets for 15 [F18] runs in 24 [F17] balls.\n\nDespite her tournament-leading impact rank of 1 [F6], Matthews logged 6111 [F22] Wikipedia pageviews (attention rank 52 [F24]), well below the model-expected 24500 [F23] views for such elite output.",
+  "social_posts": "Post 1: Hayley Matthews ranked #1 of 165 players by impact in ICC Women's T20 World Cup 2026 [F6] #WestIndies #WomensCricket\n\nPost 2: Hayley Matthews (West Indies) — 145 runs off 146 balls [F2] at a strike rate of 99.3 [F8]; 10 wickets from 138 balls [F4] at an economy of 6.3 [F9]. Ranked #1 of 165 by impact in ICC Women's T20 World Cup 2026 [F6].\n\nPost 3: Know her name: Hayley Matthews. Hayley Matthews scored 48 off 37 balls v New Zealand on 2026-06-13 [F10]. Follow for the next match.",
+  "infographic": "{\n \"title\": \"Hayley Matthews\",\n \"subtitle\": \"West Indies \\u00b7 ICC Women's T20 World Cup 2026\",\n \"headline\": \"Hayley Matthews ranked #1 of 165 players by impact in ICC Women's T20 World Cup 2026\",\n \"stats\": [\n  {\n   \"label\": \"Runs\",\n   \"value\": 145,\n   \"fact\": \"F2\"\n  },\n  {\n   \"label\": \"Wickets\",\n   \"value\": 10,\n   \"fact\": \"F4\"\n  },\n  {\n   \"label\": \"Strike rate\",\n   \"value\": 99.3,\n   \"fact\": \"F8\"\n  },\n  {\n   \"label\": \"Economy\",\n   \"value\": 6.3,\n   \"fact\": \"F9\"\n  },\n  {\n   \"label\": \"Impact rank\",\n   \"value\": 1,\n   \"fact\": \"F6\"\n  }\n ],\n \"footer\": \"Source: Cricsheet ball-by-ball data (ODC-BY) \\u00b7 SEEN Unseen XI\"\n}",
+  "creator_brief": "CREATOR BRIEF — Hayley Matthews (West Indies)\n\nAngles:\n  1. Hayley Matthews ranked #1 of 165 players by impact in ICC Women's T20 World Cup 2026\n  2. The match that made it: Hayley Matthews scored 48 off 37 balls v New Zealand on 2026-06-13 [F10].\n\nVerified facts (use only these numbers, keep the [F#] tags in your notes):\n  [F1] Hayley Matthews played 6 matches in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F2] 145 runs off 146 balls in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F3] balls faced in window (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F4] 10 wickets from 138 balls in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F5] balls bowled in window (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F6] ranked 1 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F7] impact score (runs + 20 x wickets) (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F8] strike rate 99.3 in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F9] economy 6.3 in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F10] Hayley Matthews scored 48 off 37 balls v New Zealand on 2026-06-13 (source: cricsheet:1490680)\n  [F11] balls faced v New Zealand (source: cricsheet:1490680)\n  [F17] Hayley Matthews took 3 for 15 from 24 balls v Sri Lanka on 2026-06-21 (source: cricsheet:1490693)\n--- guidance (not claims) ---\nDo: name her, name the country, say the number with its context, link the official highlight.\nDon't: speculate about fitness, selection or anything personal; nothing about odds or bookmakers.\nAssets: infographic spec (JSON), sixty-second script, quiz. Clip slot: ICC-cleared highlight required (not included).\nHashtags: #WestIndies #WomensCricket #ICCWomensT20WorldCup2026\nSponsor tag: [available slot — presented by ...]\nAttribution: submit your post link in the SEEN creator page.",
+  "commentator_note": "COMMENTATOR NOTE — Hayley Matthews (West Indies)\nPronunciation: Hayley Matthews (confirm with team media manager)\n\n- 145 runs off 146 balls in ICC Women's T20 World Cup 2026 [F2]\n- 10 wickets from 138 balls in ICC Women's T20 World Cup 2026 [F4]\n- ranked 1 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026 [F6]\n- strike rate 99.3 in ICC Women's T20 World Cup 2026 [F8]\n- economy 6.3 in ICC Women's T20 World Cup 2026 [F9]\n- Hayley Matthews scored 48 off 37 balls v New Zealand on 2026-06-13 [F10]\n- Hayley Matthews took 3 for 15 from 24 balls v Sri Lanka on 2026-06-21 [F17]\n--- guidance (not claims) ---\nMilestone watch: check career totals before the next match (graph coverage: the formats loaded into SEEN).",
+  "quiz": "[\n {\n  \"question\": \"How many runs did Hayley Matthews score in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   143,\n   145,\n   152,\n   170\n  ],\n  \"answer\": 145,\n  \"fact\": \"F2\"\n },\n {\n  \"question\": \"How many wickets did Hayley Matthews take in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   3,\n   10,\n   13,\n   31\n  ],\n  \"answer\": 10,\n  \"fact\": \"F4\"\n },\n {\n  \"question\": \"Where did Hayley Matthews rank by impact among all players in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   0,\n   1,\n   3,\n   19\n  ],\n  \"answer\": 1,\n  \"fact\": \"F6\"\n }\n]",
+  "sponsor_hook": "Hayley Matthews (West Indies): Hayley Matthews ranked #1 of 165 players by impact in ICC Women's T20 World Cup 2026 [F6] Attention gap: 6,111 article views in the window against roughly 24,500 expected for this level of performance. An early-stage partnership opportunity with measurable upside; activation ideas: 'Unseen XI presented by', athlete story series, local-language content."
+ },
+ "checks": {
+  "video_script": {
+   "passed": true,
+   "summary": "16/16 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "345.0",
+     "status": "matched",
+     "fact": "F7"
+    },
+    {
+     "text": "48",
+     "status": "matched",
+     "fact": "F10"
+    },
+    {
+     "text": "37",
+     "status": "matched",
+     "fact": "F11"
+    },
+    {
+     "text": "3",
+     "status": "matched",
+     "fact": "F17"
+    },
+    {
+     "text": "15",
+     "status": "matched",
+     "fact": "F18"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F17"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "145",
+     "status": "matched",
+     "fact": "F2"
+    },
+    {
+     "text": "146",
+     "status": "matched",
+     "fact": "F3"
+    },
+    {
+     "text": "99.3",
+     "status": "matched",
+     "fact": "F8"
+    },
+    {
+     "text": "10",
+     "status": "matched",
+     "fact": "F4"
+    },
+    {
+     "text": "138",
+     "status": "matched",
+     "fact": "F5"
+    },
+    {
+     "text": "6.3",
+     "status": "matched",
+     "fact": "F9"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "social_posts": {
+   "passed": true,
+   "summary": "14/14 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "145",
+     "status": "matched",
+     "fact": "F2"
+    },
+    {
+     "text": "146",
+     "status": "matched",
+     "fact": "F3"
+    },
+    {
+     "text": "99.3",
+     "status": "matched",
+     "fact": "F8"
+    },
+    {
+     "text": "10",
+     "status": "matched",
+     "fact": "F4"
+    },
+    {
+     "text": "138",
+     "status": "matched",
+     "fact": "F5"
+    },
+    {
+     "text": "6.3",
+     "status": "matched",
+     "fact": "F9"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "48",
+     "status": "matched",
+     "fact": "F10"
+    },
+    {
+     "text": "37",
+     "status": "matched",
+     "fact": "F11"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "article": {
+   "passed": true,
+   "summary": "20/20 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "345.0",
+     "status": "matched",
+     "fact": "F7"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "145",
+     "status": "matched",
+     "fact": "F2"
+    },
+    {
+     "text": "146",
+     "status": "matched",
+     "fact": "F3"
+    },
+    {
+     "text": "99.3",
+     "status": "matched",
+     "fact": "F8"
+    },
+    {
+     "text": "48",
+     "status": "matched",
+     "fact": "F10"
+    },
+    {
+     "text": "37",
+     "status": "matched",
+     "fact": "F11"
+    },
+    {
+     "text": "10",
+     "status": "matched",
+     "fact": "F4"
+    },
+    {
+     "text": "138",
+     "status": "matched",
+     "fact": "F5"
+    },
+    {
+     "text": "6.3",
+     "status": "matched",
+     "fact": "F9"
+    },
+    {
+     "text": "3",
+     "status": "matched",
+     "fact": "F17"
+    },
+    {
+     "text": "15",
+     "status": "matched",
+     "fact": "F18"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F17"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "6111",
+     "status": "matched",
+     "fact": "F22"
+    },
+    {
+     "text": "52",
+     "status": "matched",
+     "fact": "F24"
+    },
+    {
+     "text": "24500",
+     "status": "matched",
+     "fact": "F23"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "infographic": {
+   "passed": true,
+   "summary": "5/5 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "145",
+     "status": "matched",
+     "fact": "F2"
+    },
+    {
+     "text": "10",
+     "status": "matched",
+     "fact": "F4"
+    },
+    {
+     "text": "99.3",
+     "status": "matched",
+     "fact": "F8"
+    },
+    {
+     "text": "6.3",
+     "status": "matched",
+     "fact": "F9"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F6"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "creator_brief": {
+   "passed": true,
+   "summary": "27/27 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "48",
+     "status": "matched",
+     "fact": "F10"
+    },
+    {
+     "text": "37",
+     "status": "matched",
+     "fact": "F11"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "145",
+     "status": "matched",
+     "fact": "F2"
+    },
+    {
+     "text": "146",
+     "status": "matched",
+     "fact": "F3"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "10",
+     "status": "matched",
+     "fact": "F4"
+    },
+    {
+     "text": "138",
+     "status": "matched",
+     "fact": "F5"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "99.3",
+     "status": "matched",
+     "fact": "F8"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "6.3",
+     "status": "matched",
+     "fact": "F9"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "48",
+     "status": "matched",
+     "fact": "F10"
+    },
+    {
+     "text": "37",
+     "status": "matched",
+     "fact": "F11"
+    },
+    {
+     "text": "3",
+     "status": "matched",
+     "fact": "F17"
+    },
+    {
+     "text": "15",
+     "status": "matched",
+     "fact": "F18"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F17"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "commentator_note": {
+   "passed": true,
+   "summary": "19/19 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "145",
+     "status": "matched",
+     "fact": "F2"
+    },
+    {
+     "text": "146",
+     "status": "matched",
+     "fact": "F3"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "10",
+     "status": "matched",
+     "fact": "F4"
+    },
+    {
+     "text": "138",
+     "status": "matched",
+     "fact": "F5"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "99.3",
+     "status": "matched",
+     "fact": "F8"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "6.3",
+     "status": "matched",
+     "fact": "F9"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "48",
+     "status": "matched",
+     "fact": "F10"
+    },
+    {
+     "text": "37",
+     "status": "matched",
+     "fact": "F11"
+    },
+    {
+     "text": "3",
+     "status": "matched",
+     "fact": "F17"
+    },
+    {
+     "text": "15",
+     "status": "matched",
+     "fact": "F18"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F17"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "quiz": {
+   "passed": true,
+   "summary": "3/3 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "145",
+     "status": "matched",
+     "fact": "F2"
+    },
+    {
+     "text": "10",
+     "status": "matched",
+     "fact": "F4"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F6"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "sponsor_hook": {
+   "passed": true,
+   "summary": "5/5 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F6"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F1"
+    },
+    {
+     "text": "6,111",
+     "status": "matched",
+     "fact": "F22"
+    },
+    {
+     "text": "24,500",
+     "status": "matched",
+     "fact": "F23"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  }
+ },
+ "gap_summary": {
+  "impact_rank": 1,
+  "attention_rank": 52,
+  "gap_rank": 33,
+  "views_window_total": 6111,
+  "expected_views": 24548.0,
+  "no_article": false,
+  "gap_confidence": "high"
+ }
+}

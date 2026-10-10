@@ -1,0 +1,16 @@
+# SEEN — visibility intelligence for women's cricket (hackathon prototype)
+duckdb>=1.0
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+pyyaml>=6.0
+jinja2>=3.1
+streamlit>=1.36
+plotly>=5.20
+pytest>=8.0
+
+# Optional — install the one you have a key for (see .env.example). The Dockerfile installs google-genai and openai.
+# google-genai>=1.0        # LLM_PROVIDER=gemini
+# openai>=1.30             # LLM_PROVIDER=nebius (NVIDIA Nemotron on Nebius Token Factory) or LLM_PROVIDER=openai
+# anthropic>=0.30          # LLM_PROVIDER=anthropic
+# gTTS>=2.5                # optional demo audio for localised kits

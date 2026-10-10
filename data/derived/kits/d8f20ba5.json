@@ -1,0 +1,808 @@
+{
+ "player_id": "d8f20ba5",
+ "name": "Orla Prendergast",
+ "team": "Ireland",
+ "candidate_id": "C32",
+ "pattern": "TEAM_FIRST_WIN",
+ "headline": "Orla Prendergast led Ireland's first-ever win in the ICC Women's T20 World Cup (v West Indies)",
+ "facts": [
+  {
+   "id": "F378",
+   "type": "runs_in_match",
+   "text": "Orla Prendergast scored 63 off 44 balls v West Indies on 2026-06-27",
+   "value": 63,
+   "source": "cricsheet:1490703"
+  },
+  {
+   "id": "F379",
+   "type": "balls_in_match",
+   "text": "balls faced v West Indies",
+   "value": 44,
+   "source": "cricsheet:1490703"
+  },
+  {
+   "id": "F380",
+   "type": "wickets_in_match",
+   "text": "Orla Prendergast took 1 for 29 from 24 balls v West Indies on 2026-06-27",
+   "value": 1,
+   "source": "cricsheet:1490703"
+  },
+  {
+   "id": "F381",
+   "type": "runs_conceded_in_match",
+   "text": "runs conceded v West Indies",
+   "value": 29,
+   "source": "cricsheet:1490703"
+  },
+  {
+   "id": "F382",
+   "type": "match_result",
+   "text": "West Indies v Ireland, County Ground, Bristol: Ireland won by 6 wickets",
+   "value": "Ireland",
+   "source": "cricsheet:1490703"
+  },
+  {
+   "id": "F383",
+   "type": "prior_occurrences_team",
+   "text": "Ireland wins in ICC Women's T20 World Cup before 2026-06-27: 0",
+   "value": 0,
+   "source": "graph:history"
+  },
+  {
+   "id": "F534",
+   "type": "window_matches",
+   "text": "Orla Prendergast played 5 matches in ICC Women's T20 World Cup 2026",
+   "value": 5,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F535",
+   "type": "window_runs",
+   "text": "181 runs off 144 balls in ICC Women's T20 World Cup 2026",
+   "value": 181,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F536",
+   "type": "window_balls_faced",
+   "text": "balls faced in window",
+   "value": 144,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F537",
+   "type": "window_wickets",
+   "text": "6 wickets from 120 balls in ICC Women's T20 World Cup 2026",
+   "value": 6,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F538",
+   "type": "window_balls_bowled",
+   "text": "balls bowled in window",
+   "value": 120,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F539",
+   "type": "impact_rank",
+   "text": "ranked 4 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+   "value": 4,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F540",
+   "type": "impact",
+   "text": "impact score (runs + 20 x wickets)",
+   "value": 301.0,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F541",
+   "type": "strike_rate",
+   "text": "strike rate 125.7 in ICC Women's T20 World Cup 2026",
+   "value": 125.7,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F542",
+   "type": "economy",
+   "text": "economy 6.1 in ICC Women's T20 World Cup 2026",
+   "value": 6.1,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F543",
+   "type": "runs_in_match",
+   "text": "Orla Prendergast scored 63 off 44 balls v West Indies on 2026-06-27",
+   "value": 63,
+   "source": "cricsheet:1490703"
+  },
+  {
+   "id": "F544",
+   "type": "balls_in_match",
+   "text": "balls faced v West Indies",
+   "value": 44,
+   "source": "cricsheet:1490703"
+  },
+  {
+   "id": "F550",
+   "type": "wickets_in_match",
+   "text": "Orla Prendergast took 2 for 17 from 24 balls v England on 2026-06-16",
+   "value": 2,
+   "source": "cricsheet:1490684"
+  },
+  {
+   "id": "F551",
+   "type": "runs_conceded_in_match",
+   "text": "runs conceded v England",
+   "value": 17,
+   "source": "cricsheet:1490684"
+  },
+  {
+   "id": "F553",
+   "type": "team",
+   "text": "Orla Prendergast plays for Ireland",
+   "value": "Ireland",
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F554",
+   "type": "competition",
+   "text": "competition: ICC Women's T20 World Cup 2026",
+   "value": "ICC Women's T20 World Cup 2026",
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F555",
+   "type": "attention_views",
+   "text": "Orla Prendergast's Wikipedia article views during the window: 7477",
+   "value": 7477,
+   "source": "Wikimedia pageviews (public API)"
+  },
+  {
+   "id": "F556",
+   "type": "expected_views",
+   "text": "expected views for this level of performance (SEEN gap model estimate, rounded): 31600",
+   "value": 31600,
+   "source": "SEEN gap model (OLS on significance, market tier, prior fame)"
+  },
+  {
+   "id": "F557",
+   "type": "attention_rank",
+   "text": "attention rank in the window: 45",
+   "value": 45,
+   "source": "Wikimedia pageviews (public API)"
+  }
+ ],
+ "language": "en",
+ "generated_at": "2026-09-27T19:21:10+00:00",
+ "mode": "llm+template",
+ "formats": {
+  "video_script": "[00:00-00:05] Orla Prendergast announced herself on the global stage for Ireland at the ICC Women's T20 World Cup 2026.\n[00:05-00:20] Before this match, Ireland had a total of 0 [F383] wins in tournament history. That changed when Prendergast steered Ireland to a historic 6-wicket [F382] victory over West Indies at Bristol.\n[00:20-00:40] She delivered an all-round masterclass, taking 1 [F380] for 29 [F381] from 24 [F380] balls before smashing 63 [F378] off just 44 [F378] deliveries. That followed another standout bowling display of 2 [F550] for 17 [F551] from 24 [F550] balls against England.\n[00:40-00:55] Over 5 [F534] matches, she amassed 181 [F535] runs off 144 [F535] balls at a strike rate of 125.7 [F541], plus 6 [F537] wickets from 120 [F537] balls at an economy of 6.1 [F542] to rank 4th [F539] out of 165 [F539] players by overall impact.\n[00:55-01:00] Remember the name: Orla Prendergast. Track her journey and find every upcoming match in the app!",
+  "article": "Orla Prendergast etched her name into Irish cricket folklore by guiding Ireland to their first-ever victory in ICC Women's T20 World Cup history. Entering the fixture against West Indies on 2026-06-27, Ireland had collected exactly 0 [F383] wins in tournament history. Prendergast dismantled that drought in Bristol as Ireland secured a historic 6-wicket [F382] victory.\n\nPrendergast set the tone with the ball, collecting 1 [F380] for 29 [F381] from 24 [F380] deliveries, before anchoring the chase with a sensational 63 [F378] off 44 [F378] balls. That came after a disciplined spell of 2 [F550] for 17 [F551] from 24 [F550] balls against England earlier in the tournament.\n\nAcross her 5 [F534] matches at the ICC Women's T20 World Cup 2026, Prendergast compiled 181 [F535] runs from 144 [F535] deliveries at a strike rate of 125.7 [F541], while taking 6 [F537] wickets from 120 [F537] balls with a tidy 6.1 [F542] economy rate. Generating an impact score of 301.0 [F540], she finished ranked 4 [F539] out of 165 [F539] players, establishing herself as an undeniable global force.",
+  "social_posts": "Post 1: Orla Prendergast led Ireland's first-ever win in the ICC Women's T20 World Cup (v West Indies) [F383] #Ireland #WomensCricket\n\nPost 2: Orla Prendergast (Ireland) — 181 runs off 144 balls [F535] at a strike rate of 125.7 [F541]; 6 wickets from 120 balls [F537] at an economy of 6.1 [F542]. Ranked #4 of 165 by impact in ICC Women's T20 World Cup 2026 [F539].\n\nPost 3: Know her name: Orla Prendergast. Orla Prendergast scored 63 off 44 balls v West Indies on 2026-06-27 [F378]. Follow for the next match.",
+  "infographic": "{\n \"title\": \"Orla Prendergast\",\n \"subtitle\": \"Ireland \\u00b7 ICC Women's T20 World Cup 2026\",\n \"headline\": \"Orla Prendergast led Ireland's first-ever win in the ICC Women's T20 World Cup (v West Indies)\",\n \"stats\": [\n  {\n   \"label\": \"Runs\",\n   \"value\": 181,\n   \"fact\": \"F535\"\n  },\n  {\n   \"label\": \"Wickets\",\n   \"value\": 6,\n   \"fact\": \"F537\"\n  },\n  {\n   \"label\": \"Strike rate\",\n   \"value\": 125.7,\n   \"fact\": \"F541\"\n  },\n  {\n   \"label\": \"Economy\",\n   \"value\": 6.1,\n   \"fact\": \"F542\"\n  },\n  {\n   \"label\": \"Impact rank\",\n   \"value\": 4,\n   \"fact\": \"F539\"\n  }\n ],\n \"footer\": \"Source: Cricsheet ball-by-ball data (ODC-BY) \\u00b7 SEEN Unseen XI\"\n}",
+  "creator_brief": "CREATOR BRIEF — Orla Prendergast (Ireland)\n\nAngles:\n  1. Orla Prendergast led Ireland's first-ever win in the ICC Women's T20 World Cup (v West Indies)\n  2. The match that made it: Orla Prendergast scored 63 off 44 balls v West Indies on 2026-06-27 [F378].\n  3. Why it is rare: Ireland wins in ICC Women's T20 World Cup before 2026-06-27: 0 [F383].\n\nVerified facts (use only these numbers, keep the [F#] tags in your notes):\n  [F378] Orla Prendergast scored 63 off 44 balls v West Indies on 2026-06-27 (source: cricsheet:1490703)\n  [F379] balls faced v West Indies (source: cricsheet:1490703)\n  [F380] Orla Prendergast took 1 for 29 from 24 balls v West Indies on 2026-06-27 (source: cricsheet:1490703)\n  [F381] runs conceded v West Indies (source: cricsheet:1490703)\n  [F382] West Indies v Ireland, County Ground, Bristol: Ireland won by 6 wickets (source: cricsheet:1490703)\n  [F383] Ireland wins in ICC Women's T20 World Cup before 2026-06-27: 0 (source: graph:history)\n  [F534] Orla Prendergast played 5 matches in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F535] 181 runs off 144 balls in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F536] balls faced in window (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F537] 6 wickets from 120 balls in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F538] balls bowled in window (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F539] ranked 4 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n--- guidance (not claims) ---\nDo: name her, name the country, say the number with its context, link the official highlight.\nDon't: speculate about fitness, selection or anything personal; nothing about odds or bookmakers.\nAssets: infographic spec (JSON), sixty-second script, quiz. Clip slot: ICC-cleared highlight required (not included).\nHashtags: #Ireland #WomensCricket #ICCWomensT20WorldCup2026\nSponsor tag: [available slot — presented by ...]\nAttribution: submit your post link in the SEEN creator page.",
+  "commentator_note": "COMMENTATOR NOTE — Orla Prendergast (Ireland)\nPronunciation: Orla Prendergast (confirm with team media manager)\n\n- Orla Prendergast scored 63 off 44 balls v West Indies on 2026-06-27 [F378]\n- Orla Prendergast took 1 for 29 from 24 balls v West Indies on 2026-06-27 [F380]\n- Ireland wins in ICC Women's T20 World Cup before 2026-06-27: 0 [F383]\n- 181 runs off 144 balls in ICC Women's T20 World Cup 2026 [F535]\n- 6 wickets from 120 balls in ICC Women's T20 World Cup 2026 [F537]\n- ranked 4 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026 [F539]\n- strike rate 125.7 in ICC Women's T20 World Cup 2026 [F541]\n- economy 6.1 in ICC Women's T20 World Cup 2026 [F542]\n- Orla Prendergast scored 63 off 44 balls v West Indies on 2026-06-27 [F543]\n- Orla Prendergast took 2 for 17 from 24 balls v England on 2026-06-16 [F550]\n--- guidance (not claims) ---\nMilestone watch: check career totals before the next match (graph coverage: the formats loaded into SEEN).",
+  "quiz": "[\n {\n  \"question\": \"How many runs did Orla Prendergast score in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   174,\n   181,\n   182,\n   203\n  ],\n  \"answer\": 181,\n  \"fact\": \"F535\"\n },\n {\n  \"question\": \"How many wickets did Orla Prendergast take in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   1,\n   6,\n   9,\n   23\n  ],\n  \"answer\": 6,\n  \"fact\": \"F537\"\n },\n {\n  \"question\": \"Where did Orla Prendergast rank by impact among all players in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   0,\n   4,\n   12,\n   15\n  ],\n  \"answer\": 4,\n  \"fact\": \"F539\"\n }\n]",
+  "sponsor_hook": "Orla Prendergast (Ireland): Orla Prendergast led Ireland's first-ever win in the ICC Women's T20 World Cup (v West Indies) [F383] Attention gap: 7,477 article views in the window against roughly 31,600 expected for this level of performance. An early-stage partnership opportunity with measurable upside; activation ideas: 'Unseen XI presented by', athlete story series, local-language content."
+ },
+ "checks": {
+  "video_script": {
+   "passed": true,
+   "summary": "19/19 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F378"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F383"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F537"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F380"
+    },
+    {
+     "text": "29",
+     "status": "matched",
+     "fact": "F381"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F380"
+    },
+    {
+     "text": "63",
+     "status": "matched",
+     "fact": "F543"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F544"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F550"
+    },
+    {
+     "text": "17",
+     "status": "matched",
+     "fact": "F551"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F380"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F534"
+    },
+    {
+     "text": "181",
+     "status": "matched",
+     "fact": "F535"
+    },
+    {
+     "text": "144",
+     "status": "matched",
+     "fact": "F536"
+    },
+    {
+     "text": "125.7",
+     "status": "matched",
+     "fact": "F541"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F537"
+    },
+    {
+     "text": "120",
+     "status": "matched",
+     "fact": "F538"
+    },
+    {
+     "text": "6.1",
+     "status": "matched",
+     "fact": "F542"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F539"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "social_posts": {
+   "passed": true,
+   "summary": "11/11 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "181",
+     "status": "matched",
+     "fact": "F535"
+    },
+    {
+     "text": "144",
+     "status": "matched",
+     "fact": "F536"
+    },
+    {
+     "text": "125.7",
+     "status": "matched",
+     "fact": "F541"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F537"
+    },
+    {
+     "text": "120",
+     "status": "matched",
+     "fact": "F538"
+    },
+    {
+     "text": "6.1",
+     "status": "matched",
+     "fact": "F542"
+    },
+    {
+     "text": "4",
+     "status": "matched",
+     "fact": "F539"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F539"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F378"
+    },
+    {
+     "text": "63",
+     "status": "matched",
+     "fact": "F543"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F544"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "article": {
+   "passed": true,
+   "summary": "21/21 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F383"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F537"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F380"
+    },
+    {
+     "text": "29",
+     "status": "matched",
+     "fact": "F381"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F380"
+    },
+    {
+     "text": "63",
+     "status": "matched",
+     "fact": "F543"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F544"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F550"
+    },
+    {
+     "text": "17",
+     "status": "matched",
+     "fact": "F551"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F380"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F534"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F378"
+    },
+    {
+     "text": "181",
+     "status": "matched",
+     "fact": "F535"
+    },
+    {
+     "text": "144",
+     "status": "matched",
+     "fact": "F536"
+    },
+    {
+     "text": "125.7",
+     "status": "matched",
+     "fact": "F541"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F537"
+    },
+    {
+     "text": "120",
+     "status": "matched",
+     "fact": "F538"
+    },
+    {
+     "text": "6.1",
+     "status": "matched",
+     "fact": "F542"
+    },
+    {
+     "text": "301.0",
+     "status": "matched",
+     "fact": "F540"
+    },
+    {
+     "text": "4",
+     "status": "matched",
+     "fact": "F539"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F539"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "infographic": {
+   "passed": true,
+   "summary": "5/5 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "181",
+     "status": "matched",
+     "fact": "F535"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F537"
+    },
+    {
+     "text": "125.7",
+     "status": "matched",
+     "fact": "F541"
+    },
+    {
+     "text": "6.1",
+     "status": "matched",
+     "fact": "F542"
+    },
+    {
+     "text": "4",
+     "status": "matched",
+     "fact": "F539"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "creator_brief": {
+   "passed": true,
+   "summary": "22/22 numeric claims matched; 0 banned topics; 1 unknown names",
+   "claims": [
+    {
+     "text": "63",
+     "status": "matched",
+     "fact": "F543"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F544"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F383"
+    },
+    {
+     "text": "63",
+     "status": "matched",
+     "fact": "F543"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F544"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F380"
+    },
+    {
+     "text": "29",
+     "status": "matched",
+     "fact": "F381"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F380"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F537"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F383"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F534"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F378"
+    },
+    {
+     "text": "181",
+     "status": "matched",
+     "fact": "F535"
+    },
+    {
+     "text": "144",
+     "status": "matched",
+     "fact": "F536"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F378"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F537"
+    },
+    {
+     "text": "120",
+     "status": "matched",
+     "fact": "F538"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F378"
+    },
+    {
+     "text": "4",
+     "status": "matched",
+     "fact": "F539"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F539"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F539"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F378"
+    }
+   ],
+   "banned": [],
+   "unknown_names": [
+    "County Ground"
+   ]
+  },
+  "commentator_note": {
+   "passed": true,
+   "summary": "25/25 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "63",
+     "status": "matched",
+     "fact": "F543"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F544"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F380"
+    },
+    {
+     "text": "29",
+     "status": "matched",
+     "fact": "F381"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F380"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F383"
+    },
+    {
+     "text": "181",
+     "status": "matched",
+     "fact": "F535"
+    },
+    {
+     "text": "144",
+     "status": "matched",
+     "fact": "F536"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F378"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F537"
+    },
+    {
+     "text": "120",
+     "status": "matched",
+     "fact": "F538"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F378"
+    },
+    {
+     "text": "4",
+     "status": "matched",
+     "fact": "F539"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F539"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F539"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F378"
+    },
+    {
+     "text": "125.7",
+     "status": "matched",
+     "fact": "F541"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F378"
+    },
+    {
+     "text": "6.1",
+     "status": "matched",
+     "fact": "F542"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F378"
+    },
+    {
+     "text": "63",
+     "status": "matched",
+     "fact": "F543"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F544"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F550"
+    },
+    {
+     "text": "17",
+     "status": "matched",
+     "fact": "F551"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F380"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "quiz": {
+   "passed": true,
+   "summary": "3/3 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "181",
+     "status": "matched",
+     "fact": "F535"
+    },
+    {
+     "text": "6",
+     "status": "matched",
+     "fact": "F537"
+    },
+    {
+     "text": "4",
+     "status": "matched",
+     "fact": "F539"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "sponsor_hook": {
+   "passed": true,
+   "summary": "2/2 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "7,477",
+     "status": "matched",
+     "fact": "F555"
+    },
+    {
+     "text": "31,600",
+     "status": "matched",
+     "fact": "F556"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  }
+ },
+ "gap_summary": {
+  "impact_rank": 4,
+  "attention_rank": 45,
+  "gap_rank": 31,
+  "views_window_total": 7477,
+  "expected_views": 31620.0,
+  "no_article": false,
+  "gap_confidence": "high"
+ }
+}

@@ -1,0 +1,725 @@
+{
+ "player_id": "53bb50f0",
+ "name": "Sadia Iqbal",
+ "team": "Pakistan",
+ "candidate_id": "C51",
+ "pattern": "CAREER_MILESTONE",
+ "headline": "Sadia Iqbal passed 100 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+ "facts": [
+  {
+   "id": "F456",
+   "type": "milestone",
+   "text": "milestone passed: 100 career matches",
+   "value": 100,
+   "source": "graph:history"
+  },
+  {
+   "id": "F457",
+   "type": "career_total",
+   "text": "career matches after the window (graph coverage only)",
+   "value": 100,
+   "source": "graph:history"
+  },
+  {
+   "id": "F458",
+   "type": "career_total_before",
+   "text": "career matches before the window",
+   "value": 95,
+   "source": "graph:history"
+  },
+  {
+   "id": "F635",
+   "type": "window_matches",
+   "text": "Sadia Iqbal played 5 matches in ICC Women's T20 World Cup 2026",
+   "value": 5,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F636",
+   "type": "window_runs",
+   "text": "1 runs off 2 balls in ICC Women's T20 World Cup 2026",
+   "value": 1,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F637",
+   "type": "window_balls_faced",
+   "text": "balls faced in window",
+   "value": 2,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F638",
+   "type": "window_wickets",
+   "text": "7 wickets from 120 balls in ICC Women's T20 World Cup 2026",
+   "value": 7,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F639",
+   "type": "window_balls_bowled",
+   "text": "balls bowled in window",
+   "value": 120,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F640",
+   "type": "impact_rank",
+   "text": "ranked 44 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+   "value": 44,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F641",
+   "type": "impact",
+   "text": "impact score (runs + 20 x wickets)",
+   "value": 141.0,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F642",
+   "type": "strike_rate",
+   "text": "strike rate 50.0 in ICC Women's T20 World Cup 2026",
+   "value": 50.0,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F643",
+   "type": "economy",
+   "text": "economy 7.15 in ICC Women's T20 World Cup 2026",
+   "value": 7.15,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F644",
+   "type": "runs_in_match",
+   "text": "Sadia Iqbal scored 1 off 1 balls v India on 2026-06-14",
+   "value": 1,
+   "source": "cricsheet:1490682"
+  },
+  {
+   "id": "F645",
+   "type": "balls_in_match",
+   "text": "balls faced v India",
+   "value": 1,
+   "source": "cricsheet:1490682"
+  },
+  {
+   "id": "F649",
+   "type": "wickets_in_match",
+   "text": "Sadia Iqbal took 2 for 26 from 24 balls v South Africa on 2026-06-17",
+   "value": 2,
+   "source": "cricsheet:1490687"
+  },
+  {
+   "id": "F650",
+   "type": "runs_conceded_in_match",
+   "text": "runs conceded v South Africa",
+   "value": 26,
+   "source": "cricsheet:1490687"
+  },
+  {
+   "id": "F652",
+   "type": "team",
+   "text": "Sadia Iqbal plays for Pakistan",
+   "value": "Pakistan",
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F653",
+   "type": "competition",
+   "text": "competition: ICC Women's T20 World Cup 2026",
+   "value": "ICC Women's T20 World Cup 2026",
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F654",
+   "type": "attention_views",
+   "text": "Sadia Iqbal's Wikipedia article views during the window: 1613",
+   "value": 1613,
+   "source": "Wikimedia pageviews (public API)"
+  },
+  {
+   "id": "F655",
+   "type": "expected_views",
+   "text": "expected views for this level of performance (SEEN gap model estimate, rounded): 4270",
+   "value": 4270,
+   "source": "SEEN gap model (OLS on significance, market tier, prior fame)"
+  },
+  {
+   "id": "F656",
+   "type": "attention_rank",
+   "text": "attention rank in the window: 96",
+   "value": 96,
+   "source": "Wikimedia pageviews (public API)"
+  }
+ ],
+ "language": "en",
+ "generated_at": "2026-09-29T09:52:05+00:00",
+ "mode": "template",
+ "formats": {
+  "video_script": "[00:00-00:05] Sadia Iqbal. Pakistan. ICC Women's T20 World Cup 2026.\n[00:05-00:20] Sadia Iqbal passed 100 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026 [F640]\n[00:20-00:40] Sadia Iqbal scored 1 off 1 balls v India on 2026-06-14 [F644]. Sadia Iqbal took 2 for 26 from 24 balls v South Africa on 2026-06-17 [F649].\n[00:40-00:55] Across the tournament: 1 runs off 2 balls [F636] at a strike rate of 50.0 [F642]; 7 wickets from 120 balls [F638] at an economy of 7.15 [F643].\n[00:55-01:00] Remember the name: Sadia Iqbal. Follow her \u2014 the next match is in the app.",
+  "article": "Sadia Iqbal passed 100 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026 [F640]\n\nSadia Iqbal of Pakistan finished ICC Women's T20 World Cup 2026 ranked 44 of 165 players by impact [F640]. 1 runs off 2 balls [F636] at a strike rate of 50.0 [F642]; 7 wickets from 120 balls [F638] at an economy of 7.15 [F643].\n\nSadia Iqbal scored 1 off 1 balls v India on 2026-06-14 [F644]. Sadia Iqbal took 2 for 26 from 24 balls v South Africa on 2026-06-17 [F649]. \n\nSource: Cricsheet ball-by-ball data (ODC-BY). Every figure above carries a fact reference.",
+  "social_posts": "Post 1: Sadia Iqbal passed 100 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026 [F640] #Pakistan #WomensCricket\n\nPost 2: Sadia Iqbal (Pakistan) \u2014 1 runs off 2 balls [F636] at a strike rate of 50.0 [F642]; 7 wickets from 120 balls [F638] at an economy of 7.15 [F643]. Ranked #44 of 165 by impact in ICC Women's T20 World Cup 2026 [F640].\n\nPost 3: Know her name: Sadia Iqbal. Sadia Iqbal scored 1 off 1 balls v India on 2026-06-14 [F644]. Follow for the next match.",
+  "infographic": "{\n \"title\": \"Sadia Iqbal\",\n \"subtitle\": \"Pakistan \\u00b7 ICC Women's T20 World Cup 2026\",\n \"headline\": \"Sadia Iqbal passed 100 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026\",\n \"stats\": [\n  {\n   \"label\": \"Runs\",\n   \"value\": 1,\n   \"fact\": \"F636\"\n  },\n  {\n   \"label\": \"Wickets\",\n   \"value\": 7,\n   \"fact\": \"F638\"\n  },\n  {\n   \"label\": \"Strike rate\",\n   \"value\": 50.0,\n   \"fact\": \"F642\"\n  },\n  {\n   \"label\": \"Economy\",\n   \"value\": 7.15,\n   \"fact\": \"F643\"\n  },\n  {\n   \"label\": \"Impact rank\",\n   \"value\": 44,\n   \"fact\": \"F640\"\n  }\n ],\n \"footer\": \"Source: Cricsheet ball-by-ball data (ODC-BY) \\u00b7 SEEN Unseen XI\"\n}",
+  "creator_brief": "CREATOR BRIEF \u2014 Sadia Iqbal (Pakistan)\n\nAngles:\n  1. Sadia Iqbal passed 100 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026\n  2. The match that made it: Sadia Iqbal scored 1 off 1 balls v India on 2026-06-14 [F644].\n\nVerified facts (use only these numbers, keep the [F#] tags in your notes):\n  [F456] milestone passed: 100 career matches (source: graph:history)\n  [F457] career matches after the window (graph coverage only) (source: graph:history)\n  [F458] career matches before the window (source: graph:history)\n  [F635] Sadia Iqbal played 5 matches in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F636] 1 runs off 2 balls in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F637] balls faced in window (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F638] 7 wickets from 120 balls in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F639] balls bowled in window (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F640] ranked 44 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F641] impact score (runs + 20 x wickets) (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F642] strike rate 50.0 in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F643] economy 7.15 in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n--- guidance (not claims) ---\nDo: name her, name the country, say the number with its context, link the official highlight.\nDon't: speculate about fitness, selection or anything personal; nothing about odds or bookmakers.\nAssets: infographic spec (JSON), sixty-second script, quiz. Clip slot: ICC-cleared highlight required (not included).\nHashtags: #Pakistan #WomensCricket #ICCWomensT20WorldCup2026\nSponsor tag: [available slot \u2014 presented by ...]\nAttribution: submit your post link in the SEEN creator page.",
+  "commentator_note": "COMMENTATOR NOTE \u2014 Sadia Iqbal (Pakistan)\nPronunciation: Sadia Iqbal (confirm with team media manager)\n\n- career matches after the window (graph coverage only) [F457]\n- 1 runs off 2 balls in ICC Women's T20 World Cup 2026 [F636]\n- 7 wickets from 120 balls in ICC Women's T20 World Cup 2026 [F638]\n- ranked 44 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026 [F640]\n- strike rate 50.0 in ICC Women's T20 World Cup 2026 [F642]\n- economy 7.15 in ICC Women's T20 World Cup 2026 [F643]\n- Sadia Iqbal scored 1 off 1 balls v India on 2026-06-14 [F644]\n- Sadia Iqbal took 2 for 26 from 24 balls v South Africa on 2026-06-17 [F649]\n--- guidance (not claims) ---\nMilestone watch: check career totals before the next match (graph coverage: the formats loaded into SEEN).",
+  "quiz": "[\n {\n  \"question\": \"How many runs did Sadia Iqbal score in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   0,\n   1,\n   4,\n   14\n  ],\n  \"answer\": 1,\n  \"fact\": \"F636\"\n },\n {\n  \"question\": \"How many wickets did Sadia Iqbal take in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   0,\n   7,\n   12,\n   31\n  ],\n  \"answer\": 7,\n  \"fact\": \"F638\"\n },\n {\n  \"question\": \"Where did Sadia Iqbal rank by impact among all players in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   43,\n   44,\n   48,\n   62\n  ],\n  \"answer\": 44,\n  \"fact\": \"F640\"\n }\n]",
+  "sponsor_hook": "Sadia Iqbal (Pakistan): Sadia Iqbal passed 100 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026 [F640] Attention gap: 1,613 article views in the window [F654] against roughly 4,270 expected for this level of performance [F655]. An early-stage partnership opportunity with measurable upside; activation ideas: 'Unseen XI presented by', athlete story series, local-language content."
+ },
+ "checks": {
+  "video_script": {
+   "passed": true,
+   "summary": "14/14 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "100",
+     "status": "matched",
+     "fact": "F457"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F649"
+    },
+    {
+     "text": "26",
+     "status": "matched",
+     "fact": "F650"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F649"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F649"
+    },
+    {
+     "text": "50.0",
+     "status": "matched",
+     "fact": "F642"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F638"
+    },
+    {
+     "text": "120",
+     "status": "matched",
+     "fact": "F639"
+    },
+    {
+     "text": "7.15",
+     "status": "matched",
+     "fact": "F643"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "social_posts": {
+   "passed": true,
+   "summary": "13/13 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "100",
+     "status": "matched",
+     "fact": "F457"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F649"
+    },
+    {
+     "text": "50.0",
+     "status": "matched",
+     "fact": "F642"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F638"
+    },
+    {
+     "text": "120",
+     "status": "matched",
+     "fact": "F639"
+    },
+    {
+     "text": "7.15",
+     "status": "matched",
+     "fact": "F643"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F640"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F640"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "article": {
+   "passed": true,
+   "summary": "16/16 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "100",
+     "status": "matched",
+     "fact": "F457"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F640"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F640"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F649"
+    },
+    {
+     "text": "50.0",
+     "status": "matched",
+     "fact": "F642"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F638"
+    },
+    {
+     "text": "120",
+     "status": "matched",
+     "fact": "F639"
+    },
+    {
+     "text": "7.15",
+     "status": "matched",
+     "fact": "F643"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F649"
+    },
+    {
+     "text": "26",
+     "status": "matched",
+     "fact": "F650"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F649"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "infographic": {
+   "passed": true,
+   "summary": "5/5 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F638"
+    },
+    {
+     "text": "50.0",
+     "status": "matched",
+     "fact": "F642"
+    },
+    {
+     "text": "7.15",
+     "status": "matched",
+     "fact": "F643"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F640"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "creator_brief": {
+   "passed": true,
+   "summary": "22/22 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "100",
+     "status": "matched",
+     "fact": "F457"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "100",
+     "status": "matched",
+     "fact": "F457"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F649"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F638"
+    },
+    {
+     "text": "120",
+     "status": "matched",
+     "fact": "F639"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F640"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F640"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F640"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F640"
+    },
+    {
+     "text": "50.0",
+     "status": "matched",
+     "fact": "F642"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "7.15",
+     "status": "matched",
+     "fact": "F643"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "commentator_note": {
+   "passed": true,
+   "summary": "19/19 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F649"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F638"
+    },
+    {
+     "text": "120",
+     "status": "matched",
+     "fact": "F639"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F640"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F640"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F640"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "50.0",
+     "status": "matched",
+     "fact": "F642"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "7.15",
+     "status": "matched",
+     "fact": "F643"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F649"
+    },
+    {
+     "text": "26",
+     "status": "matched",
+     "fact": "F650"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F649"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "quiz": {
+   "passed": true,
+   "summary": "3/3 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "1",
+     "status": "matched",
+     "fact": "F645"
+    },
+    {
+     "text": "7",
+     "status": "matched",
+     "fact": "F638"
+    },
+    {
+     "text": "44",
+     "status": "matched",
+     "fact": "F640"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "sponsor_hook": {
+   "passed": true,
+   "summary": "4/4 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "100",
+     "status": "matched",
+     "fact": "F457"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F635"
+    },
+    {
+     "text": "1,613",
+     "status": "matched",
+     "fact": "F654"
+    },
+    {
+     "text": "4,270",
+     "status": "matched",
+     "fact": "F655"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  }
+ },
+ "gap_summary": {
+  "impact_rank": 44,
+  "attention_rank": 96,
+  "gap_rank": 51,
+  "views_window_total": 1613,
+  "expected_views": 4269.0,
+  "no_article": false,
+  "gap_confidence": "medium"
+ }
+}

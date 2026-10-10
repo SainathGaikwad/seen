@@ -1,0 +1,24 @@
+# Kept out of the image: secrets, virtualenvs, raw downloads and caches, media, tests.
+.git
+.gitignore
+.venv
+venv
+__pycache__
+**/__pycache__
+*.pyc
+.pytest_cache
+.env
+.env.*
+!.env.example
+data/raw/
+data/cache/
+data/derived_fixture_backup/
+docs/*.mp4
+docs/*.pdf
+docs/*.zip
+tests/
+scratch/
+*.zip
+*.log
+.DS_Store
+Thumbs.db

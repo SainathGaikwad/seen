@@ -1,0 +1,749 @@
+{
+ "player_id": "c34a15e6",
+ "name": "Kavisha Dilhari",
+ "team": "Sri Lanka",
+ "candidate_id": "X-c34a15e6",
+ "pattern": "TOP_PERFORMER",
+ "headline": "Kavisha Dilhari ranked #28 of 165 players by impact in ICC Women's T20 World Cup 2026",
+ "facts": [
+  {
+   "id": "F595",
+   "type": "window_matches",
+   "text": "Kavisha Dilhari played 5 matches in ICC Women's T20 World Cup 2026",
+   "value": 5,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F596",
+   "type": "window_runs",
+   "text": "75 runs off 68 balls in ICC Women's T20 World Cup 2026",
+   "value": 75,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F597",
+   "type": "window_balls_faced",
+   "text": "balls faced in window",
+   "value": 68,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F598",
+   "type": "window_wickets",
+   "text": "5 wickets from 108 balls in ICC Women's T20 World Cup 2026",
+   "value": 5,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F599",
+   "type": "window_balls_bowled",
+   "text": "balls bowled in window",
+   "value": 108,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F600",
+   "type": "impact_rank",
+   "text": "ranked 28 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+   "value": 28,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F601",
+   "type": "impact",
+   "text": "impact score (runs + 20 x wickets)",
+   "value": 175.0,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F602",
+   "type": "strike_rate",
+   "text": "strike rate 110.3 in ICC Women's T20 World Cup 2026",
+   "value": 110.3,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F603",
+   "type": "economy",
+   "text": "economy 7.44 in ICC Women's T20 World Cup 2026",
+   "value": 7.44,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F604",
+   "type": "runs_in_match",
+   "text": "Kavisha Dilhari scored 21 off 20 balls v West Indies on 2026-06-21",
+   "value": 21,
+   "source": "cricsheet:1490693"
+  },
+  {
+   "id": "F605",
+   "type": "balls_in_match",
+   "text": "balls faced v West Indies",
+   "value": 20,
+   "source": "cricsheet:1490693"
+  },
+  {
+   "id": "F611",
+   "type": "wickets_in_match",
+   "text": "Kavisha Dilhari took 2 for 22 from 24 balls v West Indies on 2026-06-21",
+   "value": 2,
+   "source": "cricsheet:1490693"
+  },
+  {
+   "id": "F612",
+   "type": "runs_conceded_in_match",
+   "text": "runs conceded v West Indies",
+   "value": 22,
+   "source": "cricsheet:1490693"
+  },
+  {
+   "id": "F614",
+   "type": "team",
+   "text": "Kavisha Dilhari plays for Sri Lanka",
+   "value": "Sri Lanka",
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F615",
+   "type": "competition",
+   "text": "competition: ICC Women's T20 World Cup 2026",
+   "value": "ICC Women's T20 World Cup 2026",
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F616",
+   "type": "attention_views",
+   "text": "Kavisha Dilhari's Wikipedia article views during the window: 710",
+   "value": 710,
+   "source": "Wikimedia pageviews (public API)"
+  },
+  {
+   "id": "F617",
+   "type": "expected_views",
+   "text": "expected views for this level of performance (SEEN gap model estimate, rounded): 3380",
+   "value": 3380,
+   "source": "SEEN gap model (OLS on significance, market tier, prior fame)"
+  },
+  {
+   "id": "F618",
+   "type": "attention_rank",
+   "text": "attention rank in the window: 124",
+   "value": 124,
+   "source": "Wikimedia pageviews (public API)"
+  }
+ ],
+ "language": "en",
+ "generated_at": "2026-09-29T09:52:03+00:00",
+ "mode": "template",
+ "formats": {
+  "video_script": "[00:00-00:05] Kavisha Dilhari. Sri Lanka. ICC Women's T20 World Cup 2026.\n[00:05-00:20] Kavisha Dilhari ranked #28 of 165 players by impact in ICC Women's T20 World Cup 2026 [F600]\n[00:20-00:40] Kavisha Dilhari scored 21 off 20 balls v West Indies on 2026-06-21 [F604]. Kavisha Dilhari took 2 for 22 from 24 balls v West Indies on 2026-06-21 [F611].\n[00:40-00:55] Across the tournament: 75 runs off 68 balls [F596] at a strike rate of 110.3 [F602]; 5 wickets from 108 balls [F598] at an economy of 7.44 [F603].\n[00:55-01:00] Remember the name: Kavisha Dilhari. Follow her \u2014 the next match is in the app.",
+  "article": "Kavisha Dilhari ranked #28 of 165 players by impact in ICC Women's T20 World Cup 2026 [F600]\n\nKavisha Dilhari of Sri Lanka finished ICC Women's T20 World Cup 2026 ranked 28 of 165 players by impact [F600]. 75 runs off 68 balls [F596] at a strike rate of 110.3 [F602]; 5 wickets from 108 balls [F598] at an economy of 7.44 [F603].\n\nKavisha Dilhari scored 21 off 20 balls v West Indies on 2026-06-21 [F604]. Kavisha Dilhari took 2 for 22 from 24 balls v West Indies on 2026-06-21 [F611]. \n\nSource: Cricsheet ball-by-ball data (ODC-BY). Every figure above carries a fact reference.",
+  "social_posts": "Post 1: Kavisha Dilhari ranked #28 of 165 players by impact in ICC Women's T20 World Cup 2026 [F600] #SriLanka #WomensCricket\n\nPost 2: Kavisha Dilhari (Sri Lanka) \u2014 75 runs off 68 balls [F596] at a strike rate of 110.3 [F602]; 5 wickets from 108 balls [F598] at an economy of 7.44 [F603]. Ranked #28 of 165 by impact in ICC Women's T20 World Cup 2026 [F600].\n\nPost 3: Know her name: Kavisha Dilhari. Kavisha Dilhari scored 21 off 20 balls v West Indies on 2026-06-21 [F604]. Follow for the next match.",
+  "infographic": "{\n \"title\": \"Kavisha Dilhari\",\n \"subtitle\": \"Sri Lanka \\u00b7 ICC Women's T20 World Cup 2026\",\n \"headline\": \"Kavisha Dilhari ranked #28 of 165 players by impact in ICC Women's T20 World Cup 2026\",\n \"stats\": [\n  {\n   \"label\": \"Runs\",\n   \"value\": 75,\n   \"fact\": \"F596\"\n  },\n  {\n   \"label\": \"Wickets\",\n   \"value\": 5,\n   \"fact\": \"F598\"\n  },\n  {\n   \"label\": \"Strike rate\",\n   \"value\": 110.3,\n   \"fact\": \"F602\"\n  },\n  {\n   \"label\": \"Economy\",\n   \"value\": 7.44,\n   \"fact\": \"F603\"\n  },\n  {\n   \"label\": \"Impact rank\",\n   \"value\": 28,\n   \"fact\": \"F600\"\n  }\n ],\n \"footer\": \"Source: Cricsheet ball-by-ball data (ODC-BY) \\u00b7 SEEN Unseen XI\"\n}",
+  "creator_brief": "CREATOR BRIEF \u2014 Kavisha Dilhari (Sri Lanka)\n\nAngles:\n  1. Kavisha Dilhari ranked #28 of 165 players by impact in ICC Women's T20 World Cup 2026\n  2. The match that made it: Kavisha Dilhari scored 21 off 20 balls v West Indies on 2026-06-21 [F604].\n\nVerified facts (use only these numbers, keep the [F#] tags in your notes):\n  [F595] Kavisha Dilhari played 5 matches in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F596] 75 runs off 68 balls in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F597] balls faced in window (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F598] 5 wickets from 108 balls in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F599] balls bowled in window (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F600] ranked 28 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F601] impact score (runs + 20 x wickets) (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F602] strike rate 110.3 in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F603] economy 7.44 in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F604] Kavisha Dilhari scored 21 off 20 balls v West Indies on 2026-06-21 (source: cricsheet:1490693)\n  [F605] balls faced v West Indies (source: cricsheet:1490693)\n  [F611] Kavisha Dilhari took 2 for 22 from 24 balls v West Indies on 2026-06-21 (source: cricsheet:1490693)\n--- guidance (not claims) ---\nDo: name her, name the country, say the number with its context, link the official highlight.\nDon't: speculate about fitness, selection or anything personal; nothing about odds or bookmakers.\nAssets: infographic spec (JSON), sixty-second script, quiz. Clip slot: ICC-cleared highlight required (not included).\nHashtags: #SriLanka #WomensCricket #ICCWomensT20WorldCup2026\nSponsor tag: [available slot \u2014 presented by ...]\nAttribution: submit your post link in the SEEN creator page.",
+  "commentator_note": "COMMENTATOR NOTE \u2014 Kavisha Dilhari (Sri Lanka)\nPronunciation: Kavisha Dilhari (confirm with team media manager)\n\n- 75 runs off 68 balls in ICC Women's T20 World Cup 2026 [F596]\n- 5 wickets from 108 balls in ICC Women's T20 World Cup 2026 [F598]\n- ranked 28 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026 [F600]\n- strike rate 110.3 in ICC Women's T20 World Cup 2026 [F602]\n- economy 7.44 in ICC Women's T20 World Cup 2026 [F603]\n- Kavisha Dilhari scored 21 off 20 balls v West Indies on 2026-06-21 [F604]\n- Kavisha Dilhari took 2 for 22 from 24 balls v West Indies on 2026-06-21 [F611]\n--- guidance (not claims) ---\nMilestone watch: check career totals before the next match (graph coverage: the formats loaded into SEEN).",
+  "quiz": "[\n {\n  \"question\": \"How many runs did Kavisha Dilhari score in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   72,\n   75,\n   77,\n   88\n  ],\n  \"answer\": 75,\n  \"fact\": \"F596\"\n },\n {\n  \"question\": \"How many wickets did Kavisha Dilhari take in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   0,\n   5,\n   10,\n   19\n  ],\n  \"answer\": 5,\n  \"fact\": \"F598\"\n },\n {\n  \"question\": \"Where did Kavisha Dilhari rank by impact among all players in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   26,\n   28,\n   36,\n   53\n  ],\n  \"answer\": 28,\n  \"fact\": \"F600\"\n }\n]",
+  "sponsor_hook": "Kavisha Dilhari (Sri Lanka): Kavisha Dilhari ranked #28 of 165 players by impact in ICC Women's T20 World Cup 2026 [F600] Attention gap: 710 article views in the window [F616] against roughly 3,380 expected for this level of performance [F617]. An early-stage partnership opportunity with measurable upside; activation ideas: 'Unseen XI presented by', athlete story series, local-language content."
+ },
+ "checks": {
+  "video_script": {
+   "passed": true,
+   "summary": "15/15 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "28",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "21",
+     "status": "matched",
+     "fact": "F604"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F605"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F611"
+    },
+    {
+     "text": "22",
+     "status": "matched",
+     "fact": "F612"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F611"
+    },
+    {
+     "text": "75",
+     "status": "matched",
+     "fact": "F596"
+    },
+    {
+     "text": "68",
+     "status": "matched",
+     "fact": "F597"
+    },
+    {
+     "text": "110.3",
+     "status": "matched",
+     "fact": "F602"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F598"
+    },
+    {
+     "text": "108",
+     "status": "matched",
+     "fact": "F599"
+    },
+    {
+     "text": "7.44",
+     "status": "matched",
+     "fact": "F603"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "social_posts": {
+   "passed": true,
+   "summary": "14/14 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "28",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "75",
+     "status": "matched",
+     "fact": "F596"
+    },
+    {
+     "text": "68",
+     "status": "matched",
+     "fact": "F597"
+    },
+    {
+     "text": "110.3",
+     "status": "matched",
+     "fact": "F602"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F598"
+    },
+    {
+     "text": "108",
+     "status": "matched",
+     "fact": "F599"
+    },
+    {
+     "text": "7.44",
+     "status": "matched",
+     "fact": "F603"
+    },
+    {
+     "text": "28",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "21",
+     "status": "matched",
+     "fact": "F604"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F605"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "article": {
+   "passed": true,
+   "summary": "17/17 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "28",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "28",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "75",
+     "status": "matched",
+     "fact": "F596"
+    },
+    {
+     "text": "68",
+     "status": "matched",
+     "fact": "F597"
+    },
+    {
+     "text": "110.3",
+     "status": "matched",
+     "fact": "F602"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F598"
+    },
+    {
+     "text": "108",
+     "status": "matched",
+     "fact": "F599"
+    },
+    {
+     "text": "7.44",
+     "status": "matched",
+     "fact": "F603"
+    },
+    {
+     "text": "21",
+     "status": "matched",
+     "fact": "F604"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F605"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F611"
+    },
+    {
+     "text": "22",
+     "status": "matched",
+     "fact": "F612"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F611"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "infographic": {
+   "passed": true,
+   "summary": "5/5 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "75",
+     "status": "matched",
+     "fact": "F596"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F598"
+    },
+    {
+     "text": "110.3",
+     "status": "matched",
+     "fact": "F602"
+    },
+    {
+     "text": "7.44",
+     "status": "matched",
+     "fact": "F603"
+    },
+    {
+     "text": "28",
+     "status": "matched",
+     "fact": "F600"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "creator_brief": {
+   "passed": true,
+   "summary": "27/27 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "28",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "21",
+     "status": "matched",
+     "fact": "F604"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F605"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F598"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "75",
+     "status": "matched",
+     "fact": "F596"
+    },
+    {
+     "text": "68",
+     "status": "matched",
+     "fact": "F597"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F598"
+    },
+    {
+     "text": "108",
+     "status": "matched",
+     "fact": "F599"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "28",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F605"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F605"
+    },
+    {
+     "text": "110.3",
+     "status": "matched",
+     "fact": "F602"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "7.44",
+     "status": "matched",
+     "fact": "F603"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "21",
+     "status": "matched",
+     "fact": "F604"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F605"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F611"
+    },
+    {
+     "text": "22",
+     "status": "matched",
+     "fact": "F612"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F611"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "commentator_note": {
+   "passed": true,
+   "summary": "19/19 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "75",
+     "status": "matched",
+     "fact": "F596"
+    },
+    {
+     "text": "68",
+     "status": "matched",
+     "fact": "F597"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F598"
+    },
+    {
+     "text": "108",
+     "status": "matched",
+     "fact": "F599"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "28",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F605"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "110.3",
+     "status": "matched",
+     "fact": "F602"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "7.44",
+     "status": "matched",
+     "fact": "F603"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "21",
+     "status": "matched",
+     "fact": "F604"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F605"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F611"
+    },
+    {
+     "text": "22",
+     "status": "matched",
+     "fact": "F612"
+    },
+    {
+     "text": "24",
+     "status": "matched",
+     "fact": "F611"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "quiz": {
+   "passed": true,
+   "summary": "3/3 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "75",
+     "status": "matched",
+     "fact": "F596"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F598"
+    },
+    {
+     "text": "28",
+     "status": "matched",
+     "fact": "F600"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "sponsor_hook": {
+   "passed": true,
+   "summary": "5/5 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "28",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F600"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F595"
+    },
+    {
+     "text": "710",
+     "status": "matched",
+     "fact": "F616"
+    },
+    {
+     "text": "3,380",
+     "status": "matched",
+     "fact": "F617"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  }
+ },
+ "gap_summary": {
+  "impact_rank": 28,
+  "attention_rank": 124,
+  "gap_rank": 29,
+  "views_window_total": 710,
+  "expected_views": 3377.0,
+  "no_article": false,
+  "gap_confidence": "high"
+ }
+}

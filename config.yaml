@@ -1,0 +1,83 @@
+# SEEN configuration. Everything here is an explicit, editable assumption.
+
+paths:
+  db: data/seen.duckdb
+  raw: data/raw
+  cache: data/cache
+  derived: data/derived
+  manual: data/manual          # consent.csv, featured_log.csv, market_tiers.csv
+
+# Cricsheet downloads (https://cricsheet.org/downloads/). Codes that do not exist are skipped with a warning.
+cricsheet:
+  base_url: https://cricsheet.org/downloads/
+  register_url: https://cricsheet.org/register/people.csv
+  competitions:
+    - t20s_female          # all women's T20 internationals (includes ICC Women's T20 World Cups)
+    - odis_female          # all women's ODIs (includes ICC Women's Cricket World Cups)
+    - wpl                  # Women's Premier League
+    - wbb                  # Women's Big Bash League
+    - hnd_female           # The Hundred (women)  — verify code on the downloads page
+  gender: female
+
+# Analysis window: either an event (competition name + season) or rolling days ending at the latest match.
+window:
+  kind: event                # event | days
+  competition: "ICC Women's T20 World Cup"
+  season: "2026"
+  days: 28
+  baseline_days: 60          # attention baseline before the window
+
+# Significance weights (sum to 1). Explained on every story-opportunity screen.
+significance:
+  rarity: 0.35
+  stakes: 0.20
+  magnitude: 0.30
+  arc: 0.15
+
+# Attention signals and languages (Wikipedia editions) to fetch
+attention:
+  editions: [en, hi, ta, bn, ur, si, mr, te]
+  gdelt: false               # optional news-volume signal; GDELT rate-limits (~1 request / 5 s), so a full run adds ~15 min
+  min_days_for_baseline: 14
+
+# Market model: tiers are a documented proxy for audience size (cricket-following population).
+markets:
+  tier3: [India]
+  tier2: [England, Australia]
+  tier1_default: true        # every other team = tier 1
+
+# Historical competition names unified so "first-ever" patterns look at every edition in the data
+competition_aliases:
+  "ICC Women's T20 World Cup": ["ICC Women's World Twenty20", "Women's World T20", "ICC Women's World T20"]
+  "ICC Women's Cricket World Cup": ["ICC Women's World Cup", "Women's World Cup", "ICC Women's Cricket World Cup"]
+
+# Full Members (for the associate-upset pattern)
+full_members: [Afghanistan, Australia, Bangladesh, England, India, Ireland, New Zealand, Pakistan, South Africa, Sri Lanka, West Indies, Zimbabwe]
+big_three: [India, England, Australia]
+
+# Unseen XI selection constraints
+unseen_xi:
+  size: 11
+  max_per_country: 3
+  min_outside_big_three: 3
+  min_batters: 4
+  min_bowlers: 4
+  cooldown_days: 14          # do not re-feature within this many days
+  max_impact_rank: 60        # only performers in (roughly) the top third of the window qualify
+  max_no_article: 4          # cap on athletes with no Wikipedia article (their gap is not comparable)
+  min_matches: 2
+
+# Story kit localisation
+localisation:
+  languages: [hi, ur]        # chosen by market gap in the demo; edit freely
+  language_names: {hi: Hindi, ur: Urdu, ta: Tamil, bn: Bengali, si: Sinhala, mr: Marathi, te: Telugu, ne: Nepali, th: Thai, en: English}
+  tts: false                 # set true with gTTS installed for demo audio
+
+# Fan feed
+fan_feed:
+  exploration_slots: 2       # cards reserved for under-seen athletes outside the fan's stated interests
+
+# LLM usage (optional). Free tiers allow ~20 requests/day/model; a full run needs 3 calls per kit (prose + 2 languages).
+llm:
+  max_calls_per_run: 40            # a run needs 33 served calls (11 kits x 3); a free-tier key stops itself at its daily quota anyway
+  priority_players: [Hayley Matthews, Orla Prendergast, Kathryn Bryce]   # get the LLM budget first (demo athletes)

@@ -1,0 +1,4280 @@
+[
+ {
+  "candidate_id": "C1",
+  "player_id": "d32cf49a",
+  "player_name": "Hayley Matthews",
+  "team": "West Indies",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Hayley Matthews ranked #1 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 0,
+  "stakes": 0.9,
+  "magnitude": 1.0,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F1",
+    "type": "window_matches",
+    "text": "Hayley Matthews played 6 matches in ICC Women's T20 World Cup 2026",
+    "value": 6,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F2",
+    "type": "window_runs",
+    "text": "145 runs off 146 balls in ICC Women's T20 World Cup 2026",
+    "value": 145,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F3",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 146,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F4",
+    "type": "window_wickets",
+    "text": "10 wickets from 138 balls in ICC Women's T20 World Cup 2026",
+    "value": 10,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F5",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 138,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F6",
+    "type": "impact_rank",
+    "text": "ranked 1 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 1,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F7",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 345.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F8",
+    "type": "strike_rate",
+    "text": "strike rate 99.3 in ICC Women's T20 World Cup 2026",
+    "value": 99.3,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F9",
+    "type": "economy",
+    "text": "economy 6.3 in ICC Women's T20 World Cup 2026",
+    "value": 6.3,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F10",
+    "type": "runs_in_match",
+    "text": "Hayley Matthews scored 48 off 37 balls v New Zealand on 2026-06-13",
+    "value": 48,
+    "source": "cricsheet:1490680"
+   },
+   {
+    "id": "F11",
+    "type": "balls_in_match",
+    "text": "balls faced v New Zealand",
+    "value": 37,
+    "source": "cricsheet:1490680"
+   },
+   {
+    "id": "F17",
+    "type": "wickets_in_match",
+    "text": "Hayley Matthews took 3 for 15 from 24 balls v Sri Lanka on 2026-06-21",
+    "value": 3,
+    "source": "cricsheet:1490693"
+   },
+   {
+    "id": "F18",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Sri Lanka",
+    "value": 15,
+    "source": "cricsheet:1490693"
+   },
+   {
+    "id": "F20",
+    "type": "team",
+    "text": "Hayley Matthews plays for West Indies",
+    "value": "West Indies",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F21",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C2",
+  "player_id": "ea9c54de",
+  "player_name": "Fatima Sana",
+  "team": "Pakistan",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Fatima Sana ranked #2 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 1,
+  "stakes": 0.9,
+  "magnitude": 0.8639610839070241,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F22",
+    "type": "window_matches",
+    "text": "Fatima Sana played 5 matches in ICC Women's T20 World Cup 2026",
+    "value": 5,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F23",
+    "type": "window_runs",
+    "text": "85 runs off 77 balls in ICC Women's T20 World Cup 2026",
+    "value": 85,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F24",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 77,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F25",
+    "type": "window_wickets",
+    "text": "11 wickets from 107 balls in ICC Women's T20 World Cup 2026",
+    "value": 11,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F26",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 107,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F27",
+    "type": "impact_rank",
+    "text": "ranked 2 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 2,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F28",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 305.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F29",
+    "type": "strike_rate",
+    "text": "strike rate 110.4 in ICC Women's T20 World Cup 2026",
+    "value": 110.4,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F30",
+    "type": "economy",
+    "text": "economy 6.95 in ICC Women's T20 World Cup 2026",
+    "value": 6.95,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F31",
+    "type": "runs_in_match",
+    "text": "Fatima Sana scored 55 off 38 balls v South Africa on 2026-06-17",
+    "value": 55,
+    "source": "cricsheet:1490687"
+   },
+   {
+    "id": "F32",
+    "type": "balls_in_match",
+    "text": "balls faced v South Africa",
+    "value": 38,
+    "source": "cricsheet:1490687"
+   },
+   {
+    "id": "F38",
+    "type": "wickets_in_match",
+    "text": "Fatima Sana took 3 for 12 from 18 balls v Netherlands on 2026-06-27",
+    "value": 3,
+    "source": "cricsheet:1490702"
+   },
+   {
+    "id": "F39",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Netherlands",
+    "value": 12,
+    "source": "cricsheet:1490702"
+   },
+   {
+    "id": "F41",
+    "type": "team",
+    "text": "Fatima Sana plays for Pakistan",
+    "value": "Pakistan",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F42",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C3",
+  "player_id": "a139c379",
+  "player_name": "Danni Wyatt-Hodge",
+  "team": "England",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Danni Wyatt-Hodge ranked #3 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 2,
+  "stakes": 0.9,
+  "magnitude": 0.8514946581226202,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F43",
+    "type": "window_matches",
+    "text": "Danni Wyatt-Hodge played 7 matches in ICC Women's T20 World Cup 2026",
+    "value": 7,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F44",
+    "type": "window_runs",
+    "text": "302 runs off 202 balls in ICC Women's T20 World Cup 2026",
+    "value": 302,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F45",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 202,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F46",
+    "type": "window_wickets",
+    "text": "0 wickets from 0 balls in ICC Women's T20 World Cup 2026",
+    "value": 0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F47",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F48",
+    "type": "impact_rank",
+    "text": "ranked 3 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 3,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F49",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 302.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F50",
+    "type": "strike_rate",
+    "text": "strike rate 149.5 in ICC Women's T20 World Cup 2026",
+    "value": 149.5,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F51",
+    "type": "runs_in_match",
+    "text": "Danni Wyatt-Hodge scored 105 off 62 balls v Sri Lanka on 2026-06-12",
+    "value": 105,
+    "source": "cricsheet:1490677"
+   },
+   {
+    "id": "F52",
+    "type": "balls_in_match",
+    "text": "balls faced v Sri Lanka",
+    "value": 62,
+    "source": "cricsheet:1490677"
+   },
+   {
+    "id": "F54",
+    "type": "team",
+    "text": "Danni Wyatt-Hodge plays for England",
+    "value": "England",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F55",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C4",
+  "player_id": "d8f20ba5",
+  "player_name": "Orla Prendergast",
+  "team": "Ireland",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Orla Prendergast ranked #4 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 3,
+  "stakes": 0.9,
+  "magnitude": 0.8473391828611522,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F56",
+    "type": "window_matches",
+    "text": "Orla Prendergast played 5 matches in ICC Women's T20 World Cup 2026",
+    "value": 5,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F57",
+    "type": "window_runs",
+    "text": "181 runs off 144 balls in ICC Women's T20 World Cup 2026",
+    "value": 181,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F58",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 144,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F59",
+    "type": "window_wickets",
+    "text": "6 wickets from 120 balls in ICC Women's T20 World Cup 2026",
+    "value": 6,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F60",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 120,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F61",
+    "type": "impact_rank",
+    "text": "ranked 4 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 4,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F62",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 301.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F63",
+    "type": "strike_rate",
+    "text": "strike rate 125.7 in ICC Women's T20 World Cup 2026",
+    "value": 125.7,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F64",
+    "type": "economy",
+    "text": "economy 6.1 in ICC Women's T20 World Cup 2026",
+    "value": 6.1,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F65",
+    "type": "runs_in_match",
+    "text": "Orla Prendergast scored 63 off 44 balls v West Indies on 2026-06-27",
+    "value": 63,
+    "source": "cricsheet:1490703"
+   },
+   {
+    "id": "F66",
+    "type": "balls_in_match",
+    "text": "balls faced v West Indies",
+    "value": 44,
+    "source": "cricsheet:1490703"
+   },
+   {
+    "id": "F72",
+    "type": "wickets_in_match",
+    "text": "Orla Prendergast took 2 for 17 from 24 balls v England on 2026-06-16",
+    "value": 2,
+    "source": "cricsheet:1490684"
+   },
+   {
+    "id": "F73",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v England",
+    "value": 17,
+    "source": "cricsheet:1490684"
+   },
+   {
+    "id": "F75",
+    "type": "team",
+    "text": "Orla Prendergast plays for Ireland",
+    "value": "Ireland",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F76",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C5",
+  "player_id": "63e3b6b3",
+  "player_name": "Marizanne Kapp",
+  "team": "South Africa",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Marizanne Kapp ranked #5 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 4,
+  "stakes": 0.9,
+  "magnitude": 0.7766961034161964,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F77",
+    "type": "window_matches",
+    "text": "Marizanne Kapp played 6 matches in ICC Women's T20 World Cup 2026",
+    "value": 6,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F78",
+    "type": "window_runs",
+    "text": "124 runs off 87 balls in ICC Women's T20 World Cup 2026",
+    "value": 124,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F79",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 87,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F80",
+    "type": "window_wickets",
+    "text": "8 wickets from 138 balls in ICC Women's T20 World Cup 2026",
+    "value": 8,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F81",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 138,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F82",
+    "type": "impact_rank",
+    "text": "ranked 5 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 5,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F83",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 284.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F84",
+    "type": "strike_rate",
+    "text": "strike rate 142.5 in ICC Women's T20 World Cup 2026",
+    "value": 142.5,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F85",
+    "type": "economy",
+    "text": "economy 5.0 in ICC Women's T20 World Cup 2026",
+    "value": 5.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F86",
+    "type": "runs_in_match",
+    "text": "Marizanne Kapp scored 81 off 45 balls v India on 2026-06-21",
+    "value": 81,
+    "source": "cricsheet:1490694"
+   },
+   {
+    "id": "F87",
+    "type": "balls_in_match",
+    "text": "balls faced v India",
+    "value": 45,
+    "source": "cricsheet:1490694"
+   },
+   {
+    "id": "F93",
+    "type": "wickets_in_match",
+    "text": "Marizanne Kapp took 3 for 23 from 24 balls v Pakistan on 2026-06-17",
+    "value": 3,
+    "source": "cricsheet:1490687"
+   },
+   {
+    "id": "F94",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Pakistan",
+    "value": 23,
+    "source": "cricsheet:1490687"
+   },
+   {
+    "id": "F96",
+    "type": "team",
+    "text": "Marizanne Kapp plays for South Africa",
+    "value": "South Africa",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F97",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C6",
+  "player_id": "583ce32c",
+  "player_name": "Shree Charani",
+  "team": "India",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Shree Charani ranked #6 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 5,
+  "stakes": 0.9,
+  "magnitude": 0.7600742023703245,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F98",
+    "type": "window_matches",
+    "text": "Shree Charani played 5 matches in ICC Women's T20 World Cup 2026",
+    "value": 5,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F99",
+    "type": "window_runs",
+    "text": "0 runs off 0 balls in ICC Women's T20 World Cup 2026",
+    "value": 0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F100",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F101",
+    "type": "window_wickets",
+    "text": "14 wickets from 120 balls in ICC Women's T20 World Cup 2026",
+    "value": 14,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F102",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 120,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F103",
+    "type": "impact_rank",
+    "text": "ranked 6 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 6,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F104",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 280.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F105",
+    "type": "economy",
+    "text": "economy 5.85 in ICC Women's T20 World Cup 2026",
+    "value": 5.85,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F106",
+    "type": "wickets_in_match",
+    "text": "Shree Charani took 4 for 19 from 24 balls v Netherlands on 2026-06-17",
+    "value": 4,
+    "source": "cricsheet:1490686"
+   },
+   {
+    "id": "F107",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Netherlands",
+    "value": 19,
+    "source": "cricsheet:1490686"
+   },
+   {
+    "id": "F109",
+    "type": "team",
+    "text": "Shree Charani plays for India",
+    "value": "India",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F110",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C7",
+  "player_id": "d8f59089",
+  "player_name": "Shafali Verma",
+  "team": "India",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Shafali Verma ranked #7 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 6,
+  "stakes": 0.9,
+  "magnitude": 0.7559187271088567,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F111",
+    "type": "window_matches",
+    "text": "Shafali Verma played 5 matches in ICC Women's T20 World Cup 2026",
+    "value": 5,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F112",
+    "type": "window_runs",
+    "text": "179 runs off 118 balls in ICC Women's T20 World Cup 2026",
+    "value": 179,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F113",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 118,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F114",
+    "type": "window_wickets",
+    "text": "5 wickets from 98 balls in ICC Women's T20 World Cup 2026",
+    "value": 5,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F115",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 98,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F116",
+    "type": "impact_rank",
+    "text": "ranked 7 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 7,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F117",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 279.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F118",
+    "type": "strike_rate",
+    "text": "strike rate 151.7 in ICC Women's T20 World Cup 2026",
+    "value": 151.7,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F119",
+    "type": "economy",
+    "text": "economy 6.37 in ICC Women's T20 World Cup 2026",
+    "value": 6.37,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F120",
+    "type": "runs_in_match",
+    "text": "Shafali Verma scored 55 off 38 balls v Netherlands on 2026-06-17",
+    "value": 55,
+    "source": "cricsheet:1490686"
+   },
+   {
+    "id": "F121",
+    "type": "balls_in_match",
+    "text": "balls faced v Netherlands",
+    "value": 38,
+    "source": "cricsheet:1490686"
+   },
+   {
+    "id": "F127",
+    "type": "wickets_in_match",
+    "text": "Shafali Verma took 3 for 20 from 20 balls v Netherlands on 2026-06-17",
+    "value": 3,
+    "source": "cricsheet:1490686"
+   },
+   {
+    "id": "F128",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Netherlands",
+    "value": 20,
+    "source": "cricsheet:1490686"
+   },
+   {
+    "id": "F130",
+    "type": "team",
+    "text": "Shafali Verma plays for India",
+    "value": "India",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F131",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C8",
+  "player_id": "be150fc8",
+  "player_name": "Ellyse Perry",
+  "team": "Australia",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Ellyse Perry ranked #8 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 7,
+  "stakes": 0.9,
+  "magnitude": 0.7517632518473887,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F132",
+    "type": "window_matches",
+    "text": "Ellyse Perry played 7 matches in ICC Women's T20 World Cup 2026",
+    "value": 7,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F133",
+    "type": "window_runs",
+    "text": "198 runs off 149 balls in ICC Women's T20 World Cup 2026",
+    "value": 198,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F134",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 149,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F135",
+    "type": "window_wickets",
+    "text": "4 wickets from 30 balls in ICC Women's T20 World Cup 2026",
+    "value": 4,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F136",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 30,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F137",
+    "type": "impact_rank",
+    "text": "ranked 8 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 8,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F138",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 278.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F139",
+    "type": "strike_rate",
+    "text": "strike rate 132.9 in ICC Women's T20 World Cup 2026",
+    "value": 132.9,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F140",
+    "type": "economy",
+    "text": "economy 6.0 in ICC Women's T20 World Cup 2026",
+    "value": 6.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F141",
+    "type": "runs_in_match",
+    "text": "Ellyse Perry scored 71 off 48 balls v Pakistan on 2026-06-23",
+    "value": 71,
+    "source": "cricsheet:1490697"
+   },
+   {
+    "id": "F142",
+    "type": "balls_in_match",
+    "text": "balls faced v Pakistan",
+    "value": 48,
+    "source": "cricsheet:1490697"
+   },
+   {
+    "id": "F148",
+    "type": "wickets_in_match",
+    "text": "Ellyse Perry took 2 for 9 from 6 balls v Pakistan on 2026-06-23",
+    "value": 2,
+    "source": "cricsheet:1490697"
+   },
+   {
+    "id": "F149",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Pakistan",
+    "value": 9,
+    "source": "cricsheet:1490697"
+   },
+   {
+    "id": "F151",
+    "type": "team",
+    "text": "Ellyse Perry plays for Australia",
+    "value": "Australia",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F152",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C9",
+  "player_id": "f13d3eba",
+  "player_name": "Kathryn Bryce",
+  "team": "Scotland",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Kathryn Bryce ranked #9 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 8,
+  "stakes": 0.9,
+  "magnitude": 0.6520318455721572,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F153",
+    "type": "window_matches",
+    "text": "Kathryn Bryce played 5 matches in ICC Women's T20 World Cup 2026",
+    "value": 5,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F154",
+    "type": "window_runs",
+    "text": "94 runs off 80 balls in ICC Women's T20 World Cup 2026",
+    "value": 94,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F155",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 80,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F156",
+    "type": "window_wickets",
+    "text": "8 wickets from 111 balls in ICC Women's T20 World Cup 2026",
+    "value": 8,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F157",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 111,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F158",
+    "type": "impact_rank",
+    "text": "ranked 9 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 9,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F159",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 254.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F160",
+    "type": "strike_rate",
+    "text": "strike rate 117.5 in ICC Women's T20 World Cup 2026",
+    "value": 117.5,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F161",
+    "type": "economy",
+    "text": "economy 7.14 in ICC Women's T20 World Cup 2026",
+    "value": 7.14,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F162",
+    "type": "runs_in_match",
+    "text": "Kathryn Bryce scored 60 off 39 balls v Ireland on 2026-06-13",
+    "value": 60,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F163",
+    "type": "balls_in_match",
+    "text": "balls faced v Ireland",
+    "value": 39,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F169",
+    "type": "wickets_in_match",
+    "text": "Kathryn Bryce took 2 for 13 from 20 balls v New Zealand on 2026-06-23",
+    "value": 2,
+    "source": "cricsheet:1490695"
+   },
+   {
+    "id": "F170",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v New Zealand",
+    "value": 13,
+    "source": "cricsheet:1490695"
+   },
+   {
+    "id": "F172",
+    "type": "team",
+    "text": "Kathryn Bryce plays for Scotland",
+    "value": "Scotland",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F173",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C10",
+  "player_id": "52d1dbc8",
+  "player_name": "Beth Mooney",
+  "team": "Australia",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Beth Mooney ranked #10 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 9,
+  "stakes": 0.9,
+  "magnitude": 0.5855442413886696,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F174",
+    "type": "window_matches",
+    "text": "Beth Mooney played 7 matches in ICC Women's T20 World Cup 2026",
+    "value": 7,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F175",
+    "type": "window_runs",
+    "text": "238 runs off 167 balls in ICC Women's T20 World Cup 2026",
+    "value": 238,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F176",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 167,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F177",
+    "type": "window_wickets",
+    "text": "0 wickets from 0 balls in ICC Women's T20 World Cup 2026",
+    "value": 0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F178",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F179",
+    "type": "impact_rank",
+    "text": "ranked 10 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 10,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F180",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 238.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F181",
+    "type": "strike_rate",
+    "text": "strike rate 142.5 in ICC Women's T20 World Cup 2026",
+    "value": 142.5,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F182",
+    "type": "runs_in_match",
+    "text": "Beth Mooney scored 74 off 42 balls v Netherlands on 2026-06-20",
+    "value": 74,
+    "source": "cricsheet:1490690"
+   },
+   {
+    "id": "F183",
+    "type": "balls_in_match",
+    "text": "balls faced v Netherlands",
+    "value": 42,
+    "source": "cricsheet:1490690"
+   },
+   {
+    "id": "F185",
+    "type": "team",
+    "text": "Beth Mooney plays for Australia",
+    "value": "Australia",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F186",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C11",
+  "player_id": "ac56b5a7",
+  "player_name": "Chamari Athapaththu",
+  "team": "Sri Lanka",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Chamari Athapaththu ranked #11 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 10,
+  "stakes": 0.9,
+  "magnitude": 0.5606113898198617,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F187",
+    "type": "window_matches",
+    "text": "Chamari Athapaththu played 5 matches in ICC Women's T20 World Cup 2026",
+    "value": 5,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F188",
+    "type": "window_runs",
+    "text": "172 runs off 109 balls in ICC Women's T20 World Cup 2026",
+    "value": 172,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F189",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 109,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F190",
+    "type": "window_wickets",
+    "text": "3 wickets from 90 balls in ICC Women's T20 World Cup 2026",
+    "value": 3,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F191",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 90,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F192",
+    "type": "impact_rank",
+    "text": "ranked 11 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 11,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F193",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 232.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F194",
+    "type": "strike_rate",
+    "text": "strike rate 157.8 in ICC Women's T20 World Cup 2026",
+    "value": 157.8,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F195",
+    "type": "economy",
+    "text": "economy 7.87 in ICC Women's T20 World Cup 2026",
+    "value": 7.87,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F196",
+    "type": "runs_in_match",
+    "text": "Chamari Athapaththu scored 106 off 61 balls v Ireland on 2026-06-23",
+    "value": 106,
+    "source": "cricsheet:1490696"
+   },
+   {
+    "id": "F197",
+    "type": "balls_in_match",
+    "text": "balls faced v Ireland",
+    "value": 61,
+    "source": "cricsheet:1490696"
+   },
+   {
+    "id": "F203",
+    "type": "wickets_in_match",
+    "text": "Chamari Athapaththu took 1 for 13 from 18 balls v West Indies on 2026-06-21",
+    "value": 1,
+    "source": "cricsheet:1490693"
+   },
+   {
+    "id": "F204",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v West Indies",
+    "value": 13,
+    "source": "cricsheet:1490693"
+   },
+   {
+    "id": "F206",
+    "type": "team",
+    "text": "Chamari Athapaththu plays for Sri Lanka",
+    "value": "Sri Lanka",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F207",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C12",
+  "player_id": "99e23670",
+  "player_name": "Sophie Molineux",
+  "team": "Australia",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Sophie Molineux ranked #12 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 11,
+  "stakes": 0.9,
+  "magnitude": 0.5606113898198617,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F208",
+    "type": "window_matches",
+    "text": "Sophie Molineux played 7 matches in ICC Women's T20 World Cup 2026",
+    "value": 7,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F209",
+    "type": "window_runs",
+    "text": "12 runs off 6 balls in ICC Women's T20 World Cup 2026",
+    "value": 12,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F210",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 6,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F211",
+    "type": "window_wickets",
+    "text": "11 wickets from 144 balls in ICC Women's T20 World Cup 2026",
+    "value": 11,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F212",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 144,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F213",
+    "type": "impact_rank",
+    "text": "ranked 12 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 12,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F214",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 232.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F215",
+    "type": "strike_rate",
+    "text": "strike rate 200.0 in ICC Women's T20 World Cup 2026",
+    "value": 200.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F216",
+    "type": "economy",
+    "text": "economy 6.75 in ICC Women's T20 World Cup 2026",
+    "value": 6.75,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F217",
+    "type": "runs_in_match",
+    "text": "Sophie Molineux scored 7 off 3 balls v Netherlands on 2026-06-20",
+    "value": 7,
+    "source": "cricsheet:1490690"
+   },
+   {
+    "id": "F218",
+    "type": "balls_in_match",
+    "text": "balls faced v Netherlands",
+    "value": 3,
+    "source": "cricsheet:1490690"
+   },
+   {
+    "id": "F224",
+    "type": "wickets_in_match",
+    "text": "Sophie Molineux took 2 for 6 from 12 balls v Pakistan on 2026-06-23",
+    "value": 2,
+    "source": "cricsheet:1490697"
+   },
+   {
+    "id": "F225",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Pakistan",
+    "value": 6,
+    "source": "cricsheet:1490697"
+   },
+   {
+    "id": "F227",
+    "type": "team",
+    "text": "Sophie Molineux plays for Australia",
+    "value": "Australia",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F228",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C13",
+  "player_id": "abc9f8a4",
+  "player_name": "Freya Kemp",
+  "team": "England",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Freya Kemp ranked #13 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 12,
+  "stakes": 0.9,
+  "magnitude": 0.5523004392969257,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F229",
+    "type": "window_matches",
+    "text": "Freya Kemp played 7 matches in ICC Women's T20 World Cup 2026",
+    "value": 7,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F230",
+    "type": "window_runs",
+    "text": "90 runs off 57 balls in ICC Women's T20 World Cup 2026",
+    "value": 90,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F231",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 57,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F232",
+    "type": "window_wickets",
+    "text": "7 wickets from 102 balls in ICC Women's T20 World Cup 2026",
+    "value": 7,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F233",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 102,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F234",
+    "type": "impact_rank",
+    "text": "ranked 13 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 13,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F235",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 230.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F236",
+    "type": "strike_rate",
+    "text": "strike rate 157.9 in ICC Women's T20 World Cup 2026",
+    "value": 157.9,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F237",
+    "type": "economy",
+    "text": "economy 7.18 in ICC Women's T20 World Cup 2026",
+    "value": 7.18,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F238",
+    "type": "runs_in_match",
+    "text": "Freya Kemp scored 44 off 28 balls v Australia on 2026-07-05",
+    "value": 44,
+    "source": "cricsheet:1490709"
+   },
+   {
+    "id": "F239",
+    "type": "balls_in_match",
+    "text": "balls faced v Australia",
+    "value": 28,
+    "source": "cricsheet:1490709"
+   },
+   {
+    "id": "F243",
+    "type": "wickets_in_match",
+    "text": "Freya Kemp took 4 for 22 from 24 balls v Sri Lanka on 2026-06-12",
+    "value": 4,
+    "source": "cricsheet:1490677"
+   },
+   {
+    "id": "F244",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Sri Lanka",
+    "value": 22,
+    "source": "cricsheet:1490677"
+   },
+   {
+    "id": "F246",
+    "type": "team",
+    "text": "Freya Kemp plays for England",
+    "value": "England",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F247",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C14",
+  "player_id": "f3a18a0c",
+  "player_name": "Nat Sciver-Brunt",
+  "team": "England",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Nat Sciver-Brunt ranked #14 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 13,
+  "stakes": 0.9,
+  "magnitude": 0.5398340135125218,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F248",
+    "type": "window_matches",
+    "text": "Nat Sciver-Brunt played 4 matches in ICC Women's T20 World Cup 2026",
+    "value": 4,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F249",
+    "type": "window_runs",
+    "text": "227 runs off 159 balls in ICC Women's T20 World Cup 2026",
+    "value": 227,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F250",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 159,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F251",
+    "type": "window_wickets",
+    "text": "0 wickets from 0 balls in ICC Women's T20 World Cup 2026",
+    "value": 0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F252",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F253",
+    "type": "impact_rank",
+    "text": "ranked 14 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 14,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F254",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 227.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F255",
+    "type": "strike_rate",
+    "text": "strike rate 142.8 in ICC Women's T20 World Cup 2026",
+    "value": 142.8,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F256",
+    "type": "runs_in_match",
+    "text": "Nat Sciver-Brunt scored 75 off 47 balls v South Africa on 2026-07-02",
+    "value": 75,
+    "source": "cricsheet:1490708"
+   },
+   {
+    "id": "F257",
+    "type": "balls_in_match",
+    "text": "balls faced v South Africa",
+    "value": 47,
+    "source": "cricsheet:1490708"
+   },
+   {
+    "id": "F259",
+    "type": "team",
+    "text": "Nat Sciver-Brunt plays for England",
+    "value": "England",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F260",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C15",
+  "player_id": "06659caa",
+  "player_name": "Tazmin Brits",
+  "team": "South Africa",
+  "pattern": "TOP_PERFORMER",
+  "headline": "Tazmin Brits ranked #15 of 165 players by impact in ICC Women's T20 World Cup 2026",
+  "rarity_count": 14,
+  "stakes": 0.9,
+  "magnitude": 0.5315230629895858,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F261",
+    "type": "window_matches",
+    "text": "Tazmin Brits played 4 matches in ICC Women's T20 World Cup 2026",
+    "value": 4,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F262",
+    "type": "window_runs",
+    "text": "225 runs off 174 balls in ICC Women's T20 World Cup 2026",
+    "value": 225,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F263",
+    "type": "window_balls_faced",
+    "text": "balls faced in window",
+    "value": 174,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F264",
+    "type": "window_wickets",
+    "text": "0 wickets from 0 balls in ICC Women's T20 World Cup 2026",
+    "value": 0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F265",
+    "type": "window_balls_bowled",
+    "text": "balls bowled in window",
+    "value": 0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F266",
+    "type": "impact_rank",
+    "text": "ranked 15 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+    "value": 15,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F267",
+    "type": "impact",
+    "text": "impact score (runs + 20 x wickets)",
+    "value": 225.0,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F268",
+    "type": "strike_rate",
+    "text": "strike rate 129.3 in ICC Women's T20 World Cup 2026",
+    "value": 129.3,
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F269",
+    "type": "runs_in_match",
+    "text": "Tazmin Brits scored 114 off 69 balls v Netherlands on 2026-06-25",
+    "value": 114,
+    "source": "cricsheet:1490700"
+   },
+   {
+    "id": "F270",
+    "type": "balls_in_match",
+    "text": "balls faced v Netherlands",
+    "value": 69,
+    "source": "cricsheet:1490700"
+   },
+   {
+    "id": "F272",
+    "type": "team",
+    "text": "Tazmin Brits plays for South Africa",
+    "value": "South Africa",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   },
+   {
+    "id": "F273",
+    "type": "competition",
+    "text": "competition: ICC Women's T20 World Cup 2026",
+    "value": "ICC Women's T20 World Cup 2026",
+    "source": "aggregate:ICC Women's T20 World Cup 2026"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C16",
+  "player_id": "d8f59089",
+  "player_name": "Shafali Verma",
+  "team": "India",
+  "pattern": "ALLROUND_MATCH",
+  "headline": "Shafali Verma: 55 runs and 3 wickets in one match v Netherlands \u2014 the first such all-round performance for India in the ICC Women's T20 World Cup",
+  "rarity_count": 14,
+  "stakes": 0.9,
+  "magnitude": 0.7559187271088567,
+  "arc_flags": [
+   "first_for_country"
+  ],
+  "facts": [
+   {
+    "id": "F274",
+    "type": "runs_in_match",
+    "text": "Shafali Verma scored 55 off 38 balls v Netherlands on 2026-06-17",
+    "value": 55,
+    "source": "cricsheet:1490686"
+   },
+   {
+    "id": "F275",
+    "type": "balls_in_match",
+    "text": "balls faced v Netherlands",
+    "value": 38,
+    "source": "cricsheet:1490686"
+   },
+   {
+    "id": "F276",
+    "type": "wickets_in_match",
+    "text": "Shafali Verma took 3 for 20 from 20 balls v Netherlands on 2026-06-17",
+    "value": 3,
+    "source": "cricsheet:1490686"
+   },
+   {
+    "id": "F277",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Netherlands",
+    "value": 20,
+    "source": "cricsheet:1490686"
+   },
+   {
+    "id": "F278",
+    "type": "match_result",
+    "text": "India v Netherlands, Headingley, Leeds: India won by 95 runs",
+    "value": "India",
+    "source": "cricsheet:1490686"
+   },
+   {
+    "id": "F279",
+    "type": "prior_occurrences",
+    "text": "all-round matches (40+ runs and 2+ wickets) in ICC Women's T20 World Cup history before this window: 14",
+    "value": 14,
+    "source": "graph:history"
+   },
+   {
+    "id": "F280",
+    "type": "prior_occurrences_team",
+    "text": "...of which by India players: 0",
+    "value": 0,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490686"
+ },
+ {
+  "candidate_id": "C17",
+  "player_id": "be150fc8",
+  "player_name": "Ellyse Perry",
+  "team": "Australia",
+  "pattern": "ALLROUND_MATCH",
+  "headline": "Ellyse Perry: 71 runs and 2 wickets in one match v Pakistan \u2014 the first such all-round performance for Australia in the ICC Women's T20 World Cup",
+  "rarity_count": 14,
+  "stakes": 0.9,
+  "magnitude": 0.7517632518473887,
+  "arc_flags": [
+   "first_for_country"
+  ],
+  "facts": [
+   {
+    "id": "F281",
+    "type": "runs_in_match",
+    "text": "Ellyse Perry scored 71 off 48 balls v Pakistan on 2026-06-23",
+    "value": 71,
+    "source": "cricsheet:1490697"
+   },
+   {
+    "id": "F282",
+    "type": "balls_in_match",
+    "text": "balls faced v Pakistan",
+    "value": 48,
+    "source": "cricsheet:1490697"
+   },
+   {
+    "id": "F283",
+    "type": "wickets_in_match",
+    "text": "Ellyse Perry took 2 for 9 from 6 balls v Pakistan on 2026-06-23",
+    "value": 2,
+    "source": "cricsheet:1490697"
+   },
+   {
+    "id": "F284",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Pakistan",
+    "value": 9,
+    "source": "cricsheet:1490697"
+   },
+   {
+    "id": "F285",
+    "type": "match_result",
+    "text": "Australia v Pakistan, Headingley, Leeds: Australia won by 113 runs",
+    "value": "Australia",
+    "source": "cricsheet:1490697"
+   },
+   {
+    "id": "F286",
+    "type": "prior_occurrences",
+    "text": "all-round matches (40+ runs and 2+ wickets) in ICC Women's T20 World Cup history before this window: 14",
+    "value": 14,
+    "source": "graph:history"
+   },
+   {
+    "id": "F287",
+    "type": "prior_occurrences_team",
+    "text": "...of which by Australia players: 0",
+    "value": 0,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490697"
+ },
+ {
+  "candidate_id": "C18",
+  "player_id": "63e3b6b3",
+  "player_name": "Marizanne Kapp",
+  "team": "South Africa",
+  "pattern": "ALLROUND_MATCH",
+  "headline": "Marizanne Kapp: 81 runs and 2 wickets in one match v India",
+  "rarity_count": 14,
+  "stakes": 0.9,
+  "magnitude": 0.7766961034161964,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F288",
+    "type": "runs_in_match",
+    "text": "Marizanne Kapp scored 81 off 45 balls v India on 2026-06-21",
+    "value": 81,
+    "source": "cricsheet:1490694"
+   },
+   {
+    "id": "F289",
+    "type": "balls_in_match",
+    "text": "balls faced v India",
+    "value": 45,
+    "source": "cricsheet:1490694"
+   },
+   {
+    "id": "F290",
+    "type": "wickets_in_match",
+    "text": "Marizanne Kapp took 2 for 27 from 24 balls v India on 2026-06-21",
+    "value": 2,
+    "source": "cricsheet:1490694"
+   },
+   {
+    "id": "F291",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v India",
+    "value": 27,
+    "source": "cricsheet:1490694"
+   },
+   {
+    "id": "F292",
+    "type": "match_result",
+    "text": "India v South Africa, Old Trafford, Manchester: South Africa won by 6 wickets",
+    "value": "South Africa",
+    "source": "cricsheet:1490694"
+   },
+   {
+    "id": "F293",
+    "type": "prior_occurrences",
+    "text": "all-round matches (40+ runs and 2+ wickets) in ICC Women's T20 World Cup history before this window: 14",
+    "value": 14,
+    "source": "graph:history"
+   },
+   {
+    "id": "F294",
+    "type": "prior_occurrences_team",
+    "text": "...of which by South Africa players: 3",
+    "value": 3,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490694"
+ },
+ {
+  "candidate_id": "C19",
+  "player_id": "ea9c54de",
+  "player_name": "Fatima Sana",
+  "team": "Pakistan",
+  "pattern": "ALLROUND_MATCH",
+  "headline": "Fatima Sana: 55 runs and 3 wickets in one match v South Africa \u2014 the first such all-round performance for Pakistan in the ICC Women's T20 World Cup",
+  "rarity_count": 14,
+  "stakes": 0.9,
+  "magnitude": 0.8639610839070241,
+  "arc_flags": [
+   "first_for_country"
+  ],
+  "facts": [
+   {
+    "id": "F295",
+    "type": "runs_in_match",
+    "text": "Fatima Sana scored 55 off 38 balls v South Africa on 2026-06-17",
+    "value": 55,
+    "source": "cricsheet:1490687"
+   },
+   {
+    "id": "F296",
+    "type": "balls_in_match",
+    "text": "balls faced v South Africa",
+    "value": 38,
+    "source": "cricsheet:1490687"
+   },
+   {
+    "id": "F297",
+    "type": "wickets_in_match",
+    "text": "Fatima Sana took 3 for 16 from 17 balls v South Africa on 2026-06-17",
+    "value": 3,
+    "source": "cricsheet:1490687"
+   },
+   {
+    "id": "F298",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v South Africa",
+    "value": 16,
+    "source": "cricsheet:1490687"
+   },
+   {
+    "id": "F299",
+    "type": "match_result",
+    "text": "Pakistan v South Africa, Edgbaston, Birmingham: South Africa won by 2 wickets",
+    "value": "South Africa",
+    "source": "cricsheet:1490687"
+   },
+   {
+    "id": "F300",
+    "type": "prior_occurrences",
+    "text": "all-round matches (40+ runs and 2+ wickets) in ICC Women's T20 World Cup history before this window: 14",
+    "value": 14,
+    "source": "graph:history"
+   },
+   {
+    "id": "F301",
+    "type": "prior_occurrences_team",
+    "text": "...of which by Pakistan players: 0",
+    "value": 0,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490687"
+ },
+ {
+  "candidate_id": "C20",
+  "player_id": "f13d3eba",
+  "player_name": "Kathryn Bryce",
+  "team": "Scotland",
+  "pattern": "ALLROUND_MATCH",
+  "headline": "Kathryn Bryce: 60 runs and 2 wickets in one match v Ireland \u2014 the first such all-round performance for Scotland in the ICC Women's T20 World Cup",
+  "rarity_count": 14,
+  "stakes": 0.9,
+  "magnitude": 0.6520318455721572,
+  "arc_flags": [
+   "first_for_country"
+  ],
+  "facts": [
+   {
+    "id": "F302",
+    "type": "runs_in_match",
+    "text": "Kathryn Bryce scored 60 off 39 balls v Ireland on 2026-06-13",
+    "value": 60,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F303",
+    "type": "balls_in_match",
+    "text": "balls faced v Ireland",
+    "value": 39,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F304",
+    "type": "wickets_in_match",
+    "text": "Kathryn Bryce took 2 for 19 from 19 balls v Ireland on 2026-06-13",
+    "value": 2,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F305",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Ireland",
+    "value": 19,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F306",
+    "type": "match_result",
+    "text": "Scotland v Ireland, Old Trafford, Manchester: Scotland won by 40 runs",
+    "value": "Scotland",
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F307",
+    "type": "prior_occurrences",
+    "text": "all-round matches (40+ runs and 2+ wickets) in ICC Women's T20 World Cup history before this window: 14",
+    "value": 14,
+    "source": "graph:history"
+   },
+   {
+    "id": "F308",
+    "type": "prior_occurrences_team",
+    "text": "...of which by Scotland players: 0",
+    "value": 0,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490678"
+ },
+ {
+  "candidate_id": "C21",
+  "player_id": "d8f20ba5",
+  "player_name": "Orla Prendergast",
+  "team": "Ireland",
+  "pattern": "ALLROUND_MATCH",
+  "headline": "Orla Prendergast: 59 runs and 2 wickets in one match v New Zealand \u2014 the first such all-round performance for Ireland in the ICC Women's T20 World Cup",
+  "rarity_count": 14,
+  "stakes": 0.9,
+  "magnitude": 0.8473391828611522,
+  "arc_flags": [
+   "first_for_country"
+  ],
+  "facts": [
+   {
+    "id": "F309",
+    "type": "runs_in_match",
+    "text": "Orla Prendergast scored 59 off 53 balls v New Zealand on 2026-06-19",
+    "value": 59,
+    "source": "cricsheet:1490689"
+   },
+   {
+    "id": "F310",
+    "type": "balls_in_match",
+    "text": "balls faced v New Zealand",
+    "value": 53,
+    "source": "cricsheet:1490689"
+   },
+   {
+    "id": "F311",
+    "type": "wickets_in_match",
+    "text": "Orla Prendergast took 2 for 26 from 24 balls v New Zealand on 2026-06-19",
+    "value": 2,
+    "source": "cricsheet:1490689"
+   },
+   {
+    "id": "F312",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v New Zealand",
+    "value": 26,
+    "source": "cricsheet:1490689"
+   },
+   {
+    "id": "F313",
+    "type": "match_result",
+    "text": "New Zealand v Ireland, The Rose Bowl, Southampton: New Zealand won by 4 runs",
+    "value": "New Zealand",
+    "source": "cricsheet:1490689"
+   },
+   {
+    "id": "F314",
+    "type": "prior_occurrences",
+    "text": "all-round matches (40+ runs and 2+ wickets) in ICC Women's T20 World Cup history before this window: 14",
+    "value": 14,
+    "source": "graph:history"
+   },
+   {
+    "id": "F315",
+    "type": "prior_occurrences_team",
+    "text": "...of which by Ireland players: 0",
+    "value": 0,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490689"
+ },
+ {
+  "candidate_id": "C22",
+  "player_id": "b3020075",
+  "player_name": "Babette de Leede",
+  "team": "Netherlands",
+  "pattern": "FIRST_FOR_COUNTRY_50",
+  "headline": "Babette de Leede is the first Netherlands player with a half-century in the ICC Women's T20 World Cup (50 runs v Bangladesh)",
+  "rarity_count": 0,
+  "stakes": 0.9,
+  "magnitude": 0.323749299916187,
+  "arc_flags": [
+   "first_for_country"
+  ],
+  "facts": [
+   {
+    "id": "F316",
+    "type": "runs_in_match",
+    "text": "Babette de Leede scored 50 off 45 balls v Bangladesh on 2026-06-14",
+    "value": 50,
+    "source": "cricsheet:1490681"
+   },
+   {
+    "id": "F317",
+    "type": "balls_in_match",
+    "text": "balls faced v Bangladesh",
+    "value": 45,
+    "source": "cricsheet:1490681"
+   },
+   {
+    "id": "F318",
+    "type": "match_result",
+    "text": "Netherlands v Bangladesh, Edgbaston, Birmingham: Bangladesh won by 6 wickets",
+    "value": "Bangladesh",
+    "source": "cricsheet:1490681"
+   },
+   {
+    "id": "F319",
+    "type": "prior_occurrences_team",
+    "text": "Netherlands players with a half-century in ICC Women's T20 World Cup history before this window: 0",
+    "value": 0,
+    "source": "graph:history"
+   },
+   {
+    "id": "F320",
+    "type": "prior_occurrences",
+    "text": "all players with a half-century in ICC Women's T20 World Cup history before this window: 112",
+    "value": 112,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490681"
+ },
+ {
+  "candidate_id": "C23",
+  "player_id": "c3394c16",
+  "player_name": "Darcey Carter",
+  "team": "Scotland",
+  "pattern": "FIRST_FOR_COUNTRY_50",
+  "headline": "Darcey Carter is the first Scotland player with a half-century in the ICC Women's T20 World Cup (72 runs v New Zealand)",
+  "rarity_count": 0,
+  "stakes": 0.9,
+  "magnitude": 0.4608799835446302,
+  "arc_flags": [
+   "first_for_country"
+  ],
+  "facts": [
+   {
+    "id": "F321",
+    "type": "runs_in_match",
+    "text": "Darcey Carter scored 72 off 52 balls v New Zealand on 2026-06-23",
+    "value": 72,
+    "source": "cricsheet:1490695"
+   },
+   {
+    "id": "F322",
+    "type": "balls_in_match",
+    "text": "balls faced v New Zealand",
+    "value": 52,
+    "source": "cricsheet:1490695"
+   },
+   {
+    "id": "F323",
+    "type": "wickets_in_match",
+    "text": "Darcey Carter took 0 for 13 from 12 balls v New Zealand on 2026-06-23",
+    "value": 0,
+    "source": "cricsheet:1490695"
+   },
+   {
+    "id": "F324",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v New Zealand",
+    "value": 13,
+    "source": "cricsheet:1490695"
+   },
+   {
+    "id": "F325",
+    "type": "match_result",
+    "text": "Scotland v New Zealand, County Ground, Bristol: New Zealand won by 6 wickets",
+    "value": "New Zealand",
+    "source": "cricsheet:1490695"
+   },
+   {
+    "id": "F326",
+    "type": "prior_occurrences_team",
+    "text": "Scotland players with a half-century in ICC Women's T20 World Cup history before this window: 0",
+    "value": 0,
+    "source": "graph:history"
+   },
+   {
+    "id": "F327",
+    "type": "prior_occurrences",
+    "text": "all players with a half-century in ICC Women's T20 World Cup history before this window: 112",
+    "value": 112,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490695"
+ },
+ {
+  "candidate_id": "C24",
+  "player_id": "b3020075",
+  "player_name": "Babette de Leede",
+  "team": "Netherlands",
+  "pattern": "FIRST_FOR_COUNTRY_50",
+  "headline": "Babette de Leede is the first Netherlands player with a half-century in the ICC Women's T20 World Cup (56 runs v Australia)",
+  "rarity_count": 0,
+  "stakes": 0.9,
+  "magnitude": 0.323749299916187,
+  "arc_flags": [
+   "first_for_country"
+  ],
+  "facts": [
+   {
+    "id": "F328",
+    "type": "runs_in_match",
+    "text": "Babette de Leede scored 56 off 57 balls v Australia on 2026-06-20",
+    "value": 56,
+    "source": "cricsheet:1490690"
+   },
+   {
+    "id": "F329",
+    "type": "balls_in_match",
+    "text": "balls faced v Australia",
+    "value": 57,
+    "source": "cricsheet:1490690"
+   },
+   {
+    "id": "F330",
+    "type": "match_result",
+    "text": "Australia v Netherlands, The Rose Bowl, Southampton: Australia won by 98 runs",
+    "value": "Australia",
+    "source": "cricsheet:1490690"
+   },
+   {
+    "id": "F331",
+    "type": "prior_occurrences_team",
+    "text": "Netherlands players with a half-century in ICC Women's T20 World Cup history before this window: 0",
+    "value": 0,
+    "source": "graph:history"
+   },
+   {
+    "id": "F332",
+    "type": "prior_occurrences",
+    "text": "all players with a half-century in ICC Women's T20 World Cup history before this window: 112",
+    "value": 112,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490690"
+ },
+ {
+  "candidate_id": "C25",
+  "player_id": "f13d3eba",
+  "player_name": "Kathryn Bryce",
+  "team": "Scotland",
+  "pattern": "FIRST_FOR_COUNTRY_50",
+  "headline": "Kathryn Bryce is the first Scotland player with a half-century in the ICC Women's T20 World Cup (60 runs v Ireland)",
+  "rarity_count": 0,
+  "stakes": 0.9,
+  "magnitude": 0.6520318455721572,
+  "arc_flags": [
+   "first_for_country"
+  ],
+  "facts": [
+   {
+    "id": "F333",
+    "type": "runs_in_match",
+    "text": "Kathryn Bryce scored 60 off 39 balls v Ireland on 2026-06-13",
+    "value": 60,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F334",
+    "type": "balls_in_match",
+    "text": "balls faced v Ireland",
+    "value": 39,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F335",
+    "type": "wickets_in_match",
+    "text": "Kathryn Bryce took 2 for 19 from 19 balls v Ireland on 2026-06-13",
+    "value": 2,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F336",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Ireland",
+    "value": 19,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F337",
+    "type": "match_result",
+    "text": "Scotland v Ireland, Old Trafford, Manchester: Scotland won by 40 runs",
+    "value": "Scotland",
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F338",
+    "type": "prior_occurrences_team",
+    "text": "Scotland players with a half-century in ICC Women's T20 World Cup history before this window: 0",
+    "value": 0,
+    "source": "graph:history"
+   },
+   {
+    "id": "F339",
+    "type": "prior_occurrences",
+    "text": "all players with a half-century in ICC Women's T20 World Cup history before this window: 112",
+    "value": 112,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490678"
+ },
+ {
+  "candidate_id": "C26",
+  "player_id": "c3394c16",
+  "player_name": "Darcey Carter",
+  "team": "Scotland",
+  "pattern": "FIRST_FOR_COUNTRY_50",
+  "headline": "Darcey Carter is the first Scotland player with a half-century in the ICC Women's T20 World Cup (59 runs v West Indies)",
+  "rarity_count": 0,
+  "stakes": 0.9,
+  "magnitude": 0.4608799835446302,
+  "arc_flags": [
+   "first_for_country"
+  ],
+  "facts": [
+   {
+    "id": "F340",
+    "type": "runs_in_match",
+    "text": "Darcey Carter scored 59 off 62 balls v West Indies on 2026-06-18",
+    "value": 59,
+    "source": "cricsheet:1490688"
+   },
+   {
+    "id": "F341",
+    "type": "balls_in_match",
+    "text": "balls faced v West Indies",
+    "value": 62,
+    "source": "cricsheet:1490688"
+   },
+   {
+    "id": "F342",
+    "type": "wickets_in_match",
+    "text": "Darcey Carter took 0 for 5 from 6 balls v West Indies on 2026-06-18",
+    "value": 0,
+    "source": "cricsheet:1490688"
+   },
+   {
+    "id": "F343",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v West Indies",
+    "value": 5,
+    "source": "cricsheet:1490688"
+   },
+   {
+    "id": "F344",
+    "type": "match_result",
+    "text": "West Indies v Scotland, Headingley, Leeds: West Indies won by 7 runs",
+    "value": "West Indies",
+    "source": "cricsheet:1490688"
+   },
+   {
+    "id": "F345",
+    "type": "prior_occurrences_team",
+    "text": "Scotland players with a half-century in ICC Women's T20 World Cup history before this window: 0",
+    "value": 0,
+    "source": "graph:history"
+   },
+   {
+    "id": "F346",
+    "type": "prior_occurrences",
+    "text": "all players with a half-century in ICC Women's T20 World Cup history before this window: 112",
+    "value": 112,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490688"
+ },
+ {
+  "candidate_id": "C27",
+  "player_id": "06659caa",
+  "player_name": "Tazmin Brits",
+  "team": "South Africa",
+  "pattern": "COMPETITION_RECORD_RUNS",
+  "headline": "T Brits's 114 runs v Netherlands is the #1 score in ICC Women's T20 World Cup history (189 matches in the graph)",
+  "rarity_count": 0,
+  "stakes": 0.9,
+  "magnitude": 0.5315230629895858,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F347",
+    "type": "runs_in_match",
+    "text": "Tazmin Brits scored 114 off 69 balls v Netherlands on 2026-06-25",
+    "value": 114,
+    "source": "cricsheet:1490700"
+   },
+   {
+    "id": "F348",
+    "type": "balls_in_match",
+    "text": "balls faced v Netherlands",
+    "value": 69,
+    "source": "cricsheet:1490700"
+   },
+   {
+    "id": "F349",
+    "type": "match_result",
+    "text": "South Africa v Netherlands, County Ground, Bristol: South Africa won by 88 runs",
+    "value": "South Africa",
+    "source": "cricsheet:1490700"
+   },
+   {
+    "id": "F350",
+    "type": "all_time_rank",
+    "text": "all-time rank of this score in ICC Women's T20 World Cup: 1",
+    "value": 1,
+    "source": "graph:history"
+   },
+   {
+    "id": "F351",
+    "type": "competition_matches",
+    "text": "matches of ICC Women's T20 World Cup in the graph",
+    "value": 189,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490700"
+ },
+ {
+  "candidate_id": "C28",
+  "player_id": "ac56b5a7",
+  "player_name": "Chamari Athapaththu",
+  "team": "Sri Lanka",
+  "pattern": "COMPETITION_RECORD_RUNS",
+  "headline": "AC Jayangani's 106 runs v Ireland is the #3 score in ICC Women's T20 World Cup history (189 matches in the graph)",
+  "rarity_count": 2,
+  "stakes": 0.9,
+  "magnitude": 0.5606113898198617,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F352",
+    "type": "runs_in_match",
+    "text": "Chamari Athapaththu scored 106 off 61 balls v Ireland on 2026-06-23",
+    "value": 106,
+    "source": "cricsheet:1490696"
+   },
+   {
+    "id": "F353",
+    "type": "balls_in_match",
+    "text": "balls faced v Ireland",
+    "value": 61,
+    "source": "cricsheet:1490696"
+   },
+   {
+    "id": "F354",
+    "type": "wickets_in_match",
+    "text": "Chamari Athapaththu took 1 for 23 from 18 balls v Ireland on 2026-06-23",
+    "value": 1,
+    "source": "cricsheet:1490696"
+   },
+   {
+    "id": "F355",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Ireland",
+    "value": 23,
+    "source": "cricsheet:1490696"
+   },
+   {
+    "id": "F356",
+    "type": "match_result",
+    "text": "Ireland v Sri Lanka, County Ground, Bristol: Sri Lanka won by 9 wickets",
+    "value": "Sri Lanka",
+    "source": "cricsheet:1490696"
+   },
+   {
+    "id": "F357",
+    "type": "all_time_rank",
+    "text": "all-time rank of this score in ICC Women's T20 World Cup: 3",
+    "value": 3,
+    "source": "graph:history"
+   },
+   {
+    "id": "F358",
+    "type": "competition_matches",
+    "text": "matches of ICC Women's T20 World Cup in the graph",
+    "value": 189,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490696"
+ },
+ {
+  "candidate_id": "C29",
+  "player_id": "201fef33",
+  "player_name": "Deepti Sharma",
+  "team": "India",
+  "pattern": "COMPETITION_RECORD_WICKETS",
+  "headline": "DB Sharma's 5/10 v Pakistan is the #3 bowling figures in ICC Women's T20 World Cup history (189 matches in the graph)",
+  "rarity_count": 2,
+  "stakes": 0.9,
+  "magnitude": 0.4276361814528864,
+  "arc_flags": [],
+  "facts": [
+   {
+    "id": "F359",
+    "type": "runs_in_match",
+    "text": "Deepti Sharma scored 12 off 9 balls v Pakistan on 2026-06-14",
+    "value": 12,
+    "source": "cricsheet:1490682"
+   },
+   {
+    "id": "F360",
+    "type": "balls_in_match",
+    "text": "balls faced v Pakistan",
+    "value": 9,
+    "source": "cricsheet:1490682"
+   },
+   {
+    "id": "F361",
+    "type": "wickets_in_match",
+    "text": "Deepti Sharma took 5 for 10 from 24 balls v Pakistan on 2026-06-14",
+    "value": 5,
+    "source": "cricsheet:1490682"
+   },
+   {
+    "id": "F362",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Pakistan",
+    "value": 10,
+    "source": "cricsheet:1490682"
+   },
+   {
+    "id": "F363",
+    "type": "match_result",
+    "text": "India v Pakistan, Edgbaston, Birmingham: India won by 64 runs",
+    "value": "India",
+    "source": "cricsheet:1490682"
+   },
+   {
+    "id": "F364",
+    "type": "all_time_rank",
+    "text": "all-time rank of this bowling figures in ICC Women's T20 World Cup: 3",
+    "value": 3,
+    "source": "graph:history"
+   },
+   {
+    "id": "F365",
+    "type": "competition_matches",
+    "text": "matches of ICC Women's T20 World Cup in the graph",
+    "value": 189,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490682"
+ },
+ {
+  "candidate_id": "C30",
+  "player_id": "f13d3eba",
+  "player_name": "Kathryn Bryce",
+  "team": "Scotland",
+  "pattern": "TEAM_FIRST_WIN",
+  "headline": "Kathryn Bryce led Scotland's first-ever win in the ICC Women's T20 World Cup (v Ireland)",
+  "rarity_count": 0,
+  "stakes": 0.9,
+  "magnitude": 0.6520318455721572,
+  "arc_flags": [
+   "team_first"
+  ],
+  "facts": [
+   {
+    "id": "F366",
+    "type": "runs_in_match",
+    "text": "Kathryn Bryce scored 60 off 39 balls v Ireland on 2026-06-13",
+    "value": 60,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F367",
+    "type": "balls_in_match",
+    "text": "balls faced v Ireland",
+    "value": 39,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F368",
+    "type": "wickets_in_match",
+    "text": "Kathryn Bryce took 2 for 19 from 19 balls v Ireland on 2026-06-13",
+    "value": 2,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F369",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Ireland",
+    "value": 19,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F370",
+    "type": "match_result",
+    "text": "Scotland v Ireland, Old Trafford, Manchester: Scotland won by 40 runs",
+    "value": "Scotland",
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F371",
+    "type": "prior_occurrences_team",
+    "text": "Scotland wins in ICC Women's T20 World Cup before 2026-06-13: 0",
+    "value": 0,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490678"
+ },
+ {
+  "candidate_id": "C31",
+  "player_id": "a0a65375",
+  "player_name": "Katherine Fraser",
+  "team": "Scotland",
+  "pattern": "TEAM_FIRST_WIN",
+  "headline": "Katherine Fraser led Scotland's first-ever win in the ICC Women's T20 World Cup (v Ireland)",
+  "rarity_count": 0,
+  "stakes": 0.9,
+  "magnitude": 0.4982792608978421,
+  "arc_flags": [
+   "team_first"
+  ],
+  "facts": [
+   {
+    "id": "F372",
+    "type": "runs_in_match",
+    "text": "Katherine Fraser scored 15 off 16 balls v Ireland on 2026-06-13",
+    "value": 15,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F373",
+    "type": "balls_in_match",
+    "text": "balls faced v Ireland",
+    "value": 16,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F374",
+    "type": "wickets_in_match",
+    "text": "Katherine Fraser took 3 for 19 from 24 balls v Ireland on 2026-06-13",
+    "value": 3,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F375",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Ireland",
+    "value": 19,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F376",
+    "type": "match_result",
+    "text": "Scotland v Ireland, Old Trafford, Manchester: Scotland won by 40 runs",
+    "value": "Scotland",
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F377",
+    "type": "prior_occurrences_team",
+    "text": "Scotland wins in ICC Women's T20 World Cup before 2026-06-13: 0",
+    "value": 0,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490678"
+ },
+ {
+  "candidate_id": "C32",
+  "player_id": "d8f20ba5",
+  "player_name": "Orla Prendergast",
+  "team": "Ireland",
+  "pattern": "TEAM_FIRST_WIN",
+  "headline": "Orla Prendergast led Ireland's first-ever win in the ICC Women's T20 World Cup (v West Indies)",
+  "rarity_count": 0,
+  "stakes": 0.9,
+  "magnitude": 0.8473391828611522,
+  "arc_flags": [
+   "team_first"
+  ],
+  "facts": [
+   {
+    "id": "F378",
+    "type": "runs_in_match",
+    "text": "Orla Prendergast scored 63 off 44 balls v West Indies on 2026-06-27",
+    "value": 63,
+    "source": "cricsheet:1490703"
+   },
+   {
+    "id": "F379",
+    "type": "balls_in_match",
+    "text": "balls faced v West Indies",
+    "value": 44,
+    "source": "cricsheet:1490703"
+   },
+   {
+    "id": "F380",
+    "type": "wickets_in_match",
+    "text": "Orla Prendergast took 1 for 29 from 24 balls v West Indies on 2026-06-27",
+    "value": 1,
+    "source": "cricsheet:1490703"
+   },
+   {
+    "id": "F381",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v West Indies",
+    "value": 29,
+    "source": "cricsheet:1490703"
+   },
+   {
+    "id": "F382",
+    "type": "match_result",
+    "text": "West Indies v Ireland, County Ground, Bristol: Ireland won by 6 wickets",
+    "value": "Ireland",
+    "source": "cricsheet:1490703"
+   },
+   {
+    "id": "F383",
+    "type": "prior_occurrences_team",
+    "text": "Ireland wins in ICC Women's T20 World Cup before 2026-06-27: 0",
+    "value": 0,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490703"
+ },
+ {
+  "candidate_id": "C33",
+  "player_id": "f888a374",
+  "player_name": "Aimee Maguire",
+  "team": "Ireland",
+  "pattern": "TEAM_FIRST_WIN",
+  "headline": "Aimee Maguire led Ireland's first-ever win in the ICC Women's T20 World Cup (v West Indies)",
+  "rarity_count": 0,
+  "stakes": 0.9,
+  "magnitude": 0.10766458631985214,
+  "arc_flags": [
+   "team_first"
+  ],
+  "facts": [
+   {
+    "id": "F384",
+    "type": "wickets_in_match",
+    "text": "Aimee Maguire took 2 for 22 from 24 balls v West Indies on 2026-06-27",
+    "value": 2,
+    "source": "cricsheet:1490703"
+   },
+   {
+    "id": "F385",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v West Indies",
+    "value": 22,
+    "source": "cricsheet:1490703"
+   },
+   {
+    "id": "F386",
+    "type": "match_result",
+    "text": "West Indies v Ireland, County Ground, Bristol: Ireland won by 6 wickets",
+    "value": "Ireland",
+    "source": "cricsheet:1490703"
+   },
+   {
+    "id": "F387",
+    "type": "prior_occurrences_team",
+    "text": "Ireland wins in ICC Women's T20 World Cup before 2026-06-27: 0",
+    "value": 0,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490703"
+ },
+ {
+  "candidate_id": "C34",
+  "player_id": "f13d3eba",
+  "player_name": "Kathryn Bryce",
+  "team": "Scotland",
+  "pattern": "ASSOCIATE_UPSET",
+  "headline": "Kathryn Bryce starred as Associate Member Scotland beat Full Member Ireland",
+  "rarity_count": 7,
+  "stakes": 0.9,
+  "magnitude": 0.6520318455721572,
+  "arc_flags": [
+   "associate"
+  ],
+  "facts": [
+   {
+    "id": "F388",
+    "type": "runs_in_match",
+    "text": "Kathryn Bryce scored 60 off 39 balls v Ireland on 2026-06-13",
+    "value": 60,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F389",
+    "type": "balls_in_match",
+    "text": "balls faced v Ireland",
+    "value": 39,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F390",
+    "type": "wickets_in_match",
+    "text": "Kathryn Bryce took 2 for 19 from 19 balls v Ireland on 2026-06-13",
+    "value": 2,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F391",
+    "type": "runs_conceded_in_match",
+    "text": "runs conceded v Ireland",
+    "value": 19,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F392",
+    "type": "match_result",
+    "text": "Scotland v Ireland, Old Trafford, Manchester: Scotland won by 40 runs",
+    "value": "Scotland",
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F393",
+    "type": "prior_occurrences",
+    "text": "Scotland wins over Ireland before this match: 7",
+    "value": 7,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": "1490678"
+ },
+ {
+  "candidate_id": "C35",
+  "player_id": "583ce32c",
+  "player_name": "Shree Charani",
+  "team": "India",
+  "pattern": "STREAK",
+  "headline": "Shree Charani has delivered 30+ runs or 2+ wickets in 5 consecutive matches",
+  "rarity_count": 1,
+  "stakes": 0.9,
+  "magnitude": 0.7600742023703245,
+  "arc_flags": [
+   "streak"
+  ],
+  "facts": [
+   {
+    "id": "F394",
+    "type": "streak_length",
+    "text": "consecutive matches with 30+ runs or 2+ wickets",
+    "value": 5,
+    "source": "graph:history"
+   },
+   {
+    "id": "F395",
+    "type": "streak_match",
+    "text": "v Australia on 2026-06-28: 0 runs, 2 wickets",
+    "value": 0,
+    "source": "cricsheet:1490706"
+   },
+   {
+    "id": "F396",
+    "type": "streak_match",
+    "text": "v Bangladesh on 2026-06-25: 0 runs, 2 wickets",
+    "value": 0,
+    "source": "cricsheet:1490699"
+   },
+   {
+    "id": "F397",
+    "type": "streak_match",
+    "text": "v South Africa on 2026-06-21: 0 runs, 3 wickets",
+    "value": 0,
+    "source": "cricsheet:1490694"
+   },
+   {
+    "id": "F398",
+    "type": "streak_match",
+    "text": "v Netherlands on 2026-06-17: 0 runs, 4 wickets",
+    "value": 0,
+    "source": "cricsheet:1490686"
+   },
+   {
+    "id": "F399",
+    "type": "streak_match",
+    "text": "v Pakistan on 2026-06-14: 0 runs, 3 wickets",
+    "value": 0,
+    "source": "cricsheet:1490682"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C36",
+  "player_id": "d8f59089",
+  "player_name": "Shafali Verma",
+  "team": "India",
+  "pattern": "STREAK",
+  "headline": "Shafali Verma has delivered 30+ runs or 2+ wickets in 4 consecutive matches",
+  "rarity_count": 2,
+  "stakes": 0.9,
+  "magnitude": 0.7559187271088567,
+  "arc_flags": [
+   "streak"
+  ],
+  "facts": [
+   {
+    "id": "F400",
+    "type": "streak_length",
+    "text": "consecutive matches with 30+ runs or 2+ wickets",
+    "value": 4,
+    "source": "graph:history"
+   },
+   {
+    "id": "F401",
+    "type": "streak_match",
+    "text": "v Australia on 2026-06-28: 34 runs, 0 wickets",
+    "value": 34,
+    "source": "cricsheet:1490706"
+   },
+   {
+    "id": "F402",
+    "type": "streak_match",
+    "text": "v Bangladesh on 2026-06-25: 53 runs, 0 wickets",
+    "value": 53,
+    "source": "cricsheet:1490699"
+   },
+   {
+    "id": "F403",
+    "type": "streak_match",
+    "text": "v South Africa on 2026-06-21: 31 runs, 1 wickets",
+    "value": 31,
+    "source": "cricsheet:1490694"
+   },
+   {
+    "id": "F404",
+    "type": "streak_match",
+    "text": "v Netherlands on 2026-06-17: 55 runs, 3 wickets",
+    "value": 55,
+    "source": "cricsheet:1490686"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C37",
+  "player_id": "f3a18a0c",
+  "player_name": "Nat Sciver-Brunt",
+  "team": "England",
+  "pattern": "STREAK",
+  "headline": "Nat Sciver-Brunt has delivered 30+ runs or 2+ wickets in 4 consecutive matches",
+  "rarity_count": 2,
+  "stakes": 0.9,
+  "magnitude": 0.5398340135125218,
+  "arc_flags": [
+   "streak"
+  ],
+  "facts": [
+   {
+    "id": "F405",
+    "type": "streak_length",
+    "text": "consecutive matches with 30+ runs or 2+ wickets",
+    "value": 4,
+    "source": "graph:history"
+   },
+   {
+    "id": "F406",
+    "type": "streak_match",
+    "text": "v Australia on 2026-07-05: 58 runs, 0 wickets",
+    "value": 58,
+    "source": "cricsheet:1490709"
+   },
+   {
+    "id": "F407",
+    "type": "streak_match",
+    "text": "v South Africa on 2026-07-02: 75 runs, 0 wickets",
+    "value": 75,
+    "source": "cricsheet:1490708"
+   },
+   {
+    "id": "F408",
+    "type": "streak_match",
+    "text": "v Ireland on 2026-06-16: 48 runs, 0 wickets",
+    "value": 48,
+    "source": "cricsheet:1490684"
+   },
+   {
+    "id": "F409",
+    "type": "streak_match",
+    "text": "v Sri Lanka on 2026-06-12: 46 runs, 0 wickets",
+    "value": 46,
+    "source": "cricsheet:1490677"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C38",
+  "player_id": "7673c908",
+  "player_name": "Amelia Kerr",
+  "team": "New Zealand",
+  "pattern": "STREAK",
+  "headline": "Amelia Kerr has delivered 30+ runs or 2+ wickets in 4 consecutive matches",
+  "rarity_count": 2,
+  "stakes": 0.9,
+  "magnitude": 0.5273675877281179,
+  "arc_flags": [
+   "streak"
+  ],
+  "facts": [
+   {
+    "id": "F410",
+    "type": "streak_length",
+    "text": "consecutive matches with 30+ runs or 2+ wickets",
+    "value": 4,
+    "source": "graph:history"
+   },
+   {
+    "id": "F411",
+    "type": "streak_match",
+    "text": "v England on 2026-06-27: 42 runs, 0 wickets",
+    "value": 42,
+    "source": "cricsheet:1490704"
+   },
+   {
+    "id": "F412",
+    "type": "streak_match",
+    "text": "v Scotland on 2026-06-23: 2 runs, 3 wickets",
+    "value": 2,
+    "source": "cricsheet:1490695"
+   },
+   {
+    "id": "F413",
+    "type": "streak_match",
+    "text": "v Ireland on 2026-06-19: 30 runs, 2 wickets",
+    "value": 30,
+    "source": "cricsheet:1490689"
+   },
+   {
+    "id": "F414",
+    "type": "streak_match",
+    "text": "v Sri Lanka on 2026-06-16: 45 runs, 0 wickets",
+    "value": 45,
+    "source": "cricsheet:1490683"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C39",
+  "player_id": "de69af96",
+  "player_name": "Sophie Devine",
+  "team": "New Zealand",
+  "pattern": "STREAK",
+  "headline": "Sophie Devine has delivered 30+ runs or 2+ wickets in 3 consecutive matches",
+  "rarity_count": 3,
+  "stakes": 0.9,
+  "magnitude": 0.1699967152418718,
+  "arc_flags": [
+   "streak"
+  ],
+  "facts": [
+   {
+    "id": "F415",
+    "type": "streak_length",
+    "text": "consecutive matches with 30+ runs or 2+ wickets",
+    "value": 3,
+    "source": "graph:history"
+   },
+   {
+    "id": "F416",
+    "type": "streak_match",
+    "text": "v England on 2026-06-27: 30 runs, 0 wickets",
+    "value": 30,
+    "source": "cricsheet:1490704"
+   },
+   {
+    "id": "F417",
+    "type": "streak_match",
+    "text": "v Scotland on 2026-06-23: 1 runs, 2 wickets",
+    "value": 1,
+    "source": "cricsheet:1490695"
+   },
+   {
+    "id": "F418",
+    "type": "streak_match",
+    "text": "v Sri Lanka on 2026-06-16: 45 runs, 0 wickets",
+    "value": 45,
+    "source": "cricsheet:1490683"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C40",
+  "player_id": "3827f6a2",
+  "player_name": "Nigar Sultana",
+  "team": "Bangladesh",
+  "pattern": "STREAK",
+  "headline": "Nigar Sultana has delivered 30+ runs or 2+ wickets in 3 consecutive matches",
+  "rarity_count": 3,
+  "stakes": 0.9,
+  "magnitude": 0.12428648736572405,
+  "arc_flags": [
+   "streak"
+  ],
+  "facts": [
+   {
+    "id": "F419",
+    "type": "streak_length",
+    "text": "consecutive matches with 30+ runs or 2+ wickets",
+    "value": 3,
+    "source": "graph:history"
+   },
+   {
+    "id": "F420",
+    "type": "streak_match",
+    "text": "v South Africa on 2026-06-28: 32 runs, 0 wickets",
+    "value": 32,
+    "source": "cricsheet:1490705"
+   },
+   {
+    "id": "F421",
+    "type": "streak_match",
+    "text": "v India on 2026-06-25: 32 runs, 0 wickets",
+    "value": 32,
+    "source": "cricsheet:1490699"
+   },
+   {
+    "id": "F422",
+    "type": "streak_match",
+    "text": "v Pakistan on 2026-06-20: 36 runs, 0 wickets",
+    "value": 36,
+    "source": "cricsheet:1490691"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C41",
+  "player_id": "ffd5fcd8",
+  "player_name": "Ava Canning",
+  "team": "Ireland",
+  "pattern": "STREAK",
+  "headline": "Ava Canning has delivered 30+ runs or 2+ wickets in 5 consecutive matches",
+  "rarity_count": 1,
+  "stakes": 0.9,
+  "magnitude": -0.11257560253795068,
+  "arc_flags": [
+   "streak"
+  ],
+  "facts": [
+   {
+    "id": "F423",
+    "type": "streak_length",
+    "text": "consecutive matches with 30+ runs or 2+ wickets",
+    "value": 5,
+    "source": "graph:history"
+   },
+   {
+    "id": "F424",
+    "type": "streak_match",
+    "text": "v Scotland on 2026-06-13: 10 runs, 3 wickets",
+    "value": 10,
+    "source": "cricsheet:1490678"
+   },
+   {
+    "id": "F425",
+    "type": "streak_match",
+    "text": "v West Indies on 2026-06-01: 0 runs, 2 wickets",
+    "value": 0,
+    "source": "cricsheet:1528541"
+   },
+   {
+    "id": "F426",
+    "type": "streak_match",
+    "text": "v Pakistan on 2026-05-31: 0 runs, 2 wickets",
+    "value": 0,
+    "source": "cricsheet:1528540"
+   },
+   {
+    "id": "F427",
+    "type": "streak_match",
+    "text": "v West Indies on 2026-05-28: 6 runs, 2 wickets",
+    "value": 6,
+    "source": "cricsheet:1528538"
+   },
+   {
+    "id": "F428",
+    "type": "streak_match",
+    "text": "v United States of America on 2026-01-22: 2 runs, 2 wickets",
+    "value": 2,
+    "source": "cricsheet:1515216"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C42",
+  "player_id": "d8f20ba5",
+  "player_name": "Orla Prendergast",
+  "team": "Ireland",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Orla Prendergast passed 100 career wickets (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 84,
+  "stakes": 0.9,
+  "magnitude": 0.8473391828611522,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F429",
+    "type": "milestone",
+    "text": "milestone passed: 100 career wickets",
+    "value": 100,
+    "source": "graph:history"
+   },
+   {
+    "id": "F430",
+    "type": "career_total",
+    "text": "career wickets after the window (graph coverage only)",
+    "value": 101,
+    "source": "graph:history"
+   },
+   {
+    "id": "F431",
+    "type": "career_total_before",
+    "text": "career wickets before the window",
+    "value": 95,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C43",
+  "player_id": "d8f59089",
+  "player_name": "Shafali Verma",
+  "team": "India",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Shafali Verma passed 200 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 50,
+  "stakes": 0.9,
+  "magnitude": 0.7559187271088567,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F432",
+    "type": "milestone",
+    "text": "milestone passed: 200 career matches",
+    "value": 200,
+    "source": "graph:history"
+   },
+   {
+    "id": "F433",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 201,
+    "source": "graph:history"
+   },
+   {
+    "id": "F434",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 196,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C44",
+  "player_id": "abc9f8a4",
+  "player_name": "Freya Kemp",
+  "team": "England",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Freya Kemp passed 1000 career runs (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 174,
+  "stakes": 0.9,
+  "magnitude": 0.5523004392969257,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F435",
+    "type": "milestone",
+    "text": "milestone passed: 1000 career runs",
+    "value": 1000,
+    "source": "graph:history"
+   },
+   {
+    "id": "F436",
+    "type": "career_total",
+    "text": "career runs after the window (graph coverage only)",
+    "value": 1010,
+    "source": "graph:history"
+   },
+   {
+    "id": "F437",
+    "type": "career_total_before",
+    "text": "career runs before the window",
+    "value": 920,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C45",
+  "player_id": "c6625a26",
+  "player_name": "Charlie Dean",
+  "team": "England",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Charlie Dean passed 150 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 79,
+  "stakes": 0.9,
+  "magnitude": 0.48165735985197017,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F438",
+    "type": "milestone",
+    "text": "milestone passed: 150 career matches",
+    "value": 150,
+    "source": "graph:history"
+   },
+   {
+    "id": "F439",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 153,
+    "source": "graph:history"
+   },
+   {
+    "id": "F440",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 146,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C46",
+  "player_id": "b3020075",
+  "player_name": "Babette de Leede",
+  "team": "Netherlands",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Babette de Leede passed 2000 career runs (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 88,
+  "stakes": 0.9,
+  "magnitude": 0.323749299916187,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F441",
+    "type": "milestone",
+    "text": "milestone passed: 2000 career runs",
+    "value": 2000,
+    "source": "graph:history"
+   },
+   {
+    "id": "F442",
+    "type": "career_total",
+    "text": "career runs after the window (graph coverage only)",
+    "value": 2037,
+    "source": "graph:history"
+   },
+   {
+    "id": "F443",
+    "type": "career_total_before",
+    "text": "career runs before the window",
+    "value": 1862,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C47",
+  "player_id": "00823a96",
+  "player_name": "Kirstie Gordon",
+  "team": "Scotland",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Kirstie Gordon passed 50 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 411,
+  "stakes": 0.9,
+  "magnitude": 0.27388359677857127,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F444",
+    "type": "milestone",
+    "text": "milestone passed: 50 career matches",
+    "value": 50,
+    "source": "graph:history"
+   },
+   {
+    "id": "F445",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 52,
+    "source": "graph:history"
+   },
+   {
+    "id": "F446",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 47,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C48",
+  "player_id": "2ca65aee",
+  "player_name": "Sarah Bryce",
+  "team": "Scotland",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Sarah Bryce passed 150 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 79,
+  "stakes": 0.9,
+  "magnitude": 0.25726169573269936,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F447",
+    "type": "milestone",
+    "text": "milestone passed: 150 career matches",
+    "value": 150,
+    "source": "graph:history"
+   },
+   {
+    "id": "F448",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 150,
+    "source": "graph:history"
+   },
+   {
+    "id": "F449",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 145,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C49",
+  "player_id": "d2763568",
+  "player_name": "Dani Gibson",
+  "team": "England",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Dani Gibson passed 50 career wickets (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 197,
+  "stakes": 0.9,
+  "magnitude": 0.1866186162877437,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F450",
+    "type": "milestone",
+    "text": "milestone passed: 50 career wickets",
+    "value": 50,
+    "source": "graph:history"
+   },
+   {
+    "id": "F451",
+    "type": "career_total",
+    "text": "career wickets after the window (graph coverage only)",
+    "value": 53,
+    "source": "graph:history"
+   },
+   {
+    "id": "F452",
+    "type": "career_total_before",
+    "text": "career wickets before the window",
+    "value": 48,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C50",
+  "player_id": "d2763568",
+  "player_name": "Dani Gibson",
+  "team": "England",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Dani Gibson passed 100 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 166,
+  "stakes": 0.9,
+  "magnitude": 0.1866186162877437,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F453",
+    "type": "milestone",
+    "text": "milestone passed: 100 career matches",
+    "value": 100,
+    "source": "graph:history"
+   },
+   {
+    "id": "F454",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 101,
+    "source": "graph:history"
+   },
+   {
+    "id": "F455",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 94,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C51",
+  "player_id": "53bb50f0",
+  "player_name": "Sadia Iqbal",
+  "team": "Pakistan",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Sadia Iqbal passed 100 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 166,
+  "stakes": 0.9,
+  "magnitude": 0.18246314102627573,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F456",
+    "type": "milestone",
+    "text": "milestone passed: 100 career matches",
+    "value": 100,
+    "source": "graph:history"
+   },
+   {
+    "id": "F457",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 100,
+    "source": "graph:history"
+   },
+   {
+    "id": "F458",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 95,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C52",
+  "player_id": "ad3940a5",
+  "player_name": "Ritu Moni",
+  "team": "Bangladesh",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Ritu Moni passed 1000 career runs (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 174,
+  "stakes": 0.9,
+  "magnitude": 0.14506386367306393,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F459",
+    "type": "milestone",
+    "text": "milestone passed: 1000 career runs",
+    "value": 1000,
+    "source": "graph:history"
+   },
+   {
+    "id": "F460",
+    "type": "career_total",
+    "text": "career runs after the window (graph coverage only)",
+    "value": 1020,
+    "source": "graph:history"
+   },
+   {
+    "id": "F461",
+    "type": "career_total_before",
+    "text": "career runs before the window",
+    "value": 988,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C53",
+  "player_id": "0b69a844",
+  "player_name": "Kim Garth",
+  "team": "Australia",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Kim Garth passed 200 career wickets (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 23,
+  "stakes": 0.9,
+  "magnitude": 0.1159755368427881,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F462",
+    "type": "milestone",
+    "text": "milestone passed: 200 career wickets",
+    "value": 200,
+    "source": "graph:history"
+   },
+   {
+    "id": "F463",
+    "type": "career_total",
+    "text": "career wickets after the window (graph coverage only)",
+    "value": 204,
+    "source": "graph:history"
+   },
+   {
+    "id": "F464",
+    "type": "career_total_before",
+    "text": "career wickets before the window",
+    "value": 198,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C54",
+  "player_id": "66078174",
+  "player_name": "Nahida Akter",
+  "team": "Bangladesh",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Nahida Akter passed 150 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 79,
+  "stakes": 0.9,
+  "magnitude": 0.10350911105838416,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F465",
+    "type": "milestone",
+    "text": "milestone passed: 150 career matches",
+    "value": 150,
+    "source": "graph:history"
+   },
+   {
+    "id": "F466",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 151,
+    "source": "graph:history"
+   },
+   {
+    "id": "F467",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 147,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C55",
+  "player_id": "86fdf668",
+  "player_name": "Muneeba Ali",
+  "team": "Pakistan",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Muneeba Ali passed 3000 career runs (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 56,
+  "stakes": 0.9,
+  "magnitude": 0.05364340792076843,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F468",
+    "type": "milestone",
+    "text": "milestone passed: 3000 career runs",
+    "value": 3000,
+    "source": "graph:history"
+   },
+   {
+    "id": "F469",
+    "type": "career_total",
+    "text": "career runs after the window (graph coverage only)",
+    "value": 3047,
+    "source": "graph:history"
+   },
+   {
+    "id": "F470",
+    "type": "career_total_before",
+    "text": "career runs before the window",
+    "value": 2937,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C56",
+  "player_id": "86fdf668",
+  "player_name": "Muneeba Ali",
+  "team": "Pakistan",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Muneeba Ali passed 150 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 79,
+  "stakes": 0.9,
+  "magnitude": 0.05364340792076843,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F471",
+    "type": "milestone",
+    "text": "milestone passed: 150 career matches",
+    "value": 150,
+    "source": "graph:history"
+   },
+   {
+    "id": "F472",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 151,
+    "source": "graph:history"
+   },
+   {
+    "id": "F473",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 146,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C57",
+  "player_id": "8a452195",
+  "player_name": "Rachel Slater",
+  "team": "Scotland",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Rachel Slater passed 50 career wickets (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 197,
+  "stakes": 0.9,
+  "magnitude": 0.045332457397832475,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F474",
+    "type": "milestone",
+    "text": "milestone passed: 50 career wickets",
+    "value": 50,
+    "source": "graph:history"
+   },
+   {
+    "id": "F475",
+    "type": "career_total",
+    "text": "career wickets after the window (graph coverage only)",
+    "value": 52,
+    "source": "graph:history"
+   },
+   {
+    "id": "F476",
+    "type": "career_total_before",
+    "text": "career wickets before the window",
+    "value": 47,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C58",
+  "player_id": "0d56e9a5",
+  "player_name": "Tuba Hassan",
+  "team": "Pakistan",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Tuba Hassan passed 50 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 411,
+  "stakes": 0.9,
+  "magnitude": -0.025310622047123147,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F477",
+    "type": "milestone",
+    "text": "milestone passed: 50 career matches",
+    "value": 50,
+    "source": "graph:history"
+   },
+   {
+    "id": "F478",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 50,
+    "source": "graph:history"
+   },
+   {
+    "id": "F479",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 47,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C59",
+  "player_id": "5a50471c",
+  "player_name": "Cara Murray",
+  "team": "Ireland",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Cara Murray passed 100 career wickets (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 84,
+  "stakes": 0.9,
+  "magnitude": -0.06686537466180292,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F480",
+    "type": "milestone",
+    "text": "milestone passed: 100 career wickets",
+    "value": 100,
+    "source": "graph:history"
+   },
+   {
+    "id": "F481",
+    "type": "career_total",
+    "text": "career wickets after the window (graph coverage only)",
+    "value": 100,
+    "source": "graph:history"
+   },
+   {
+    "id": "F482",
+    "type": "career_total_before",
+    "text": "career wickets before the window",
+    "value": 96,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C60",
+  "player_id": "5a50471c",
+  "player_name": "Cara Murray",
+  "team": "Ireland",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Cara Murray passed 100 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 166,
+  "stakes": 0.9,
+  "magnitude": -0.06686537466180292,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F483",
+    "type": "milestone",
+    "text": "milestone passed: 100 career matches",
+    "value": 100,
+    "source": "graph:history"
+   },
+   {
+    "id": "F484",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 102,
+    "source": "graph:history"
+   },
+   {
+    "id": "F485",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 97,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C61",
+  "player_id": "721e0199",
+  "player_name": "Richa Ghosh",
+  "team": "India",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Richa Ghosh passed 200 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 50,
+  "stakes": 0.9,
+  "magnitude": -0.0710208499232709,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F486",
+    "type": "milestone",
+    "text": "milestone passed: 200 career matches",
+    "value": 200,
+    "source": "graph:history"
+   },
+   {
+    "id": "F487",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 202,
+    "source": "graph:history"
+   },
+   {
+    "id": "F488",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 197,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C62",
+  "player_id": "ffd5fcd8",
+  "player_name": "Ava Canning",
+  "team": "Ireland",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Ava Canning passed 50 career wickets (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 197,
+  "stakes": 0.9,
+  "magnitude": -0.11257560253795068,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F489",
+    "type": "milestone",
+    "text": "milestone passed: 50 career wickets",
+    "value": 50,
+    "source": "graph:history"
+   },
+   {
+    "id": "F490",
+    "type": "career_total",
+    "text": "career wickets after the window (graph coverage only)",
+    "value": 51,
+    "source": "graph:history"
+   },
+   {
+    "id": "F491",
+    "type": "career_total_before",
+    "text": "career wickets before the window",
+    "value": 48,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C63",
+  "player_id": "090c0213",
+  "player_name": "Ailsa Lister",
+  "team": "Scotland",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Ailsa Lister passed 1000 career runs (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 174,
+  "stakes": 0.9,
+  "magnitude": -0.12504202832235461,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F492",
+    "type": "milestone",
+    "text": "milestone passed: 1000 career runs",
+    "value": 1000,
+    "source": "graph:history"
+   },
+   {
+    "id": "F493",
+    "type": "career_total",
+    "text": "career runs after the window (graph coverage only)",
+    "value": 1042,
+    "source": "graph:history"
+   },
+   {
+    "id": "F494",
+    "type": "career_total_before",
+    "text": "career runs before the window",
+    "value": 975,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C64",
+  "player_id": "d6164dc0",
+  "player_name": "Qiana Joseph",
+  "team": "West Indies",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Qiana Joseph passed 1000 career runs (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 174,
+  "stakes": 0.9,
+  "magnitude": -0.15828583041409844,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F495",
+    "type": "milestone",
+    "text": "milestone passed: 1000 career runs",
+    "value": 1000,
+    "source": "graph:history"
+   },
+   {
+    "id": "F496",
+    "type": "career_total",
+    "text": "career runs after the window (graph coverage only)",
+    "value": 1007,
+    "source": "graph:history"
+   },
+   {
+    "id": "F497",
+    "type": "career_total_before",
+    "text": "career runs before the window",
+    "value": 968,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C65",
+  "player_id": "8e7be59c",
+  "player_name": "Priyanaz Chatterji",
+  "team": "Scotland",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Priyanaz Chatterji passed 50 career wickets (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 197,
+  "stakes": 0.9,
+  "magnitude": -0.1956851077673102,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F498",
+    "type": "milestone",
+    "text": "milestone passed: 50 career wickets",
+    "value": 50,
+    "source": "graph:history"
+   },
+   {
+    "id": "F499",
+    "type": "career_total",
+    "text": "career wickets after the window (graph coverage only)",
+    "value": 50,
+    "source": "graph:history"
+   },
+   {
+    "id": "F500",
+    "type": "career_total_before",
+    "text": "career wickets before the window",
+    "value": 49,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C66",
+  "player_id": "07248d8e",
+  "player_name": "Leah Paul",
+  "team": "Ireland",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Leah Paul passed 2000 career runs (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 88,
+  "stakes": 0.9,
+  "magnitude": -0.22892890985905404,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F501",
+    "type": "milestone",
+    "text": "milestone passed: 2000 career runs",
+    "value": 2000,
+    "source": "graph:history"
+   },
+   {
+    "id": "F502",
+    "type": "career_total",
+    "text": "career runs after the window (graph coverage only)",
+    "value": 2027,
+    "source": "graph:history"
+   },
+   {
+    "id": "F503",
+    "type": "career_total_before",
+    "text": "career runs before the window",
+    "value": 1985,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C67",
+  "player_id": "def7b1bb",
+  "player_name": "Rebecca Stokell",
+  "team": "Ireland",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Rebecca Stokell passed 100 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 166,
+  "stakes": 0.9,
+  "magnitude": -0.23723986038199,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F504",
+    "type": "milestone",
+    "text": "milestone passed: 100 career matches",
+    "value": 100,
+    "source": "graph:history"
+   },
+   {
+    "id": "F505",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 102,
+    "source": "graph:history"
+   },
+   {
+    "id": "F506",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 97,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C68",
+  "player_id": "4f86926b",
+  "player_name": "Louise Little",
+  "team": "Ireland",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Louise Little passed 50 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 411,
+  "stakes": 0.9,
+  "magnitude": -0.25386176142786193,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F507",
+    "type": "milestone",
+    "text": "milestone passed: 50 career matches",
+    "value": 50,
+    "source": "graph:history"
+   },
+   {
+    "id": "F508",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 50,
+    "source": "graph:history"
+   },
+   {
+    "id": "F509",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 46,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ },
+ {
+  "candidate_id": "C69",
+  "player_id": "33946d69",
+  "player_name": "Shreyanka Patil",
+  "team": "India",
+  "pattern": "CAREER_MILESTONE",
+  "headline": "Shreyanka Patil passed 50 career matches (in the formats covered by the graph) during ICC Women's T20 World Cup 2026",
+  "rarity_count": 411,
+  "stakes": 0.9,
+  "magnitude": -0.3993033955792411,
+  "arc_flags": [
+   "milestone"
+  ],
+  "facts": [
+   {
+    "id": "F510",
+    "type": "milestone",
+    "text": "milestone passed: 50 career matches",
+    "value": 50,
+    "source": "graph:history"
+   },
+   {
+    "id": "F511",
+    "type": "career_total",
+    "text": "career matches after the window (graph coverage only)",
+    "value": 51,
+    "source": "graph:history"
+   },
+   {
+    "id": "F512",
+    "type": "career_total_before",
+    "text": "career matches before the window",
+    "value": 49,
+    "source": "graph:history"
+   }
+  ],
+  "match_id": null
+ }
+]

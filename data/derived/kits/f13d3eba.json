@@ -1,0 +1,832 @@
+{
+ "player_id": "f13d3eba",
+ "name": "Kathryn Bryce",
+ "team": "Scotland",
+ "candidate_id": "C25",
+ "pattern": "FIRST_FOR_COUNTRY_50",
+ "headline": "Kathryn Bryce is the first Scotland player with a half-century in the ICC Women's T20 World Cup (60 runs v Ireland)",
+ "facts": [
+  {
+   "id": "F333",
+   "type": "runs_in_match",
+   "text": "Kathryn Bryce scored 60 off 39 balls v Ireland on 2026-06-13",
+   "value": 60,
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F334",
+   "type": "balls_in_match",
+   "text": "balls faced v Ireland",
+   "value": 39,
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F335",
+   "type": "wickets_in_match",
+   "text": "Kathryn Bryce took 2 for 19 from 19 balls v Ireland on 2026-06-13",
+   "value": 2,
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F336",
+   "type": "runs_conceded_in_match",
+   "text": "runs conceded v Ireland",
+   "value": 19,
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F337",
+   "type": "match_result",
+   "text": "Scotland v Ireland, Old Trafford, Manchester: Scotland won by 40 runs",
+   "value": "Scotland",
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F338",
+   "type": "prior_occurrences_team",
+   "text": "Scotland players with a half-century in ICC Women's T20 World Cup history before this window: 0",
+   "value": 0,
+   "source": "graph:history"
+  },
+  {
+   "id": "F339",
+   "type": "prior_occurrences",
+   "text": "all players with a half-century in ICC Women's T20 World Cup history before this window: 112",
+   "value": 112,
+   "source": "graph:history"
+  },
+  {
+   "id": "F513",
+   "type": "window_matches",
+   "text": "Kathryn Bryce played 5 matches in ICC Women's T20 World Cup 2026",
+   "value": 5,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F514",
+   "type": "window_runs",
+   "text": "94 runs off 80 balls in ICC Women's T20 World Cup 2026",
+   "value": 94,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F515",
+   "type": "window_balls_faced",
+   "text": "balls faced in window",
+   "value": 80,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F516",
+   "type": "window_wickets",
+   "text": "8 wickets from 111 balls in ICC Women's T20 World Cup 2026",
+   "value": 8,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F517",
+   "type": "window_balls_bowled",
+   "text": "balls bowled in window",
+   "value": 111,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F518",
+   "type": "impact_rank",
+   "text": "ranked 9 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026",
+   "value": 9,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F519",
+   "type": "impact",
+   "text": "impact score (runs + 20 x wickets)",
+   "value": 254.0,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F520",
+   "type": "strike_rate",
+   "text": "strike rate 117.5 in ICC Women's T20 World Cup 2026",
+   "value": 117.5,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F521",
+   "type": "economy",
+   "text": "economy 7.14 in ICC Women's T20 World Cup 2026",
+   "value": 7.14,
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F522",
+   "type": "runs_in_match",
+   "text": "Kathryn Bryce scored 60 off 39 balls v Ireland on 2026-06-13",
+   "value": 60,
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F523",
+   "type": "balls_in_match",
+   "text": "balls faced v Ireland",
+   "value": 39,
+   "source": "cricsheet:1490678"
+  },
+  {
+   "id": "F529",
+   "type": "wickets_in_match",
+   "text": "Kathryn Bryce took 2 for 13 from 20 balls v New Zealand on 2026-06-23",
+   "value": 2,
+   "source": "cricsheet:1490695"
+  },
+  {
+   "id": "F530",
+   "type": "runs_conceded_in_match",
+   "text": "runs conceded v New Zealand",
+   "value": 13,
+   "source": "cricsheet:1490695"
+  },
+  {
+   "id": "F532",
+   "type": "team",
+   "text": "Kathryn Bryce plays for Scotland",
+   "value": "Scotland",
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F533",
+   "type": "competition",
+   "text": "competition: ICC Women's T20 World Cup 2026",
+   "value": "ICC Women's T20 World Cup 2026",
+   "source": "aggregate:ICC Women's T20 World Cup 2026"
+  },
+  {
+   "id": "F534",
+   "type": "attention_views",
+   "text": "Kathryn Bryce's Wikipedia article views during the window: 6300",
+   "value": 6300,
+   "source": "Wikimedia pageviews (public API)"
+  },
+  {
+   "id": "F535",
+   "type": "expected_views",
+   "text": "expected views for this level of performance (SEEN gap model estimate, rounded): 26800",
+   "value": 26800,
+   "source": "SEEN gap model (OLS on significance, market tier, prior fame)"
+  },
+  {
+   "id": "F536",
+   "type": "attention_rank",
+   "text": "attention rank in the window: 50",
+   "value": 50,
+   "source": "Wikimedia pageviews (public API)"
+  }
+ ],
+ "language": "en",
+ "generated_at": "2026-09-29T09:34:19+00:00",
+ "mode": "llm+template",
+ "formats": {
+  "video_script": "[00:00-00:05] Kathryn Bryce. Scotland. A historic breakthrough at the ICC Women's T20 World Cup 2026.\n[00:05-00:20] History was made: Scotland had 0 [F338] players with a tournament half-century before this window. Kathryn Bryce changed that forever by smashing 60 [F333] off 39 [F334] balls against Ireland.\n[00:20-00:40] She wasn't done there. Bryce took 2 [F335] for 19 [F336] from 19 [F335] balls in that 40 [F337]-run win, and later claimed 2 [F529] for 13 [F530] in 20 [F529] balls against New Zealand.\n[00:40-00:55] Over 5 [F513] matches, she piled up 94 [F514] runs off 80 [F515] balls at a 117.5 [F520] strike rate, plus 8 [F516] wickets from 111 [F517] balls at an economy of 7.14 [F521]. Ranked 9 [F518] of 165 [F518] players by overall impact.\n[00:55-01:00] Remember the name: Kathryn Bryce. Follow her journey on the app.",
+  "article": "Kathryn Bryce etched her name into the record books at the ICC Women's T20 World Cup 2026, becoming the first player from Scotland to score a tournament half-century after 0 [F338] prior instances in team history. Before this tournament window, 112 [F339] players in world cricket had recorded a half-century in the competition, but Bryce broke new ground for her nation on 2026-06-13 [F333] at Old Trafford, striking 60 [F333] runs off 39 [F334] deliveries against Ireland. She then delivered with the ball, taking 2 [F335] for 19 [F336] from 19 [F335] balls to seal a 40 [F337]-run victory.\n\nBryce remained a constant threat across 5 [F513] matches, also snaring 2 [F529] for 13 [F530] in 20 [F529] balls against New Zealand. Across the entire campaign, she accumulated 94 [F514] runs facing 80 [F515] balls with a strike rate of 117.5 [F520], alongside 8 [F516] wickets bowled over 111 [F517] deliveries with a 7.14 [F521] economy rate. Her impact score of 254.0 [F519] ranked her 9 [F518] out of 165 [F518] players, cementing an unforgettable campaign.",
+  "social_posts": "Post 1: Kathryn Bryce is the first Scotland player with a half-century in the ICC Women's T20 World Cup (60 runs v Ireland) [F338] #Scotland #WomensCricket\n\nPost 2: Kathryn Bryce (Scotland) \u2014 94 runs off 80 balls [F514] at a strike rate of 117.5 [F520]; 8 wickets from 111 balls [F516] at an economy of 7.14 [F521]. Ranked #9 of 165 by impact in ICC Women's T20 World Cup 2026 [F518].\n\nPost 3: Know her name: Kathryn Bryce. Kathryn Bryce scored 60 off 39 balls v Ireland on 2026-06-13 [F333]. Follow for the next match.",
+  "infographic": "{\n \"title\": \"Kathryn Bryce\",\n \"subtitle\": \"Scotland \\u00b7 ICC Women's T20 World Cup 2026\",\n \"headline\": \"Kathryn Bryce is the first Scotland player with a half-century in the ICC Women's T20 World Cup (60 runs v Ireland)\",\n \"stats\": [\n  {\n   \"label\": \"Runs\",\n   \"value\": 94,\n   \"fact\": \"F514\"\n  },\n  {\n   \"label\": \"Wickets\",\n   \"value\": 8,\n   \"fact\": \"F516\"\n  },\n  {\n   \"label\": \"Strike rate\",\n   \"value\": 117.5,\n   \"fact\": \"F520\"\n  },\n  {\n   \"label\": \"Economy\",\n   \"value\": 7.14,\n   \"fact\": \"F521\"\n  },\n  {\n   \"label\": \"Impact rank\",\n   \"value\": 9,\n   \"fact\": \"F518\"\n  }\n ],\n \"footer\": \"Source: Cricsheet ball-by-ball data (ODC-BY) \\u00b7 SEEN Unseen XI\"\n}",
+  "creator_brief": "CREATOR BRIEF \u2014 Kathryn Bryce (Scotland)\n\nAngles:\n  1. Kathryn Bryce is the first Scotland player with a half-century in the ICC Women's T20 World Cup (60 runs v Ireland)\n  2. The match that made it: Kathryn Bryce scored 60 off 39 balls v Ireland on 2026-06-13 [F333].\n  3. Why it is rare: Scotland players with a half-century in ICC Women's T20 World Cup history before this window: 0 [F338].\n\nVerified facts (use only these numbers, keep the [F#] tags in your notes):\n  [F333] Kathryn Bryce scored 60 off 39 balls v Ireland on 2026-06-13 (source: cricsheet:1490678)\n  [F334] balls faced v Ireland (source: cricsheet:1490678)\n  [F335] Kathryn Bryce took 2 for 19 from 19 balls v Ireland on 2026-06-13 (source: cricsheet:1490678)\n  [F336] runs conceded v Ireland (source: cricsheet:1490678)\n  [F337] Scotland v Ireland, Old Trafford, Manchester: Scotland won by 40 runs (source: cricsheet:1490678)\n  [F338] Scotland players with a half-century in ICC Women's T20 World Cup history before this window: 0 (source: graph:history)\n  [F339] all players with a half-century in ICC Women's T20 World Cup history before this window: 112 (source: graph:history)\n  [F513] Kathryn Bryce played 5 matches in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F514] 94 runs off 80 balls in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F515] balls faced in window (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F516] 8 wickets from 111 balls in ICC Women's T20 World Cup 2026 (source: aggregate:ICC Women's T20 World Cup 2026)\n  [F517] balls bowled in window (source: aggregate:ICC Women's T20 World Cup 2026)\n--- guidance (not claims) ---\nDo: name her, name the country, say the number with its context, link the official highlight.\nDon't: speculate about fitness, selection or anything personal; nothing about odds or bookmakers.\nAssets: infographic spec (JSON), sixty-second script, quiz. Clip slot: ICC-cleared highlight required (not included).\nHashtags: #Scotland #WomensCricket #ICCWomensT20WorldCup2026\nSponsor tag: [available slot \u2014 presented by ...]\nAttribution: submit your post link in the SEEN creator page.",
+  "commentator_note": "COMMENTATOR NOTE \u2014 Kathryn Bryce (Scotland)\nPronunciation: Kathryn Bryce (confirm with team media manager)\n\n- Kathryn Bryce scored 60 off 39 balls v Ireland on 2026-06-13 [F333]\n- Kathryn Bryce took 2 for 19 from 19 balls v Ireland on 2026-06-13 [F335]\n- Scotland players with a half-century in ICC Women's T20 World Cup history before this window: 0 [F338]\n- all players with a half-century in ICC Women's T20 World Cup history before this window: 112 [F339]\n- 94 runs off 80 balls in ICC Women's T20 World Cup 2026 [F514]\n- 8 wickets from 111 balls in ICC Women's T20 World Cup 2026 [F516]\n- ranked 9 of 165 players by impact (runs + 20 x wickets) in ICC Women's T20 World Cup 2026 [F518]\n- strike rate 117.5 in ICC Women's T20 World Cup 2026 [F520]\n- economy 7.14 in ICC Women's T20 World Cup 2026 [F521]\n- Kathryn Bryce scored 60 off 39 balls v Ireland on 2026-06-13 [F522]\n- Kathryn Bryce took 2 for 13 from 20 balls v New Zealand on 2026-06-23 [F529]\n--- guidance (not claims) ---\nMilestone watch: check career totals before the next match (graph coverage: the formats loaded into SEEN).",
+  "quiz": "[\n {\n  \"question\": \"How many runs did Kathryn Bryce score in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   93,\n   94,\n   96,\n   113\n  ],\n  \"answer\": 94,\n  \"fact\": \"F514\"\n },\n {\n  \"question\": \"How many wickets did Kathryn Bryce take in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   5,\n   8,\n   12,\n   20\n  ],\n  \"answer\": 8,\n  \"fact\": \"F516\"\n },\n {\n  \"question\": \"Where did Kathryn Bryce rank by impact among all players in ICC Women's T20 World Cup 2026?\",\n  \"options\": [\n   8,\n   9,\n   17,\n   21\n  ],\n  \"answer\": 9,\n  \"fact\": \"F518\"\n }\n]",
+  "sponsor_hook": "Kathryn Bryce (Scotland): Kathryn Bryce is the first Scotland player with a half-century in the ICC Women's T20 World Cup (60 runs v Ireland) [F338] Attention gap: 6,300 article views in the window [F534] against roughly 26,800 expected for this level of performance [F535]. An early-stage partnership opportunity with measurable upside; activation ideas: 'Unseen XI presented by', athlete story series, local-language content."
+ },
+ "checks": {
+  "video_script": {
+   "passed": true,
+   "summary": "20/20 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F333"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F338"
+    },
+    {
+     "text": "60",
+     "status": "matched",
+     "fact": "F522"
+    },
+    {
+     "text": "39",
+     "status": "matched",
+     "fact": "F523"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F529"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F336"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F336"
+    },
+    {
+     "text": "40",
+     "status": "matched",
+     "fact": "F337"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F529"
+    },
+    {
+     "text": "13",
+     "status": "matched",
+     "fact": "F530"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F518"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F513"
+    },
+    {
+     "text": "94",
+     "status": "matched",
+     "fact": "F514"
+    },
+    {
+     "text": "80",
+     "status": "matched",
+     "fact": "F515"
+    },
+    {
+     "text": "117.5",
+     "status": "matched",
+     "fact": "F520"
+    },
+    {
+     "text": "8",
+     "status": "matched",
+     "fact": "F516"
+    },
+    {
+     "text": "111",
+     "status": "matched",
+     "fact": "F517"
+    },
+    {
+     "text": "7.14",
+     "status": "matched",
+     "fact": "F521"
+    },
+    {
+     "text": "9",
+     "status": "matched",
+     "fact": "F518"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F518"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "social_posts": {
+   "passed": true,
+   "summary": "12/12 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "60",
+     "status": "matched",
+     "fact": "F522"
+    },
+    {
+     "text": "94",
+     "status": "matched",
+     "fact": "F514"
+    },
+    {
+     "text": "80",
+     "status": "matched",
+     "fact": "F515"
+    },
+    {
+     "text": "117.5",
+     "status": "matched",
+     "fact": "F520"
+    },
+    {
+     "text": "8",
+     "status": "matched",
+     "fact": "F516"
+    },
+    {
+     "text": "111",
+     "status": "matched",
+     "fact": "F517"
+    },
+    {
+     "text": "7.14",
+     "status": "matched",
+     "fact": "F521"
+    },
+    {
+     "text": "9",
+     "status": "matched",
+     "fact": "F518"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F518"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F333"
+    },
+    {
+     "text": "60",
+     "status": "matched",
+     "fact": "F522"
+    },
+    {
+     "text": "39",
+     "status": "matched",
+     "fact": "F523"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "article": {
+   "passed": true,
+   "summary": "22/22 numeric claims matched; 0 banned topics; 1 unknown names",
+   "claims": [
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F333"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F338"
+    },
+    {
+     "text": "112",
+     "status": "matched",
+     "fact": "F339"
+    },
+    {
+     "text": "60",
+     "status": "matched",
+     "fact": "F522"
+    },
+    {
+     "text": "39",
+     "status": "matched",
+     "fact": "F523"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F529"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F336"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F336"
+    },
+    {
+     "text": "40",
+     "status": "matched",
+     "fact": "F337"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F513"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F529"
+    },
+    {
+     "text": "13",
+     "status": "matched",
+     "fact": "F530"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F518"
+    },
+    {
+     "text": "94",
+     "status": "matched",
+     "fact": "F514"
+    },
+    {
+     "text": "80",
+     "status": "matched",
+     "fact": "F515"
+    },
+    {
+     "text": "117.5",
+     "status": "matched",
+     "fact": "F520"
+    },
+    {
+     "text": "8",
+     "status": "matched",
+     "fact": "F516"
+    },
+    {
+     "text": "111",
+     "status": "matched",
+     "fact": "F517"
+    },
+    {
+     "text": "7.14",
+     "status": "matched",
+     "fact": "F521"
+    },
+    {
+     "text": "254.0",
+     "status": "matched",
+     "fact": "F519"
+    },
+    {
+     "text": "9",
+     "status": "matched",
+     "fact": "F518"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F518"
+    }
+   ],
+   "banned": [],
+   "unknown_names": [
+    "Old Trafford"
+   ]
+  },
+  "infographic": {
+   "passed": true,
+   "summary": "5/5 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "94",
+     "status": "matched",
+     "fact": "F514"
+    },
+    {
+     "text": "8",
+     "status": "matched",
+     "fact": "F516"
+    },
+    {
+     "text": "117.5",
+     "status": "matched",
+     "fact": "F520"
+    },
+    {
+     "text": "7.14",
+     "status": "matched",
+     "fact": "F521"
+    },
+    {
+     "text": "9",
+     "status": "matched",
+     "fact": "F518"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "creator_brief": {
+   "passed": true,
+   "summary": "20/20 numeric claims matched; 0 banned topics; 1 unknown names",
+   "claims": [
+    {
+     "text": "60",
+     "status": "matched",
+     "fact": "F522"
+    },
+    {
+     "text": "60",
+     "status": "matched",
+     "fact": "F522"
+    },
+    {
+     "text": "39",
+     "status": "matched",
+     "fact": "F523"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F338"
+    },
+    {
+     "text": "60",
+     "status": "matched",
+     "fact": "F522"
+    },
+    {
+     "text": "39",
+     "status": "matched",
+     "fact": "F523"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F529"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F336"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F336"
+    },
+    {
+     "text": "40",
+     "status": "matched",
+     "fact": "F337"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F338"
+    },
+    {
+     "text": "112",
+     "status": "matched",
+     "fact": "F339"
+    },
+    {
+     "text": "5",
+     "status": "matched",
+     "fact": "F513"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F333"
+    },
+    {
+     "text": "94",
+     "status": "matched",
+     "fact": "F514"
+    },
+    {
+     "text": "80",
+     "status": "matched",
+     "fact": "F515"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F333"
+    },
+    {
+     "text": "8",
+     "status": "matched",
+     "fact": "F516"
+    },
+    {
+     "text": "111",
+     "status": "matched",
+     "fact": "F517"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F333"
+    }
+   ],
+   "banned": [],
+   "unknown_names": [
+    "Old Trafford"
+   ]
+  },
+  "commentator_note": {
+   "passed": true,
+   "summary": "26/26 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "60",
+     "status": "matched",
+     "fact": "F522"
+    },
+    {
+     "text": "39",
+     "status": "matched",
+     "fact": "F523"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F529"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F336"
+    },
+    {
+     "text": "19",
+     "status": "matched",
+     "fact": "F336"
+    },
+    {
+     "text": "0",
+     "status": "matched",
+     "fact": "F338"
+    },
+    {
+     "text": "112",
+     "status": "matched",
+     "fact": "F339"
+    },
+    {
+     "text": "94",
+     "status": "matched",
+     "fact": "F514"
+    },
+    {
+     "text": "80",
+     "status": "matched",
+     "fact": "F515"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F333"
+    },
+    {
+     "text": "8",
+     "status": "matched",
+     "fact": "F516"
+    },
+    {
+     "text": "111",
+     "status": "matched",
+     "fact": "F517"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F333"
+    },
+    {
+     "text": "9",
+     "status": "matched",
+     "fact": "F518"
+    },
+    {
+     "text": "165",
+     "status": "matched",
+     "fact": "F518"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F518"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F333"
+    },
+    {
+     "text": "117.5",
+     "status": "matched",
+     "fact": "F520"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F333"
+    },
+    {
+     "text": "7.14",
+     "status": "matched",
+     "fact": "F521"
+    },
+    {
+     "text": "2026",
+     "status": "matched",
+     "fact": "F333"
+    },
+    {
+     "text": "60",
+     "status": "matched",
+     "fact": "F522"
+    },
+    {
+     "text": "39",
+     "status": "matched",
+     "fact": "F523"
+    },
+    {
+     "text": "2",
+     "status": "matched",
+     "fact": "F529"
+    },
+    {
+     "text": "13",
+     "status": "matched",
+     "fact": "F530"
+    },
+    {
+     "text": "20",
+     "status": "matched",
+     "fact": "F518"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "quiz": {
+   "passed": true,
+   "summary": "3/3 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "94",
+     "status": "matched",
+     "fact": "F514"
+    },
+    {
+     "text": "8",
+     "status": "matched",
+     "fact": "F516"
+    },
+    {
+     "text": "9",
+     "status": "matched",
+     "fact": "F518"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  },
+  "sponsor_hook": {
+   "passed": true,
+   "summary": "3/3 numeric claims matched; 0 banned topics; 0 unknown names",
+   "claims": [
+    {
+     "text": "60",
+     "status": "matched",
+     "fact": "F522"
+    },
+    {
+     "text": "6,300",
+     "status": "matched",
+     "fact": "F534"
+    },
+    {
+     "text": "26,800",
+     "status": "matched",
+     "fact": "F535"
+    }
+   ],
+   "banned": [],
+   "unknown_names": []
+  }
+ },
+ "gap_summary": {
+  "impact_rank": 9,
+  "attention_rank": 50,
+  "gap_rank": 30,
+  "views_window_total": 6300,
+  "expected_views": 26753.0,
+  "no_article": false,
+  "gap_confidence": "high"
+ }
+}
