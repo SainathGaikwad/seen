@@ -102,7 +102,12 @@ if require_run():
             st.markdown(f"<span class='{'ok' if ch['passed'] else 'bad'}'><b>{'PASS' if ch['passed'] else 'BLOCKED'}</b> — {ch['summary']}</span>", unsafe_allow_html=True)
             bad = [c for c in ch["claims"] if c["status"] == "unmatched"]
             if bad:
-                st.error("Unverifiable numbers: " + ", ".join(sorted({c['text'] for c in bad})) + " — not in any fact. Fix the text or add a sourced fact.")
+                units = [c["note"] for c in bad if c.get("note")]
+                plain = sorted({c["text"] for c in bad if not c.get("note")})
+                if plain:
+                    st.error("Unverifiable numbers: " + ", ".join(plain) + " — not in any fact. Fix the text or add a sourced fact.")
+                for u in units:
+                    st.error("Wrong unit: " + u + ".")
             if ch["banned"]:
                 st.error("Banned topics: " + ", ".join(ch["banned"]))
             if ch.get("unknown_names"):

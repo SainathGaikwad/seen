@@ -70,6 +70,15 @@ def test_claim_check_blocks_invented_numbers():
     assert not banned.passed and "health or medical speculation" in banned.banned
 
 
+def test_claim_check_blocks_wrong_units():
+    facts = [{"id": "F1", "type": "wickets_in_match", "text": "took 2 for 22 from 24 balls v West Indies on 2026-06-27", "value": 2, "source": "x"},
+             {"id": "F2", "type": "window_balls_bowled", "text": "balls bowled in window", "value": 114, "source": "x"}]
+    ok = claim_check.check("2 wickets for 22 runs from 24 balls [F1]; 114 balls [F2] in all.", facts, [])
+    assert ok.passed
+    bad = claim_check.check("2 wickets from her 24 overs [F1].", facts, [])
+    assert not bad.passed and any("unit mismatch" in (c.get("note") or "") for c in bad.claims)
+
+
 def test_claim_check_ignores_structure():
     facts = [{"id": "F1", "type": "window_runs", "text": "scored 12 runs", "value": 12, "source": "cricsheet:1490703"}]
     txt = "[00:00-00:05] Intro.\nPost 1: scored 12 runs [F1] (source: cricsheet:1490703) on 2026-06-27"

@@ -4,6 +4,8 @@ Rules
 - Numbers: each number in the text (excluding citation markers like [F12] and years that appear
   in fact dates) must equal a fact value (integer match, or within 0.05 for decimals such as strike rates),
   or be derivable as a listed 'derived' value (e.g., balls = overs x 6). Unmatched numbers block publication.
+- Units: a number that carries a unit in the text (balls, overs, runs, wickets, matches, views …) must carry the same
+  unit in the fact bundle: "24 overs" is blocked when the fact says 24 balls.
 - Entities: player and team names in the text must appear in the allowed-name list.
 - Banned topics: health/injury speculation, private life, betting, religion — always blocked.
 """
@@ -27,6 +29,44 @@ BANNED = [
     (re.compile(r"\b(religio|hindu|muslim|christian|sikh|caste)\w*", re.I), "religion or caste"),
     (re.compile(r"\b(sexy|hot body|attractive)\b", re.I), "appearance"),
 ]
+
+
+# units a number can carry in cricket prose; a number must keep the unit it has in the fact bundle (24 balls are not 24 overs)
+UNIT_RX = re.compile(r"(\d+(?:[.,]\d+)?)\s+(?:[A-Za-z-]+\s+)?(balls?|overs?|runs?|wickets?|matches|match|views?|fours?|sixes|six|catches|catch)\b", re.I)
+_UNIT_CANON = {"ball": "balls", "over": "overs", "run": "runs", "wicket": "wickets", "match": "matches", "view": "views",
+               "four": "fours", "six": "sixes", "catch": "catches"}
+_TYPE_UNITS = (("balls", "balls"), ("overs", "overs"), ("wicket", "wickets"), ("runs", "runs"), ("matches", "matches"),
+               ("career_total", "matches"), ("views", "views"))
+
+
+def _canon_unit(word: str) -> str:
+    w = word.lower()
+    if w in _UNIT_CANON:
+        return _UNIT_CANON[w]
+    if w.endswith("es") and w[:-2] in _UNIT_CANON:
+        return _UNIT_CANON[w[:-2]]
+    if w.endswith("s") and w[:-1] in _UNIT_CANON:
+        return _UNIT_CANON[w[:-1]]
+    return w
+
+
+def _fact_units(facts: list[dict]) -> dict[float, set[str]]:
+    """value -> the units that value carries anywhere in the bundle (typed values and numbers in fact text)."""
+    units: dict[float, set[str]] = {}
+    for f in facts:
+        ftype = str(f.get("type", ""))
+        v = f.get("value")
+        if isinstance(v, (int, float)) and not isinstance(v, bool):
+            for key, unit in _TYPE_UNITS:
+                if key in ftype:
+                    units.setdefault(float(v), set()).add(unit)
+                    break
+        for num, word in UNIT_RX.findall(str(f.get("text", ""))):
+            try:
+                units.setdefault(float(num.replace(",", "")), set()).add(_canon_unit(word))
+            except ValueError:
+                pass
+    return units
 
 
 @dataclass
@@ -66,12 +106,14 @@ def check(text: str, facts: list[dict], allowed_names: list[str], derived_ok: di
     fact_vals = _fact_values(facts)
     if derived_ok:
         fact_vals.update(derived_ok)
-    for num in NUMBER.findall(stripped):
+    fact_units = _fact_units(facts)
+    for m in NUMBER.finditer(stripped):
+        num = m.group(1)
         try:
             val = float(num.replace(",", ""))
         except ValueError:
             continue
-        status, fid = "unmatched", None
+        status, fid, note = "unmatched", None, None
         if val in fact_vals:
             status, fid = "matched", fact_vals[val]
         else:
@@ -79,7 +121,16 @@ def check(text: str, facts: list[dict], allowed_names: list[str], derived_ok: di
                 if abs(fv - val) <= 0.051 and (fv != int(fv) or val != int(val)):
                     status, fid = "matched", f_id
                     break
-        res.claims.append({"text": num, "status": status, "fact": fid})
+        if status == "matched" and fact_units.get(val):
+            um = UNIT_RX.match(stripped, m.start())
+            if um and um.group(1) == num:
+                unit = _canon_unit(um.group(2))
+                if unit not in fact_units[val]:
+                    status, note = "unmatched", f"unit mismatch: {num} is {'/'.join(sorted(fact_units[val]))} in the facts, not {unit}"
+        claim = {"text": num, "status": status, "fact": fid}
+        if note:
+            claim["note"] = note
+        res.claims.append(claim)
         if status == "unmatched":
             res.passed = False
     for rx, label in BANNED:
