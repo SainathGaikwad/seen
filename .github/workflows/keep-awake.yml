@@ -1,0 +1,28 @@
+# Keeps the hosted demo awake on Streamlit Community Cloud (apps hibernate after 12 hours without viewers).
+# Runs every six hours until judging ends; a failed run means the app did not come up — GitHub e-mails the owner.
+name: Keep the demo awake
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"      # 05:23, 11:23, 17:23, 23:23 IST (UTC+5:30 → 23:53, 05:53, 11:53, 17:53 UTC)
+  workflow_dispatch:
+
+jobs:
+  visit:
+    if: github.repository == 'SainathGaikwad/seen'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: docs/keep_awake.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install a headless browser
+        run: |
+          pip install --quiet playwright
+          python -m playwright install --with-deps chromium
+      - name: Visit the app
+        run: python docs/keep_awake.py https://seen-unseen-xi.streamlit.app
