@@ -264,7 +264,8 @@ def rewrite_format(kit: dict, fmt: str, angle: str = "") -> dict:
     if fmt not in REWRITE_FORMATS:
         return {"accepted": False, "text": "", "check": {}, "error": f"{fmt} is template-only"}
     comp = _f(kit["facts"], "competition", {"value": "the tournament"})["value"]
-    instruction = f"Rewrite the template version as natural, vivid English for {REWRITE_BRIEF[fmt]}. Keep every [F#] citation next to its number."
+    instruction = (f"Write a NEW version of the template text as natural, vivid English for {REWRITE_BRIEF[fmt]}. "
+                   "The wording must differ from the template version (do not copy it back); keep every fact and every [F#] citation next to its number.")
     if angle.strip():
         instruction += f" Angle requested by the editor: {angle.strip()[:200]}. Facts and citations stay exactly as given."
     user = json.dumps({"facts": kit["facts"], "headline": kit["headline"], "player": kit["name"], "team": kit["team"], "competition": comp,
@@ -280,12 +281,16 @@ def rewrite_format(kit: dict, fmt: str, angle: str = "") -> dict:
     text = data.get(fmt) if isinstance(data.get(fmt), str) else None
     if not text or not text.strip():
         return {"accepted": False, "text": raw[:500], "check": {}, "error": "the model did not return the requested JSON"}
+    current = kit["formats"][fmt].split(GUIDANCE_MARKER)[0]
+    if " ".join(text.split()) == " ".join(current.split()):
+        return {"accepted": False, "text": text, "check": {}, "error": "the model returned the current text unchanged; try a different angle"}
     res = claim_check.check(text, kit["facts"], [kit["name"], kit["team"]])
     check = {"passed": res.passed, "summary": res.summary(), "claims": res.claims, "banned": res.banned, "unknown_names": res.unmatched_entities}
     if res.passed:
         kit.setdefault("generated", {}).setdefault(fmt, kit["formats"][fmt])
         kit["formats"][fmt] = text
         kit["mode"] = "llm+template"
+        kit["text_rev"] = int(kit.get("text_rev", 0)) + 1   # the editor's text box re-reads the text when this changes
         kit["checks"] = run_checks(kit)
         kit.setdefault("rewrites", []).append({"format": fmt, "angle": angle.strip(), "model": llm.model_label(),
                                                "at": datetime.now(timezone.utc).isoformat(timespec="seconds")})

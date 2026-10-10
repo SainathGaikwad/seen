@@ -180,5 +180,9 @@ def test_live_rewrite_is_gated_by_the_claim_checker(monkeypatch):
     monkeypatch.setattr(llm, "complete", lambda system, user, max_tokens=2000: json.dumps({"article": "A B, ranked 1 [F1] of 165 [F1], made 145 runs [F2] look easy."}))
     out = compiler.rewrite_format(kit, "article")
     assert out["accepted"] and kit["mode"] == "llm+template" and kit["generated"]["article"].startswith("Ranked 1")
-    assert kit["checks"]["article"]["passed"] and kit["rewrites"][-1]["model"] == "test model"
+    assert kit["checks"]["article"]["passed"] and kit["rewrites"][-1]["model"] == "test model" and kit["text_rev"] == 1
     assert compiler.rewrite_format(kit, "quiz")["error"]
+    # a model that hands the current text back is not a rewrite
+    monkeypatch.setattr(llm, "complete", lambda system, user, max_tokens=2000: json.dumps({"article": kit["formats"]["article"] + "  "}))
+    same = compiler.rewrite_format(kit, "article")
+    assert not same["accepted"] and "unchanged" in same["error"] and kit["text_rev"] == 1

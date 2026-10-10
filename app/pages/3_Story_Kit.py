@@ -44,7 +44,9 @@ if require_run():
             if fmt in ("infographic", "quiz"):
                 st.code(body, language="json")
             else:
-                edited = st.text_area("Edit (every number must still match a fact)", body, height=260, key=f"ta_{pid}_{fmt}")
+                # the key carries a revision counter: a model rewrite or a revert changes it, so the box shows the new text
+                rev = int(kit.get("text_rev", 0))
+                edited = st.text_area("Edit (every number must still match a fact)", body, height=260, key=f"ta_{pid}_{fmt}_{rev}")
                 if guidance:
                     st.caption("Guidance (not checked as claims): " + guidance.replace("\n", " · "))
                 cols = st.columns([1, 1, 1.4, 2.6])
@@ -61,6 +63,7 @@ if require_run():
                 original = (kit.get("generated") or {}).get(fmt)
                 if original and original != text and cols[2].button("Revert edits", key=f"rev_{pid}_{fmt}", help="Restore the generated, verified text"):
                     kit["formats"][fmt] = original
+                    kit["text_rev"] = rev + 1
                     kit["checks"] = run_checks(kit)
                     save_kit(kit)
                     st.rerun()
@@ -89,6 +92,11 @@ if require_run():
                     msg = st.session_state.pop(f"rw_msg_{pid}_{fmt}", None)
                     if msg:
                         (st.error if msg.startswith("BLOCKED") else st.success)(msg)
+                    last = [r for r in kit.get("rewrites", []) if r.get("format") == fmt]
+                    if last:
+                        r = last[-1]
+                        st.caption(f"Last model rewrite: {r.get('model', '?')} · angle: {r.get('angle') or '—'} · {str(r.get('at', ''))[:16].replace('T', ' ')} UTC · "
+                                   f"{len(last)} accepted rewrite{'s' if len(last) != 1 else ''} for this format")
             ch = kit["checks"][fmt]
             st.markdown(f"<span class='{'ok' if ch['passed'] else 'bad'}'><b>{'PASS' if ch['passed'] else 'BLOCKED'}</b> — {ch['summary']}</span>", unsafe_allow_html=True)
             bad = [c for c in ch["claims"] if c["status"] == "unmatched"]
