@@ -5,6 +5,8 @@ Community Cloud hibernates an app after 12 hours without viewers; a sleeping app
 runs this script every six hours: it opens the app in a headless browser (a real websocket session, which is what counts
 as traffic), wakes it if it has dozed off, and fails loudly if the app does not come up — a failed run e-mails the repo owner.
 
+Community Cloud serves the app inside an iframe of a host page, so every check looks through all frames.
+
     python docs/keep_awake.py https://seen-unseen-xi.streamlit.app
 """
 import sys
@@ -17,6 +19,26 @@ READY_TEXT = "This week's XI"          # rendered by app/Home.py once the pipeli
 WAKE_BUTTON = "get this app back up"   # Community Cloud's sleeping page
 
 
+def frame_with_text(page, text):
+    for frame in page.frames:
+        try:
+            if frame.get_by_text(text).count():
+                return frame
+        except Exception:      # a frame can detach while the app boots
+            pass
+    return None
+
+
+def frame_with_button(page, name):
+    for frame in page.frames:
+        try:
+            if frame.get_by_role("button", name=name).count():
+                return frame
+        except Exception:
+            pass
+    return None
+
+
 def main() -> int:
     with sync_playwright() as p:
         browser = p.chromium.launch()
@@ -24,29 +46,31 @@ def main() -> int:
         page.goto(URL, wait_until="domcontentloaded", timeout=90_000)
         started = time.time()
         woke = False
+        app = None
         while time.time() - started < 300:           # a cold boot (dependency install) can take a few minutes
-            if page.get_by_text(READY_TEXT).count():
+            app = frame_with_text(page, READY_TEXT)
+            if app is not None:
                 break
-            btn = page.get_by_role("button", name=WAKE_BUTTON)
-            if not woke and btn.count():
-                print("app was asleep: waking it")
-                btn.first.click()
-                woke = True
+            if not woke:
+                f = frame_with_button(page, WAKE_BUTTON)
+                if f is not None:
+                    print("app was asleep: waking it")
+                    f.get_by_role("button", name=WAKE_BUTTON).first.click()
+                    woke = True
             time.sleep(5)
         else:
-            print(f"FAIL: '{READY_TEXT}' not visible after 5 minutes (woke={woke})")
-            print(page.content()[:2000])
+            print(f"FAIL: '{READY_TEXT}' not visible after 5 minutes (woke={woke}); frames: {[f.url for f in page.frames]}")
+            print(page.content()[:1500])
             browser.close()
             return 1
         # keep the session open for a moment and open one more page, like a visitor would
         time.sleep(15)
         try:
-            page.get_by_role("link", name="Story Kit", exact=True).first.click(timeout=15_000)
-            page.wait_for_load_state("networkidle", timeout=30_000)
-        except PWTimeout:
+            app.get_by_role("link", name="Story Kit", exact=True).first.click(timeout=15_000)
+            time.sleep(10)
+        except Exception:
             pass
-        time.sleep(10)
-        print(f"ok: {URL} is awake (woke it: {woke}); visit took {time.time() - started:.0f}s")
+        print(f"ok: {URL} is awake (woke it: {woke}); visit took {time.time() - started:.0f}s; app frame: {app.url}")
         browser.close()
     return 0
 
