@@ -63,7 +63,7 @@ Creation (eight formats from one verified event), discovery (the Unseen XI and t
 
 **Built with:** python · duckdb · pandas · streamlit · plotly · nvidia-nemotron-3 · nebius-token-factory · openai-sdk · cloud-run · docker
 
-**Try it out:** `[hosted demo URL — the Cloud Run service deployed with LLM_PROVIDER=nebius]` · `[GitHub repo]` · `[YouTube video]`
+**Try it out:** https://seen-unseen-xi.streamlit.app · https://github.com/SainathGaikwad/seen · https://youtu.be/YXaoldQgoZg
 
 **How Nemotron / Token Factory are used (README section already written):** `README.md` → "How NVIDIA Nemotron and Nebius Token Factory are used".
 
