@@ -15,6 +15,20 @@ if str(ROOT) not in sys.path:
 
 from seen.config import load_config  # noqa: E402
 
+
+def _secrets_to_env() -> None:
+    """Hosted Streamlit (Community Cloud) keeps keys in st.secrets; the pipeline code reads os.environ.
+    Copy top-level string secrets across once, never overriding a value the environment already has."""
+    import os
+    try:
+        for k, v in st.secrets.items():
+            if isinstance(v, str) and k.isupper():
+                os.environ.setdefault(k, v)
+    except Exception:   # no secrets file: normal for local runs
+        pass
+
+
+_secrets_to_env()
 CFG = load_config()
 DERIVED = Path(CFG["paths"]["derived"])
 MANUAL = Path(CFG["paths"]["manual"])

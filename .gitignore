@@ -4,7 +4,6 @@ __pycache__/
 .env
 data/raw/
 data/cache/
-data/seen.duckdb
 data/derived/fan_events.csv
 data/derived/publications.json
 data/derived/creator_posts.csv

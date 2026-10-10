@@ -4,6 +4,8 @@
 
 Built for the ICC × Ignyte Global Hackathon 2026 (Prototype track); also entered in the Google Cloud **AI Builder Cup 2026** (theme: Media, Content & Digital Experiences — hosted on Cloud Run, Gemini for prose and translation) and the **Nebius × NVIDIA Global AI Hackathon** (NVIDIA Nemotron 3 on Nebius Token Factory as the writing model). Everything runs from public, keyless data: Cricsheet ball-by-ball files, Wikidata, Wikimedia pageviews and GDELT. An LLM key is optional.
 
+**Live demo:** https://seen-unseen-xi.streamlit.app · **Code:** https://github.com/SainathGaikwad/seen · Decks and submission notes in `docs/`.
+
 ## What it does (one loop)
 
 ```
