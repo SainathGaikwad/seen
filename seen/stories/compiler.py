@@ -258,32 +258,42 @@ REWRITE_BRIEF = {"video_script": "a 60-second vertical video script with timesta
 def rewrite_format(kit: dict, fmt: str, angle: str = "") -> dict:
     """Live, single-format rewrite from the same fact bundle (the app's 'Rewrite with <model>' button).
 
-    Returns {"accepted": bool, "text": str, "check": dict, "error": str | None}. The kit is updated only when the
-    claim checker passes; a rejected draft is stored under kit["rejected"][fmt] so the UI can show why.
+    With an angle the model writes from the facts alone (no reference text), so the draft reads differently from the
+    current version; without one it gets the current text as a reference and must reword it. Returns
+    {"accepted", "text", "check", "error", "changed"} where changed is the share of words that differ from the current
+    text. The kit is updated only when the claim checker passes; a rejected draft lands in kit["rejected"][fmt].
     """
+    import difflib
     if fmt not in REWRITE_FORMATS:
-        return {"accepted": False, "text": "", "check": {}, "error": f"{fmt} is template-only"}
+        return {"accepted": False, "text": "", "check": {}, "error": f"{fmt} is template-only", "changed": 0.0}
     comp = _f(kit["facts"], "competition", {"value": "the tournament"})["value"]
-    instruction = (f"Write a NEW version of the template text as natural, vivid English for {REWRITE_BRIEF[fmt]}. "
-                   "The wording must differ from the template version (do not copy it back); keep every fact and every [F#] citation next to its number.")
+    current = kit["formats"][fmt].split(GUIDANCE_MARKER)[0]
+    payload = {"facts": kit["facts"], "headline": kit["headline"], "player": kit["name"], "team": kit["team"], "competition": comp,
+               "output": f"Return ONLY a JSON object with the single key {fmt}."}
     if angle.strip():
-        instruction += f" Angle requested by the editor: {angle.strip()[:200]}. Facts and citations stay exactly as given."
-    user = json.dumps({"facts": kit["facts"], "headline": kit["headline"], "player": kit["name"], "team": kit["team"], "competition": comp,
-                       "template_version": kit["formats"][fmt].split(GUIDANCE_MARKER)[0], "instruction": instruction,
-                       "output": f"Return ONLY a JSON object with the single key {fmt}."}, ensure_ascii=False)
+        payload["instruction"] = (f"Write {REWRITE_BRIEF[fmt]} about this performance from the facts below, for this audience and tone: "
+                                  f"{angle.strip()[:200]}. Natural, vivid English; every number you use must come from a fact and be followed "
+                                  f"by its citation like [F3]; do not invent anything that is not in the facts.")
+        if fmt == "video_script":
+            payload["structure"] = "Five timestamped blocks: [00:00-00:05], [00:05-00:20], [00:20-00:40], [00:40-00:55], [00:55-01:00]."
+    else:
+        payload["reference_version"] = current
+        payload["instruction"] = (f"Write a NEW version of the reference as natural, vivid English for {REWRITE_BRIEF[fmt]}. The wording must "
+                                  "differ from the reference (do not copy it back); keep every fact and every [F#] citation next to its number.")
+    user = json.dumps(payload, ensure_ascii=False)
     system = SYSTEM_PROMPT.replace("Return ONLY a JSON object with keys: video_script, social_posts, article.",
                                    "Return ONLY a JSON object with the single key named in the request.")
     try:
         raw = llm.complete(system, user, max_tokens=3000)
     except Exception as exc:
-        return {"accepted": False, "text": "", "check": {}, "error": str(exc)[:300]}
+        return {"accepted": False, "text": "", "check": {}, "error": str(exc)[:300], "changed": 0.0}
     data = llm.parse_json(raw) or {}
     text = data.get(fmt) if isinstance(data.get(fmt), str) else None
     if not text or not text.strip():
-        return {"accepted": False, "text": raw[:500], "check": {}, "error": "the model did not return the requested JSON"}
-    current = kit["formats"][fmt].split(GUIDANCE_MARKER)[0]
-    if " ".join(text.split()) == " ".join(current.split()):
-        return {"accepted": False, "text": text, "check": {}, "error": "the model returned the current text unchanged; try a different angle"}
+        return {"accepted": False, "text": raw[:500], "check": {}, "error": "the model did not return the requested JSON", "changed": 0.0}
+    changed = round(1.0 - difflib.SequenceMatcher(None, current.split(), text.split()).ratio(), 3)
+    if changed < 0.05:
+        return {"accepted": False, "text": text, "check": {}, "error": "the model returned the current text almost unchanged; try a different angle", "changed": changed}
     res = claim_check.check(text, kit["facts"], [kit["name"], kit["team"]])
     check = {"passed": res.passed, "summary": res.summary(), "claims": res.claims, "banned": res.banned, "unknown_names": res.unmatched_entities}
     if res.passed:
@@ -292,11 +302,11 @@ def rewrite_format(kit: dict, fmt: str, angle: str = "") -> dict:
         kit["mode"] = "llm+template"
         kit["text_rev"] = int(kit.get("text_rev", 0)) + 1   # the editor's text box re-reads the text when this changes
         kit["checks"] = run_checks(kit)
-        kit.setdefault("rewrites", []).append({"format": fmt, "angle": angle.strip(), "model": llm.model_label(),
+        kit.setdefault("rewrites", []).append({"format": fmt, "angle": angle.strip(), "model": llm.model_label(), "changed": changed,
                                                "at": datetime.now(timezone.utc).isoformat(timespec="seconds")})
     else:
         kit.setdefault("rejected", {})[fmt] = {"text": text, "reason": res.summary(), "claims": res.claims, "banned": res.banned}
-    return {"accepted": res.passed, "text": text, "check": check, "error": None}
+    return {"accepted": res.passed, "text": text, "check": check, "error": None, "changed": changed}
 
 
 def run_checks(kit: dict) -> dict:

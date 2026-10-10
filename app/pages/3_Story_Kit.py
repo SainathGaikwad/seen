@@ -82,7 +82,8 @@ if require_run():
                                 st.error(f"Model call failed: {out['error']}")
                             elif out["accepted"]:
                                 save_kit(kit)
-                                st.session_state[f"rw_msg_{pid}_{fmt}"] = f"New draft from {label} passed the claim checker ({out['check']['summary']})."
+                                st.session_state[f"rw_msg_{pid}_{fmt}"] = (f"New draft from {label} passed the claim checker ({out['check']['summary']}); "
+                                                           f"{int(round(out['changed'] * 100))}% of the words changed.")
                                 st.rerun()
                             else:
                                 save_kit(kit)
@@ -95,7 +96,7 @@ if require_run():
                     last = [r for r in kit.get("rewrites", []) if r.get("format") == fmt]
                     if last:
                         r = last[-1]
-                        st.caption(f"Last model rewrite: {r.get('model', '?')} · angle: {r.get('angle') or '—'} · {str(r.get('at', ''))[:16].replace('T', ' ')} UTC · "
+                        st.caption(f"Last model rewrite: {r.get('model', '?')} · angle: {r.get('angle') or '—'} · {int(round(float(r.get('changed', 0)) * 100))}% of words changed · {str(r.get('at', ''))[:16].replace('T', ' ')} UTC · "
                                    f"{len(last)} accepted rewrite{'s' if len(last) != 1 else ''} for this format")
             ch = kit["checks"][fmt]
             st.markdown(f"<span class='{'ok' if ch['passed'] else 'bad'}'><b>{'PASS' if ch['passed'] else 'BLOCKED'}</b> — {ch['summary']}</span>", unsafe_allow_html=True)
