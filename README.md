@@ -59,6 +59,16 @@ In the app, the **Story kit** page has *Rewrite with the model*: a live call to 
 
 `deploy\deploy_cloudrun.bat YOUR_PROJECT_ID` (Windows) or `bash deploy/deploy_cloudrun.sh YOUR_PROJECT_ID` builds the `Dockerfile` with Cloud Build, stores the API key from `.env` in Secret Manager and deploys the app with the analysed data baked in. Details, costs and clean-up: [deploy/cloudrun.md](deploy/cloudrun.md). The same image with `LLM_PROVIDER=nebius` is the Nemotron-powered deployment.
 
+## Life after code: the GitLab pipeline and the Editor-in-chief agent
+
+The post-code side of SEEN runs on GitLab (`gitlab.com/seen-hackathons/seen`): a Duo Agent Platform flow reviews every
+merge request with the deterministic claim gate and labels it, files a work item when a number is blocked, and leaves
+the approval to a human; the pipeline re-runs the gate and six governance policies on every merge, packages the image,
+runs GitLab's scanners, cuts releases, configures production (push to GitHub → Streamlit redeploy → headless check) and
+monitors the live demo every six hours with an incident issue when it fails. Details in `docs/gitlab_life_after_code.md`;
+the flow is in `.gitlab/duo/flows/editor_in_chief.yml`; `python scripts/check_kits.py` and `python scripts/policy_check.py`
+run the same checks locally in seconds.
+
 ## How NVIDIA Nemotron and Nebius Token Factory are used
 
 - `seen/llm.py` → provider `nebius`: every story-kit prose rewrite, every live *Rewrite with the model* call and every translation goes to `https://api.tokenfactory.nebius.com/v1/chat/completions` with `nvidia/nemotron-3-super-120b-a12b` (falls back to `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`, then `nvidia/Nemotron-3_5-Lightning`).

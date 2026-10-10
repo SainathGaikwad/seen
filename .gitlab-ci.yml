@@ -1,0 +1,202 @@
+# SEEN — life after code.
+#
+# Code generation is the easy part of this product; what matters is everything after: every number in every story
+# must match a sourced fact before it is published, in every language, on every deploy. This pipeline runs that
+# newsroom discipline across the post-code lifecycle:
+#
+#   verify   tests + the claim gate (scripts/check_kits.py) + governance policies (scripts/policy_check.py)
+#   package  container image → GitLab container registry
+#   secure   SAST, secret detection, dependency scanning, container scanning (GitLab templates)
+#   release  tagged releases with the live-demo and image links
+#   deploy   configure production: push main to GitHub (Streamlit Community Cloud redeploys from it), then verify
+#            the live app renders the Unseen XI; Google Cloud Run deploy available as a manual job
+#   monitor  scheduled health visit; an incident issue is opened when the demo does not come up
+#
+# plan / create / govern are driven by the Duo "Editor-in-chief" flow (.gitlab/duo/flows/editor_in_chief.yml):
+# it reviews every merge request with the claim gate, labels it, and files an issue when something is blocked.
+# A human approves the outcome — supervised autonomy.
+
+stages: [verify, package, secure, test, release, deploy, monitor]
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  APP_URL: "https://seen-unseen-xi.streamlit.app"
+  IMAGE: "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA"
+  GITHUB_REPO: "github.com/SainathGaikwad/seen.git"
+
+default:
+  image: python:3.11
+  cache:
+    key: pip-311
+    paths: [.cache/pip]
+
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_COMMIT_TAG
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+    - if: $CI_PIPELINE_SOURCE == "web"
+
+include:
+  - template: Jobs/SAST.gitlab-ci.yml
+  - template: Jobs/Secret-Detection.gitlab-ci.yml
+  - template: Jobs/Dependency-Scanning.gitlab-ci.yml
+  - template: Jobs/Container-Scanning.gitlab-ci.yml
+
+# ---------------------------------------------------------------- verify
+unit-tests:
+  stage: verify
+  script:
+    - pip install -q -r requirements.txt
+    - python -m pytest -q tests
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: never
+    - when: on_success
+
+claim-gate:
+  stage: verify
+  script:
+    - python scripts/check_kits.py --translations --format md --out claim_gate.md
+  artifacts:
+    when: always
+    expose_as: "Claim gate report"
+    paths: [claim_gate.md]
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: never
+    - when: on_success
+
+govern-policies:
+  stage: verify
+  script:
+    - python scripts/policy_check.py
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: never
+    - when: on_success
+
+# ---------------------------------------------------------------- package
+container-image:
+  stage: package
+  image: docker:27
+  services: [docker:27-dind]
+  variables:
+    DOCKER_TLS_CERTDIR: "/certs"
+  cache: []
+  before_script:
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin "$CI_REGISTRY"
+  script:
+    - docker build -t "$IMAGE" .
+    - docker push "$IMAGE"
+    - |
+      if [ "$CI_COMMIT_BRANCH" = "$CI_DEFAULT_BRANCH" ] || [ -n "$CI_COMMIT_TAG" ]; then
+        docker tag "$IMAGE" "$CI_REGISTRY_IMAGE:latest" && docker push "$CI_REGISTRY_IMAGE:latest"
+      fi
+      if [ -n "$CI_COMMIT_TAG" ]; then
+        docker tag "$IMAGE" "$CI_REGISTRY_IMAGE:$CI_COMMIT_TAG" && docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_TAG"
+      fi
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: never
+    - when: on_success
+
+# ---------------------------------------------------------------- secure (GitLab's own scanners)
+# The templates default to the "test" stage; the scanners that build on the image wait for it.
+container_scanning:
+  stage: secure
+  needs: [container-image]
+  variables:
+    CS_IMAGE: "$IMAGE"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: never
+    - when: on_success
+
+# ---------------------------------------------------------------- release
+release:
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  cache: []
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - echo "Releasing $CI_COMMIT_TAG"
+  release:
+    tag_name: $CI_COMMIT_TAG
+    name: "SEEN $CI_COMMIT_TAG"
+    description: |
+      Unseen XI story kits — every number re-verified by the claim gate in this pipeline, in English, Hindi and Urdu.
+      Live demo: $APP_URL · Container image: $CI_REGISTRY_IMAGE:$CI_COMMIT_TAG
+    assets:
+      links:
+        - name: "Live demo"
+          url: $APP_URL
+        - name: "Container image"
+          url: "https://gitlab.com/seen-hackathons/seen/container_registry"
+
+# ---------------------------------------------------------------- deploy / configure
+# Streamlit Community Cloud serves the public demo from GitHub main. Production is configured by pushing the
+# verified commit there; GITHUB_TOKEN is a masked CI/CD variable (fine-grained token, contents: read/write).
+deploy-production:
+  stage: deploy
+  environment:
+    name: production
+    url: $APP_URL
+  cache: []
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $GITHUB_TOKEN == null
+      when: manual            # no token configured yet: the job waits instead of failing the pipeline
+      allow_failure: true
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  script:
+    - git config --global user.email "ci@seen-hackathons"
+    - git config --global user.name "SEEN pipeline"
+    - git push "https://x-access-token:${GITHUB_TOKEN}@${GITHUB_REPO}" "HEAD:refs/heads/main"
+    - echo "Pushed $CI_COMMIT_SHORT_SHA to GitHub main; Streamlit Community Cloud redeploys from there."
+
+verify-production:
+  stage: deploy
+  needs: [deploy-production]
+  cache: []
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  script:
+    - pip install -q playwright && python -m playwright install --with-deps chromium > /dev/null
+    - sleep 120   # Community Cloud picks the push up within a minute or two
+    - python docs/keep_awake.py "$APP_URL"
+
+deploy-cloud-run:
+  stage: deploy
+  image: google/cloud-sdk:slim
+  cache: []
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: manual
+      allow_failure: true
+  script:
+    # Optional Google Cloud deployment of the same image (see deploy/cloudrun.md); needs GCP_PROJECT and a service
+    # account key in GCP_SA_KEY (masked, type file).
+    - gcloud auth activate-service-account --key-file "$GCP_SA_KEY"
+    - gcloud config set project "$GCP_PROJECT"
+    - >
+      gcloud run deploy seen --source . --region asia-south1 --allow-unauthenticated
+      --min-instances 1 --session-affinity --timeout 3600
+      --set-env-vars "LLM_PROVIDER=nebius,SEEN_USER_AGENT=SEEN-hackathon/0.1"
+      --set-secrets "NEBIUS_API_KEY=nebius-api-key:latest"
+
+# ---------------------------------------------------------------- monitor
+# A pipeline schedule runs this every 6 hours (CI/CD > Schedules). It visits the app like a reader, wakes it if it
+# has gone to sleep, and opens an incident issue when the Unseen XI does not render.
+monitor-production:
+  stage: monitor
+  cache: []
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: manual
+      allow_failure: true
+  script:
+    - pip install -q playwright && python -m playwright install --with-deps chromium > /dev/null
+    - python docs/keep_awake.py "$APP_URL" || { python scripts/raise_incident.py; exit 1; }

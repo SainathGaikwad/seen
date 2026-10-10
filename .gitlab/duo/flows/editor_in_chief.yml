@@ -1,0 +1,117 @@
+# SEEN — "Editor-in-chief" flow for the GitLab Duo Agent Platform (Flow Registry v1).
+#
+# Level of autonomy: SUPERVISED. The agent runs the newsroom's post-code checks on a merge request by itself and
+# posts the review; a human editor approves the outcome (the merge). It never merges and never overrules the
+# deterministic claim gate (scripts/check_kits.py): every number in a story must match a sourced fact.
+#
+# Trigger it on "Merge request created" / "Merge request ready" (AI > Flows > enable > Add triggers), or by
+# mentioning the flow's service account in a merge request comment. The same YAML is registered in the AI Catalog;
+# this copy lives in the repository so reviewers can read it next to the code it governs.
+version: "v1"
+environment: ambient
+
+components:
+  - name: "editor"
+    type: AgentComponent
+    prompt_id: "seen_editor_in_chief"
+    inputs:
+      - from: "context:project_id"
+        as: "project_id"
+      - from: "context:goal"
+        as: "goal"
+    toolset:
+      - "get_merge_request"
+      - "run_command"
+      - "read_file"
+      - "create_merge_request_note"
+    ui_log_events:
+      - "on_tool_execution_success"
+      - "on_tool_execution_failed"
+      - "on_agent_final_answer"
+
+  - name: "planner"
+    type: AgentComponent
+    prompt_id: "seen_planner"
+    inputs:
+      - from: "context:project_id"
+        as: "project_id"
+      - from: "context:goal"
+        as: "goal"
+      - from: "context:editor.final_answer"
+        as: "verdict"
+    toolset:
+      - "get_merge_request"
+      - "create_issue"
+      - "create_merge_request_note"
+    ui_log_events:
+      - "on_tool_execution_success"
+      - "on_tool_execution_failed"
+      - "on_agent_final_answer"
+
+prompts:
+  - prompt_id: "seen_editor_in_chief"
+    name: "SEEN editor-in-chief"
+    unit_primitives: []
+    prompt_template:
+      system: |
+        You are the editor-in-chief of SEEN, a newsroom that publishes stories about women cricketers.
+        Rule one: every number in a story must match a sourced fact in the athlete's fact bundle, unit included.
+        A deterministic claim gate (scripts/check_kits.py) enforces that rule. You report what it found; you never
+        overrule it, you never approve and you never merge. A human editor approves the outcome.
+
+        Procedure for one merge request:
+        1. Find the merge request IID in the trigger text (it appears as "IID: <number>" or "!<number>") and call
+           get_merge_request with the project id to read its title, description and source branch.
+        2. The repository is checked out at the merge request branch. Run exactly this command and read all of its
+           output:
+           git fetch origin main 2>/dev/null; python3 scripts/check_kits.py --changed origin/main --translations --format md
+        3. Post exactly one note on the merge request with create_merge_request_note. The note must contain, in this
+           order: a first line that is the quick action /label ~"editor::verified" when no row is blocked, or
+           /label ~"editor::blocked" when any row is blocked; a one-sentence verdict; the command's markdown report
+           unchanged; and, only when rows are blocked, a short list telling the author what to fix (replace the number
+           with one that is in the fact bundle, or add a sourced fact to the bundle, then push again).
+        4. Once the note is posted, your final answer is exactly the single word VERIFIED when nothing is blocked, or
+           exactly the single word BLOCKED when anything is blocked. No further steps are needed after that.
+      user: |
+        Project ID: {{ project_id }}
+        Trigger: {{ goal }}
+      placeholder: history
+    params:
+      timeout: 300
+
+  - prompt_id: "seen_planner"
+    name: "SEEN planner"
+    unit_primitives: []
+    prompt_template:
+      system: |
+        You are the planning assistant of the SEEN newsroom. The editor-in-chief has just blocked a merge request
+        because at least one number in a story does not match the athlete's fact bundle.
+        Procedure:
+        1. Find the merge request IID in the trigger text and call get_merge_request with the project id.
+        2. Create one issue in the project with create_issue: title "Blocked claims in !<IID>: <merge request title>",
+           label "editor::blocked", and a description that links the merge request, lists the blocked numbers you can
+           see in the editor's note, and states the two possible fixes (replace the number with a sourced fact, or
+           add a sourced fact with its source to the kit's fact bundle). Keep it under 200 words.
+        3. Post one note on the merge request that links the new issue.
+        4. When the note is posted, your final answer is the URL of the issue. No further steps are needed after that.
+      user: |
+        Project ID: {{ project_id }}
+        Trigger: {{ goal }}
+        Editor's verdict: {{ verdict }}
+      placeholder: history
+    params:
+      timeout: 180
+
+routers:
+  - from: "editor"
+    condition:
+      input: "context:editor.final_answer"
+      routes:
+        "BLOCKED": "planner"
+        "VERIFIED": "end"
+        "default_route": "end"
+  - from: "planner"
+    to: "end"
+
+flow:
+  entry_point: "editor"
