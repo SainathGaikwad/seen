@@ -69,6 +69,16 @@ monitors the live demo every six hours with an incident issue when it fails. Det
 the flow is in `.gitlab/duo/flows/editor_in_chief.yml`; `python scripts/check_kits.py` and `python scripts/policy_check.py`
 run the same checks locally in seconds.
 
+## Money: the Sponsor Desk on PayPal
+
+Sponsors pay to have a verified story "presented by" them, fans tip the stories they like, and the money is split by a
+fixed policy (60 / 30 / 10 — athlete fund / creator / SEEN; tips 70 / 20 / 10) and paid out through PayPal. A
+tool-calling agent (`seen/money/desk.py`) turns a sponsor's brief and budget into a priced package and raises a PayPal
+checkout order or invoice with PayPal's Agent Toolkit tools; the sponsor approves it in PayPal, and only then does SEEN
+capture, tag the stories and send the shares out with Payouts. The **Sponsor Desk**, **Fan feed** (*Tip $2*) and
+**Money ledger** (AG Grid) pages show it; everything runs on the PayPal sandbox. Details and runbook in
+`docs/paypal_sponsor_desk.md`.
+
 ## How NVIDIA Nemotron and Nebius Token Factory are used
 
 - `seen/llm.py` → provider `nebius`: every story-kit prose rewrite, every live *Rewrite with the model* call and every translation goes to `https://api.tokenfactory.nebius.com/v1/chat/completions` with `nvidia/nemotron-3-super-120b-a12b` (falls back to `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`, then `nvidia/Nemotron-3_5-Lightning`).
@@ -76,7 +86,7 @@ run the same checks locally in seconds.
 - Translations (`seen/stories/localize.py`) are glossary-locked and re-checked the same way; the fan feed serves them in the fan's language.
 - Prompts and answers are cached by content hash (`data/cache/llm/`), so re-runs cost nothing and a pipeline run needs ~3 calls per athlete.
 
-## The nine screens (app/)
+## The eleven screens (app/)
 
 | # | Page | What it shows |
 | --- | --- | --- |
@@ -89,6 +99,8 @@ run the same checks locally in seconds.
 | S7 | Creator brief | Creator-facing brief, assets, clip slot ("ICC rights required"), post-link attribution |
 | S8 | Fan feed | Athlete-first cards with exploration slots, read / quiz / follow / share, language toggle; every action logged |
 | S9 | Impact dashboard | Attention lift vs matched controls (difference-in-differences), funnel (real or **labelled simulated**), breadth, XI reach, stories being missed, weights in use |
+| S10 | Sponsor Desk | A sponsor's brief and budget → the desk agent's tool calls → a priced package → PayPal checkout order or invoice → on return: capture, "presented by" tags, payouts |
+| S11 | Money ledger | Every PayPal order, invoice and payout in an AG Grid with filters, live totals, status badges, CSV export; per-athlete money raised and shares |
 
 ## Data and licences
 
@@ -114,6 +126,8 @@ seen/intelligence  windows.py · patterns.py (10 narrative patterns) · signific
 seen/stories       compiler.py (8 formats, template + LLM) · claim_check.py · localize.py
 seen/fans          feed.py (ranking with exploration slots, event log)
 seen/impact        measure.py (difference-in-differences, funnel, breadth, simulated funnel generator)
+seen/money         paypal.py (gateway over PayPal's Agent Toolkit + Payouts) · packages.py (catalogue, pricing, split policy) · desk.py (the Sponsor Desk agent) · ledger.py
+vendor/            paypal_agent_toolkit (Apache-2.0, shared layer of PayPal's Agent Toolkit)
 seen/pipeline.py   CLI · app/ Streamlit pages · tests/ unit tests (pytest -q)
 ```
 
@@ -123,3 +137,4 @@ seen/pipeline.py   CLI · app/ Streamlit pages · tests/ unit tests (pytest -q)
 - Attention numbers are real only when produced with `--attention live`; the app banner says which mode produced the data you are looking at.
 - The fan funnel is simulated unless real events were logged in the app; the dashboard labels the source.
 - Nothing here has been piloted with ICC; "pilot opportunities" are the hackathon's own words.
+- Money moves only on the PayPal sandbox; the "athlete fund" and "creator" payees are sandbox test accounts. Ledger rows made without credentials are marked simulated.

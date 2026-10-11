@@ -114,7 +114,42 @@ Merge requests require a green pipeline (claim gate + policies) and a human appr
 
 ---
 
-## D. Dates
+## D. PayPal AI Hackathon (Devpost: paypalaihackathon.devpost.com) — submit by 12 Nov, 12:00 pm PST (13 Nov 01:30 IST)
+
+**Project name:** SEEN Sponsor Desk — money for the athletes the market overlooks
+**Tagline:** An agent turns a sponsor's brief into a package of claim-checked women's-cricket stories, raises the payment on PayPal, and pays the athlete fund and the creator their share — after the sponsor approves, never before.
+
+**Features and functionality (text description):**
+
+SEEN finds the eleven women cricketers whose performance most exceeds the attention they get (Cricsheet ball-by-ball data, Wikimedia pageviews, a two-line attention model) and publishes story kits about them — a 60-second script, social posts, an article — in English, Hindi and Urdu, every number checked against a sourced fact before it can be published. The Sponsor Desk adds the money.
+
+*Sponsor Desk.* A sponsor writes what they want to support and a budget. A tool-calling agent (NVIDIA Nemotron on Nebius Token Factory; the same code runs on Gemini or OpenAI) reads the catalogue — who is on sale, her ranks, her visibility gap, which languages her verified kit exists in, the week price — prices a package inside the policy (1–4 athletes, verified languages only, budget as a hard cap, price rising with the visibility gap), and raises a PayPal checkout order, or a PayPal invoice for larger amounts, with PayPal's Agent Toolkit tools. Every tool call and result is shown on the page. The sponsor approves in PayPal; the agent cannot capture, pay or move money.
+
+*Settlement.* When PayPal sends the sponsor back, SEEN captures the order (`pay_order`), tags the athlete's stories "Presented by …" in the fan feed, and sends the shares out in one PayPal Payouts batch — 60 % to the athlete fund, 30 % to the creator who made the content, 10 % to SEEN. Invoices are settled the same way once PayPal reports them paid.
+
+*Fan tips.* Every card in the fan feed has a *Tip $2* button: PayPal checkout, capture on return, 70 / 20 / 10 split, paid out.
+
+*Money ledger.* Every order, invoice and payout in an AG Grid (Community): column filters and floating filters, quick filter, totals pinned to the bottom that follow the filter, status badges, column groups for the split, CSV export, and a second grid per athlete showing what her story raised, who presented it and what went to her fund and her creator.
+
+**How PayPal is used:** Orders v2 (create with return/cancel URLs, get, capture), Invoicing v2 (create, send, get), Payouts v1 (batch create, batch status) — all on the sandbox; orders and invoices through the PayPal Agent Toolkit's tool handlers (`create_order`, `pay_order`, `get_order_details`, `create_invoice`, `send_invoice`, `get_invoice`), payouts through its HTTP client.
+
+**How AI is used:** the Sponsor Desk agent (tool-calling loop with JSON actions over deterministic tools; model: NVIDIA Nemotron 3 Super via Nebius Token Factory) plans the package and explains it; the story kits themselves are written by the same model from fact bundles and verified by SEEN's deterministic claim checker. The model never sets a price, a split or a payout and never approves a payment.
+
+**Why it matters / who it is for:** federations, small newsrooms and creators in women's sport have stories and no money loop; sponsors want measurable, safe content; athletes outside the big markets get neither. This makes the under-seen athlete the thing worth paying for — her price rises with her gap — and routes money to her fund and to the creator who told her story, with every number in that story already verified.
+
+**Sponsor tools:** AG Grid (Money ledger page) · nothing else claimed.
+
+**Links for the form:**
+- Repo: https://github.com/SainathGaikwad/seen (MIT, licence visible in About) · mirror https://gitlab.com/seen-hackathons/seen
+- Hosted demo: https://seen-unseen-xi.streamlit.app (Sponsor Desk, Fan feed, Money ledger) — PayPal sandbox; pay with a sandbox personal account
+- Demo video (YouTube, < 3:00, public, no music, no third-party logos): `[link]`
+- Write-up: `docs/paypal_sponsor_desk.md`
+
+**Submission checklist (12 Nov):** registered on Devpost ✓ · sandbox credentials in Streamlit secrets and the hosted desk raising real sandbox orders ✓ · a committed ledger with real sandbox rows so the grid is not empty ✓ · video uploaded ✓ · AI tools and PayPal APIs named on the form ✓.
+
+---
+
+## E. Dates
 
 | When | What |
 | --- | --- |

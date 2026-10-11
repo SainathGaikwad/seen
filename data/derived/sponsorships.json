@@ -1,0 +1,26 @@
+[
+ {
+  "player_id": "a0a65375",
+  "sponsor": "Mumbai Sports Nutrition",
+  "languages": [
+   "en",
+   "hi"
+  ],
+  "weeks": 1,
+  "ref": "5HG66267E4303262H",
+  "since": "2026-10-11T08:41:10+00:00",
+  "simulated": false
+ },
+ {
+  "player_id": "f13d3eba",
+  "sponsor": "Mumbai Sports Nutrition",
+  "languages": [
+   "en",
+   "hi"
+  ],
+  "weeks": 1,
+  "ref": "5HG66267E4303262H",
+  "since": "2026-10-11T08:41:10+00:00",
+  "simulated": false
+ }
+]

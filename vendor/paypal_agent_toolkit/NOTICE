@@ -1,0 +1,10 @@
+PayPal Agent Toolkit (Python) — shared layer
+Copyright (c) PayPal, Inc. Licensed under the Apache License, Version 2.0.
+Source: https://github.com/paypal/agent-toolkit (PyPI: paypal-agent-toolkit 1.11.0)
+
+This directory is an unmodified copy of the `paypal_agent_toolkit.shared` package of release 1.11.0:
+the PayPal REST client, the tool registry (method names, descriptions, argument schemas) and the
+tool handlers for orders, invoices, subscriptions, disputes, shipment tracking and transaction
+reporting. SEEN vendors it because the PyPI package pins agent frameworks (openai-agents, langchain,
+crewai-tools) that this project does not use; the Sponsor Desk agent calls the toolkit's tools through
+`paypal_agent_toolkit.shared.api.PayPalAPI` directly (see seen/money/paypal.py).

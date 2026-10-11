@@ -10,6 +10,8 @@ plotly>=5.20
 pytest>=8.0
 google-genai>=1.0        # LLM_PROVIDER=gemini
 openai>=1.30             # LLM_PROVIDER=nebius (NVIDIA Nemotron on Nebius Token Factory) or LLM_PROVIDER=openai
+pydantic>=2.10           # PayPal Agent Toolkit tool schemas (vendor/paypal_agent_toolkit)
+httpx>=0.26              # idem
 
 # Optional
 # anthropic>=0.30          # LLM_PROVIDER=anthropic

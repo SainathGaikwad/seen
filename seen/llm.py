@@ -153,9 +153,9 @@ _NEBIUS_VARIANTS = ({"chat_template_kwargs": {"enable_thinking": False}}, None)
 _nebius_variant: dict[str, int] = {}
 
 
-def _nebius_call(model: str, system: str, user: str, max_tokens: int) -> str:
+def _nebius_call(model: str, system: str, user: str, max_tokens: int, client=None) -> str:
     from openai import OpenAI  # type: ignore
-    client = OpenAI(api_key=os.environ["NEBIUS_API_KEY"], base_url=os.environ.get("NEBIUS_BASE_URL", NEBIUS_BASE_URL), timeout=120)
+    client = client or OpenAI(api_key=os.environ["NEBIUS_API_KEY"], base_url=os.environ.get("NEBIUS_BASE_URL", NEBIUS_BASE_URL), timeout=120)
     messages = [{"role": "system", "content": system}, {"role": "user", "content": user}]
     last: Exception | None = None
     for i in range(_nebius_variant.get(model, 0), len(_NEBIUS_VARIANTS)):
@@ -275,6 +275,47 @@ def complete(system: str, user: str, max_tokens: int = 2000) -> str:
                 _budget["used"] += 1
                 raise
     raise RuntimeError(f"LLM call failed for all candidate models: {str(last)[:200]}")
+
+
+def quick(system: str, user: str, max_tokens: int = 1500, timeout: float = 40.0) -> str:
+    """One attempt on the preferred model with a short timeout: no cache, no retries, no backoff. For interactive
+    agents (the Sponsor Desk) that would rather fall back to rules than keep a person waiting. Raises on any failure."""
+    p = provider()
+    if p == "none":
+        raise RuntimeError("No LLM provider configured (see .env.example)")
+    models = [m for m in _models(p) if m not in _unusable] or _models(p)
+    model = models[0]
+    try:
+        if p == "gemini":
+            from google import genai  # type: ignore
+            from google.genai import types  # type: ignore
+            client = genai.Client(api_key=os.environ["GEMINI_API_KEY"], http_options=types.HttpOptions(timeout=int(timeout * 1000)))
+            out = _gemini_call(client, model, f"{system}\n\n{user}", max_tokens)
+        elif p == "nebius":
+            from openai import OpenAI  # type: ignore
+            client = OpenAI(api_key=os.environ["NEBIUS_API_KEY"], base_url=os.environ.get("NEBIUS_BASE_URL", NEBIUS_BASE_URL), timeout=timeout, max_retries=0)
+            out = _nebius_call(model, system, user, max_tokens, client=client)
+        elif p == "openai":
+            from openai import OpenAI  # type: ignore
+            client = OpenAI(timeout=timeout, max_retries=0)
+            resp = client.chat.completions.create(model=model, temperature=0.2, max_tokens=max_tokens,
+                                                  messages=[{"role": "system", "content": system}, {"role": "user", "content": user}])
+            out = resp.choices[0].message.content or ""
+        elif p == "anthropic":
+            import anthropic  # type: ignore
+            client = anthropic.Anthropic(timeout=timeout, max_retries=0)
+            msg = client.messages.create(model=model, max_tokens=max_tokens, temperature=0.2, system=system, messages=[{"role": "user", "content": user}])
+            out = "".join(getattr(b, "text", "") for b in msg.content)
+        else:
+            raise RuntimeError(f"unknown provider {p}")
+    except Exception as exc:
+        if _is_daily_quota(exc) or _is_not_found(exc):
+            _unusable.add(model)
+        raise
+    _budget["used"] += 1
+    _budget["remaining"] -= 1
+    _resolved_model[p] = model
+    return out
 
 
 def parse_json(text: str) -> dict | None:

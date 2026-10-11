@@ -81,3 +81,21 @@ fan_feed:
 llm:
   max_calls_per_run: 40            # a run needs 33 served calls (11 kits x 3); a free-tier key stops itself at its daily quota anyway
   priority_players: [Hayley Matthews, Orla Prendergast, Kathryn Bryce]   # get the LLM budget first (demo athletes)
+
+# Money layer (PayPal sandbox): what a sponsor pays, how it is split, who receives the shares.
+# Credentials never live here: PAYPAL_CLIENT_ID / PAYPAL_CLIENT_SECRET come from the environment or Streamlit secrets.
+money:
+  currency: USD
+  app_url: https://seen-unseen-xi.streamlit.app   # where PayPal sends the payer back (override with SEEN_APP_URL, e.g. http://localhost:8501)
+  tip_amount: 2.00
+  base_price: 60.00            # one athlete story, one language, one week
+  language_addon: 25.00        # each further verified language
+  gap_multiplier: 0.35         # price rises with the visibility gap (z-score clamped to 0..3)
+  max_athletes: 4
+  max_weeks: 4
+  invoice_threshold: 500.00    # at or above this the desk may raise a PayPal invoice instead of a checkout order
+  split: {athlete_fund: 0.60, creator: 0.30, seen: 0.10}
+  tip_split: {athlete_fund: 0.70, creator: 0.20, seen: 0.10}
+  payees:                      # PayPal sandbox test accounts (emails only; override with SEEN_PAYEE_ATHLETE_FUND / SEEN_PAYEE_CREATOR)
+    athlete_fund: sb-agkha53300065@personal.example.com   # sandbox "athlete fund" account (US)
+    creator: sb-z4s0f53300121@personal.example.com        # sandbox "creator" account (US)

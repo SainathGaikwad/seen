@@ -7,8 +7,10 @@ import pandas as pd
 import streamlit as st
 
 from common import CFG, DERIVED, data_banner, inject_css, load_csv, load_kit, load_localized, publications, require_run, tidy_sentence
+from money_ui import handle_return, tip_control
 
 from seen.fans.feed import log_event, rank_cards
+from seen.money.ledger import presented_by
 from seen.stories.claim_check import CITATION
 from seen.stories.compiler import GUIDANCE_MARKER
 
@@ -16,6 +18,7 @@ st.set_page_config(page_title="SEEN — Fan feed", page_icon="🏏", layout="wid
 inject_css()
 st.title("Fan discovery feed")
 data_banner()
+handle_return()   # a fan coming back from a PayPal tip
 
 if require_run():
     xi = load_csv("unseen_xi.csv")
@@ -64,9 +67,11 @@ if require_run():
             hook = tidy_sentence(CITATION.sub("", hook))
             log_event(DERIVED, fan, r.player_id, "impression", "fan_feed", lang)
             kicker = "New to you" if r.card_reason == "new to you" else r.card_reason
+            sponsor = presented_by(DERIVED, r.player_id, lang)
+            tag = f' · <span class="presented">Presented by {sponsor}</span>' if sponsor else ""
             box = st.container(border=True)
-            box.markdown(f'<div class="kicker">{kicker} · {r.team}</div><h3 style="margin:.1rem 0 .3rem 0">Meet {r["name"]}</h3><p>{hook}</p>', unsafe_allow_html=True)
-            c1, c2, c3 = box.columns(3)
+            box.markdown(f'<div class="kicker">{kicker} · {r.team}{tag}</div><h3 style="margin:.1rem 0 .3rem 0">Meet {r["name"]}</h3><p>{hook}</p>', unsafe_allow_html=True)
+            c1, c2, c3, c4 = box.columns(4)
             if c1.button("Read", key=f"read_{r.player_id}"):
                 log_event(DERIVED, fan, r.player_id, "read", "fan_feed", lang)
                 st.session_state[f"open_{r.player_id}"] = True
@@ -77,6 +82,8 @@ if require_run():
             if c3.button("Share", key=f"share_{r.player_id}"):
                 log_event(DERIVED, fan, r.player_id, "share", "fan_feed", lang)
                 st.toast("Share link copied (demo)")
+            with c4:
+                tip_control({"player_id": r.player_id, "name": r["name"], "team": r.team}, lang, fan, key=f"tip_{r.player_id}")
             if st.session_state.get(f"open_{r.player_id}"):
                 article = (loc["formats"]["article"] if loc and lang != "en" else kit["formats"]["article"]).split(GUIDANCE_MARKER)[0]
                 box.markdown(tidy_sentence(CITATION.sub("", article)))

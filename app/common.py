@@ -39,6 +39,7 @@ CSS = """
 .block-container { padding-top: 1.2rem; max-width: 1180px; }
 .seen-banner { background:#fff7ed; border:1px solid #fed7aa; color:#7c2d12; padding:.5rem .8rem; border-radius:8px; font-size:.85rem; margin-bottom:.8rem; }
 .seen-banner.live { background:#ecfeff; border-color:#a5f3fc; color:#155e75; }
+.presented { background:#eef2ff; color:#3730a3; border-radius:999px; padding:1px 8px; font-weight:600; }
 .xi-card { border:1px solid var(--seen-line); border-radius:14px; padding:.9rem 1rem; background:var(--seen-card); box-shadow:0 1px 2px rgba(15,23,42,.06); min-height:172px; }
 .xi-card h4 { margin:0 0 .15rem 0; font-size:1.02rem; color:var(--seen-ink); }
 .xi-card .meta { color:var(--seen-muted); font-size:.8rem; margin-bottom:.45rem; }
