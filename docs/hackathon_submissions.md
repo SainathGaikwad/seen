@@ -74,7 +74,47 @@ onboarding (minutes to first successful call), model catalogue clarity (ids as l
 
 ---
 
-## C. Dates
+## C. GitLab "Life After Code" (Devpost: gitlab-transcend.devpost.com) — submit by 27 Oct, 1:00 pm UTC (6:30 pm IST)
+
+**Path:** B — Bring Your Own (MIT project imported to GitLab; automation and deployment done on/after 5 Oct)
+**Level of autonomy:** Supervised — the agents run the multi-step review on their own; a human approves the outcome (the merge)
+**Project name:** SEEN — The Unseen XI, with an Editor-in-chief on GitLab
+**Tagline:** Fact-locked athlete stories: a Duo agent runs the claim gate on every merge request, the pipeline re-runs it on every deploy, and a human approves what is published.
+
+**What it does / the problem it solves (text description):**
+
+SEEN finds the eleven women cricketers whose performance most exceeds the attention they get and turns each into a story kit — a 60-second script, social posts, an article — in English, Hindi and Urdu, written by a model from a bundle of sourced facts. The audience is small newsrooms, creators and federations that publish athlete statistics every week without a fact-checking desk. Their failure mode is not bad prose; it is a plausible number that no fact supports, and one of those costs a publication its trust. Writing the draft takes a model seconds. Everything after the draft — checking every number against a sourced fact, in every language, on every merge and every deploy, and keeping the live demo up — is the product, and that is what we moved onto GitLab.
+
+**How we used GitLab to automate the post-code lifecycle:**
+
+- *Plan / create / govern — the Editor-in-chief flow* (`.gitlab/duo/flows/editor_in_chief.yml`, registered in the AI Catalog, triggered on merge request created / marked ready / mention / reviewer assignment). The first agent reads the MR, runs the deterministic claim gate on the branch (`scripts/check_kits.py --changed origin/main --translations`), posts one review note with the full table (every athlete, language and format — PASS or BLOCKED with the failing number), and applies `editor::verified` or `editor::blocked` through a quick action. When anything is blocked, a router hands over to a planner agent that reads the note, files a work item listing the blocked rows and the two allowed fixes, and links it from the MR. The toolsets contain no approve or merge tool; the human editor approves the outcome.
+- *Verify* — `unit-tests`, `claim-gate` (the same gate over all kits and translations; `claim_gate.md` exposed on the MR) and `govern-policies` (six policies: MIT licence present, no tracked secrets, stored check results agree with a fresh run, every fact names its source, the Unseen XI selection constraints hold, simulated numbers stay labelled).
+- *Package* — container image to the GitLab registry (`:sha`, `:latest`, `:tag`). *Secure* — SAST, secret detection, dependency scanning, container scanning from GitLab's templates. *Release* — tagged releases with the live-demo and image links via release-cli.
+- *Configure / deploy* — production is configured by pushing the verified commit to the hosting repository, from which Streamlit Community Cloud redeploys; a headless browser then verifies the Unseen XI renders (`verify-production`). A manual job deploys the same image to Google Cloud Run.
+- *Monitor* — a pipeline schedule every six hours visits the demo like a reader, wakes it if it has gone to sleep, and opens an *incident* issue when it does not come up.
+
+Merge requests require a green pipeline (claim gate + policies) and a human approval. Nine stages touched: plan, create, verify, package, secure, release, configure, monitor, govern.
+
+**Why an agent, and why supervised:** the gate is deterministic; the judgement around it is not ("which rows changed in this MR, what exactly is wrong with `24 overs`, what should the author do, is this worth a work item"). A language model does that well as long as it cannot overrule the gate — so the flow runs the checker and explains it, has no tool that could approve or merge, and the pipeline re-runs the same gate on every merge regardless of what any agent said.
+
+**What we added or changed during the submission period (Path B):** the GitLab project and pipeline (`.gitlab-ci.yml`), the claim-gate CLI (`scripts/check_kits.py`), the governance policies (`scripts/policy_check.py`), the monitor and incident scripts (`docs/keep_awake.py`, `scripts/raise_incident.py`), the Editor-in-chief flow and its AI Catalog registration, the GitHub → Streamlit deploy step and the production verification, and the merge-request workflow (scoped labels, triggers, service account). Everything else in the repository predates October.
+
+**Links for the form:**
+- Public GitLab repository: https://gitlab.com/seen-hackathons/seen (MIT licence visible in About; pipeline history under CI/CD → Pipelines)
+- Deployed project: https://seen-unseen-xi.streamlit.app (stays live until winners are announced; monitored every six hours) `[+ Cloud Run URL if the bonus deploy is done]`
+- Original MIT-licensed project: https://github.com/SainathGaikwad/seen
+- Demo video (YouTube, < 3:00, public): `[link]`
+- The verified run to point judges at: merge request !1 (blocked → work item #2 → fixed → verified → merged) and the flow sessions linked from `docs/gitlab_life_after_code.md`.
+
+**Built with:** gitlab-ci · gitlab-duo-agent-platform · ai-catalog-flows · python · duckdb · streamlit · playwright · docker · release-cli · gitlab-security-scanners
+
+**Optional fields:** Google Cloud bonus — only if `deploy-cloud-run` has run and the Cloud Run URL is live (the job and `deploy/cloudrun.md` are in the repo). Most Environmentally Impactful — do not opt in (we have no SCI measurement).
+
+**Submission checklist (27 Oct):** registered on Devpost ✓ · video uploaded, public, no music, no third-party logos ✓ · repo public with LICENSE in About ✓ · pipeline history visible ✓ · Path B fields (what was added; deployed URL; original URL) ✓ · level of autonomy = Supervised ✓ · stages ticked: plan, create, verify, package, secure, release, configure, monitor, govern ✓.
+
+---
+
+## D. Dates
 
 | When | What |
 | --- | --- |
@@ -83,4 +123,6 @@ onboarding (minutes to first successful call), model catalogue clarity (ids as l
 | 18 Oct | Builder Cup prototype submission deadline |
 | 19 Oct – 6 Nov | Builder Cup evaluation; finalists announced 7 Nov; Demo Day Singapore 4 Dec |
 | by 25 Oct | GitHub repo public, Nemotron deployment live, video uploaded to YouTube |
+| 27 Oct, 18:30 IST | GitLab "Life After Code" submission deadline (winners ~16 Nov; demo must stay live until then) |
+| 12 Nov, 12:00 PST (13 Nov 01:30 IST) | PayPal AI Hackathon submission deadline |
 | 30 Oct, 22:30 IST | Nebius × NVIDIA submission deadline (demo must stay up to 15 Dec; winners ~11 Jan 2027) |
