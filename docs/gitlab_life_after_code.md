@@ -17,8 +17,12 @@ merge request on its own:
    inside its sandbox, and posts one review note with the full table — every athlete, language and format, PASS or
    BLOCKED, with the number that failed and why;
 2. labels the MR `editor::verified` or `editor::blocked` through a quick action;
-3. when something is blocked, a second agent files a work item that links the MR, lists the blocked numbers and the
-   two allowed fixes (use a number that is in the bundle, or add a sourced fact), and links it back from the MR.
+3. when something is blocked, a second agent (the planner) reads the editor's note, files a work item that links the
+   MR, lists every blocked row (athlete, language, format, the failing number and why) and the two allowed fixes (use
+   a number that is in the bundle, or add a sourced fact), and links it back from the MR.
+
+It runs on four triggers: merge request created, merge request marked ready, the service account mentioned in a
+comment, and the service account assigned as reviewer.
 
 The agent never approves and never merges. A human editor approves the outcome — that is the "supervised" level —
 and the deterministic checker, not the model, decides what is publishable.
@@ -36,6 +40,23 @@ and the deterministic checker, not the model, decides what is publishable.
 | MRs | the Editor-in-chief flow; merge requires a green pipeline (claim gate + policies) and a human approval | plan · create · govern |
 
 Nine stages touched: plan, create, verify, package, secure, release, configure, monitor, govern.
+
+## A verified run (merge request !1)
+
+The demo MR adds one sentence to Hayley Matthews' English video script: *"She also scored 200 runs in the final."*
+Nothing in her fact bundle says 200 (her tournament total is 145), so:
+
+- the MR pipeline's `claim-gate` job fails and exposes `claim_gate.md` on the MR;
+- the Editor-in-chief session ([mention trigger](https://gitlab.com/seen-hackathons/seen/-/automate/agent-sessions/9293824),
+  [reviewer-assignment trigger](https://gitlab.com/seen-hackathons/seen/-/automate/agent-sessions/9293893)) runs the gate
+  on the branch — 16 formats checked, 15 verified, 1 blocked: `en/video_script — 200 is not in any fact` — posts the
+  table on [!1](https://gitlab.com/seen-hackathons/seen/-/merge_requests/1), labels it `editor::blocked`, answers
+  BLOCKED, and the planner files [#2](https://gitlab.com/seen-hackathons/seen/-/work_items/2) with the blocked row
+  and the two fixes;
+- the human editor sees a red pipeline, a red label and a linked work item, and nothing has been merged.
+
+Reverting the sentence makes the same flow answer VERIFIED and label the MR `editor::verified`; the merge is still a
+person's click.
 
 ## Why this is the right job for an agent
 
@@ -62,6 +83,7 @@ Original project: https://github.com/SainathGaikwad/seen · Live demo: https://s
   step; `SEEN_BOT_TOKEN` (project access token, `api` scope; masked) so the monitor can open incident issues;
   `GCP_PROJECT` + `GCP_SA_KEY` only for the optional Cloud Run job.
 - Pipeline schedule: `monitor-production` every six hours (CI/CD → Schedules).
-- Merge request settings: pipelines must succeed; at least one approval; the Editor-in-chief flow enabled with the
-  "merge request created" and "merge request ready" triggers.
+- Merge request settings: pipelines must succeed; at least one approval; the Editor-in-chief flow (AI Catalog, managed
+  by this project) enabled with the "merge request created", "merge request ready", "mention" and "assign reviewer"
+  triggers; its service account `@ai-seen-editor-in-chief-seen-hackathons` has the Developer role.
 - Local: `python scripts/check_kits.py` and `python scripts/policy_check.py` run in seconds and need no API key.

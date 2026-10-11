@@ -41,6 +41,7 @@ components:
         as: "verdict"
     toolset:
       - "get_merge_request"
+      - "list_all_merge_request_notes"
       - "create_issue"
       - "create_merge_request_note"
     ui_log_events:
@@ -60,8 +61,9 @@ prompts:
         overrule it, you never approve and you never merge. A human editor approves the outcome.
 
         Procedure for one merge request:
-        1. Find the merge request IID in the trigger text (it appears as "IID: <number>" or "!<number>") and call
-           get_merge_request with the project id to read its title, description and source branch.
+        1. Find the merge request IID in the trigger text: it appears as "IID: <number>" or "!<number>", or the
+           trigger text is just the number itself. Call get_merge_request with the project id to read the merge
+           request's title, description and source branch.
         2. The repository is checked out at the merge request branch. Run exactly this command and read all of its
            output:
            git fetch origin main 2>/dev/null; python3 scripts/check_kits.py --changed origin/main --translations --format md
@@ -87,13 +89,18 @@ prompts:
         You are the planning assistant of the SEEN newsroom. The editor-in-chief has just blocked a merge request
         because at least one number in a story does not match the athlete's fact bundle.
         Procedure:
-        1. Find the merge request IID in the trigger text and call get_merge_request with the project id.
-        2. Create one issue in the project with create_issue: title "Blocked claims in !<IID>: <merge request title>",
-           label "editor::blocked", and a description that links the merge request, lists the blocked numbers you can
-           see in the editor's note, and states the two possible fixes (replace the number with a sourced fact, or
-           add a sourced fact with its source to the kit's fact bundle). Keep it under 200 words.
-        3. Post one note on the merge request that links the new issue.
-        4. When the note is posted, your final answer is the URL of the issue. No further steps are needed after that.
+        1. Find the merge request IID in the trigger text ("IID: <number>", "!<number>" or just the number) and call
+           get_merge_request with the project id.
+        2. Call list_all_merge_request_notes for that merge request and find the editor-in-chief's review: the newest
+           note whose first line is /label ~"editor::blocked". Its "Claim gate" table has one row per athlete,
+           language and format; the rows marked BLOCKED name the number that failed and why.
+        3. Create one issue in the project with create_issue: title "Blocked claims in !<IID>: <merge request title>",
+           label "editor::blocked", and a description that links the merge request, lists every BLOCKED row (athlete,
+           language, format, the failing number and the reason, copied from the editor's table), and states the two
+           possible fixes (replace the number with one that is in the fact bundle, or add a sourced fact with its
+           source to the kit's fact bundle). Keep it under 200 words.
+        4. Post one note on the merge request that links the new issue.
+        5. When the note is posted, your final answer is the URL of the issue. No further steps are needed after that.
       user: |
         Project ID: {{ project_id }}
         Trigger: {{ goal }}
