@@ -66,6 +66,9 @@ def settle(ref: str, kind: str, capture) -> dict:
     rows = df[(df.ref == ref) & (df.kind == kind)]
     if rows.empty:
         return {"error": f"no ledger rows for {kind} {ref}"}
+    if rows.status.isin(["COMPLETED", "PAID"]).all() and (rows.payout_batch != "").any():
+        # already settled (a second visit to the return URL, another tab, a reload): never pay the shares twice
+        return receipt_from_ledger(ref, kind)
     payer_email = getattr(capture, "payer_email", None) or (capture.get("payer_email") if isinstance(capture, dict) else "") or ""
     payer_name = getattr(capture, "payer_name", None) or (capture.get("payer_name") if isinstance(capture, dict) else "") or ""
     status = "PAID" if kind == "invoice" else "COMPLETED"
@@ -82,6 +85,20 @@ def settle(ref: str, kind: str, capture) -> dict:
     out = {"status": status, "amount": round(float(rows.amount.sum()), 2), "athletes": rows.athlete.tolist(), "sponsor": sponsor, "payout": None}
     out["payout"] = pay_shares(ref, kind, rows)
     return out
+
+
+def receipt_from_ledger(ref: str, kind: str) -> dict:
+    """The receipt of a payment that was settled earlier, rebuilt from the ledger (no PayPal calls)."""
+    df = ledger.load(DERIVED)
+    rows = df[(df.ref == ref) & (df.kind == kind)]
+    if rows.empty:
+        return {"error": f"no ledger rows for {kind} {ref}"}
+    batch = next((b for b in rows.payout_batch if b), "")
+    payouts = df[(df.kind == "payout") & (df.ref == batch)] if batch else df.iloc[0:0]
+    pay = {"status": payouts.status.iloc[0] if len(payouts) else "SKIPPED", "batch_id": batch,
+           "items": [{"receiver": r.payer_email, "amount": float(r.amount)} for _, r in payouts.iterrows()]}
+    return {"status": rows.status.iloc[0], "amount": round(float(rows.amount.sum()), 2), "athletes": rows.athlete.tolist(),
+            "sponsor": rows.iloc[0].payer, "payout": pay, "ref": ref, "kind": kind, "settled_earlier": True}
 
 
 def pay_shares(ref: str, kind: str, rows) -> dict | None:
@@ -163,8 +180,7 @@ def settle_order(token: str, kind: str) -> dict | None:
         except Exception as exc:
             msg = str(exc)
             if "ORDER_ALREADY_CAPTURED" in msg or "422" in msg:
-                st.info("This order was already captured; showing its ledger state.")
-                cap = {"payer_email": "", "payer_name": ""}
+                cap = {"payer_email": "", "payer_name": ""}   # captured on an earlier visit: settle() returns that receipt
             else:
                 st.error(f"PayPal did not confirm the payment: {msg[:300]}")
                 return None
