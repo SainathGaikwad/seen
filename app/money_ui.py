@@ -219,7 +219,7 @@ def tip_control(athlete: dict, language: str, fan_id: str, key: str) -> None:
     if gw is None:
         st.button(label, key=key, disabled=True, help="PayPal is not configured")
         return
-    state = f"tip_{athlete['player_id']}"
+    state = f"tip_url_{athlete['player_id']}"   # not the button's own key: a widget key cannot be assigned from code
     if st.button(label, key=key, help=f"${pol['tip_amount']:.2f} via PayPal (sandbox); 70% to the athlete fund, 20% to the creator"):
         pkg = tip_lines(athlete, CFG, language)
         line = pkg["lines"][0]

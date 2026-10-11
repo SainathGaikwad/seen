@@ -142,3 +142,7 @@ if require_run():
     components.html(html, height=800, scrolling=False)
     with st.expander("Raw CSV"):
         st.dataframe(df, hide_index=True, use_container_width=True)
+        st.download_button("Download money_ledger.csv", df.to_csv(index=False).encode("utf-8"), "money_ledger.csv", "text/csv",
+                           help="The hosted demo's disk is reset on every deploy: download after a sandbox session and commit it to keep the history")
+        sp = json.dumps(ledger.sponsorships(DERIVED), indent=1, ensure_ascii=False)
+        st.download_button("Download sponsorships.json", sp.encode("utf-8"), "sponsorships.json", "application/json")
