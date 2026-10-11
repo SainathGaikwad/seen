@@ -22,5 +22,17 @@
   "ref": "5HG66267E4303262H",
   "since": "2026-10-11T08:41:10+00:00",
   "simulated": false
+ },
+ {
+  "player_id": "d32cf49a",
+  "sponsor": "Mumbai Sports Nutrition",
+  "languages": [
+   "en",
+   "ur"
+  ],
+  "weeks": 1,
+  "ref": "18H546118K669024U",
+  "since": "2026-10-11T10:02:55+00:00",
+  "simulated": false
  }
 ]
