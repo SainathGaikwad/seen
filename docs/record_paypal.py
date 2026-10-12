@@ -7,7 +7,8 @@ then the ledger. The buyer's sandbox login is remembered in a private browser pr
     python docs\record_paypal.py --login          # opens sandbox.paypal.com: log in as the BUYER (sb-ybvvq...), close the window
     python docs\record_paypal.py --login-fund     # optional: second profile, log in as the ATHLETE FUND (sb-agkha...) for the
                                                    # "money arrived" shot, close the window
-    python docs\record_paypal.py                  # records → docs/rec_paypal/screen.webm (+ fund.webm, nav_log.json)
+    python docs\record_paypal.py                  # records headless → docs/rec_paypal/screen.webm (+ fund.webm, nav_log.json)
+    python docs\record_paypal.py --headed         # same, in a window you can watch (a short laptop screen crops the film)
 
 If the checkout still asks for a login, PP_BUYER_EMAIL / PP_BUYER_PASSWORD from the environment are typed in (never
 printed or stored). Target another app with: python docs\record_paypal.py http://localhost:8501
@@ -34,7 +35,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 BRIEF = "A Bridgetown rum brand wants Caribbean fans to meet Hayley Matthews in English and Urdu for one week."
 SPONSOR = "Bridgetown Rum Co"
 W, H = 1600, 900
-HEADLESS = "--headless" in sys.argv or os.environ.get("PW_HEADLESS") == "1"   # the recording works either way; headed lets you watch
+HEADLESS = "--headed" not in sys.argv      # headless gives an exact 1600x900 film; --headed lets you watch (a laptop screen may be too short)
 T0 = time.time()
 LOG: list[tuple[str, float]] = []
 BUYER = (os.environ.get("PP_BUYER_EMAIL", "").strip(), os.environ.get("PP_BUYER_PASSWORD", ""))
@@ -55,6 +56,39 @@ def smooth_scroll(page, dy, steps=14, dt=0.05):
     for _ in range(steps):
         page.mouse.wheel(0, dy / steps)
         time.sleep(dt)
+
+
+def grid_scroll(grid, x0: int, x1: int, steps: int = 30, dt: float = 0.05):
+    """Slide an AG Grid's columns from scrollLeft x0 to x1 (the grid is wider than the window)."""
+    for i in range(1, steps + 1):
+        x = x0 + (x1 - x0) * i / steps
+        grid.evaluate(
+            "(x) => { const vp = document.querySelector('.ag-body-horizontal-scroll-viewport') || document.querySelector('.ag-center-cols-viewport');"
+            " if (vp) vp.scrollLeft = x; }", x)
+        time.sleep(dt)
+
+
+def find_grid(page, wait_s: float = 10.0):
+    """The AG Grid lives in the ledger component's srcdoc iframe; it can take a few seconds to mount."""
+    for _ in range(int(wait_s * 2)):
+        for f in page.frames:
+            try:
+                if f.locator("#q").count() and f.locator(".ag-row").count():
+                    return f
+            except Exception:
+                pass
+        time.sleep(0.5)
+    return None
+
+
+def page_scroll(page, top: int):
+    """Scroll the app page itself (Streamlit's main section) — wheel events over the grid iframe scroll the grid instead."""
+    fr(page).evaluate(
+        "(top) => { let el = document.querySelector('iframe');"
+        " while (el && el !== document.body) { const cs = getComputedStyle(el);"
+        "   if ((cs.overflowY === 'auto' || cs.overflowY === 'scroll') && el.scrollHeight > el.clientHeight + 10) break; el = el.parentElement; }"
+        " (el && el !== document.body ? el : document.scrollingElement).scrollTo({top: top, behavior: 'smooth'}); }", top)
+    time.sleep(1.5)
 
 
 def fr(page):
@@ -228,6 +262,31 @@ def approve_in_same_tab(page, href: str, fallback_path: str) -> bool:
     return ok
 
 
+def fresh_page(ctx):
+    """A page whose viewport really is W×H. The tab a headed persistent profile opens by itself is sized by the
+    window (1600×768 on a laptop, with a grey band under it in the video) until the first cross-site navigation;
+    a page we open ourselves is emulated at W×H from the start. The check makes the size visible in the log."""
+    page = ctx.new_page()
+    for other in list(ctx.pages):
+        if other is not page:
+            try:
+                other.close()
+            except Exception:
+                pass
+    page.set_viewport_size({"width": W, "height": H})
+    return page
+
+
+def check_viewport(page) -> tuple[int, int]:
+    vw, vh = page.evaluate("[window.innerWidth, window.innerHeight]")
+    if (vw, vh) != (W, H):
+        page.set_viewport_size({"width": W, "height": H})
+        time.sleep(0.5)
+        vw, vh = page.evaluate("[window.innerWidth, window.innerHeight]")
+    print(f"viewport {vw}x{vh}" + ("" if (vw, vh) == (W, H) else f"  <-- expected {W}x{H}; the film will need letterboxing"))
+    return vw, vh
+
+
 def login_window(p, profile: Path, who: str) -> None:
     ctx = p.chromium.launch_persistent_context(str(profile), headless=False, viewport={"width": W, "height": H})
     page = ctx.pages[0] if ctx.pages else ctx.new_page()
@@ -258,16 +317,21 @@ with sync_playwright() as p:
         login_window(p, PROFILE_FUND, "ATHLETE FUND (sb-agkha…)")
         sys.exit(0)
 
+    for stray in OUT.glob("*.webm"):          # clips left by earlier runs
+        if re.fullmatch(r"[0-9a-f]{32}\.webm", stray.name):
+            stray.unlink()
+    headless = HEADLESS
     rec_start = time.time()
-    ctx = p.chromium.launch_persistent_context(str(PROFILE), headless=HEADLESS, viewport={"width": W, "height": H},
+    ctx = p.chromium.launch_persistent_context(str(PROFILE), headless=headless, viewport={"width": W, "height": H},
                                                record_video_dir=str(OUT), record_video_size={"width": W, "height": H},
                                                executable_path=os.environ.get("PW_CHROMIUM") or None)
-    page = ctx.pages[0] if ctx.pages else ctx.new_page()
+    page = fresh_page(ctx)
     for warm in ("/Sponsor_Desk", "/Fan_Feed", "/Money_Ledger", "/Story_Kit"):
         page.goto(APP + warm, wait_until="domcontentloaded", timeout=90000)
         time.sleep(1.5)
+    vw, vh = check_viewport(page)
     T0 = time.time()
-    json.dump({"offset": T0 - rec_start}, open(OUT / "offset.json", "w"))
+    json.dump({"offset": T0 - rec_start, "viewport": [vw, vh], "headless": headless}, open(OUT / "offset.json", "w"))
 
     # ---- HOOK: the XI, then a story kit with its fact bundle
     goto(page, "/", 2.0)
@@ -345,14 +409,12 @@ with sync_playwright() as p:
         time.sleep(4)
     except Exception:
         pass
-    grid = None
-    for f in page.frames:
-        try:
-            if f.locator("#q").count():
-                grid = f
-                break
-        except Exception:
-            pass
+    grid = find_grid(page)
+    if grid is None:                      # the component occasionally does not mount on the first render
+        page.reload(wait_until="domcontentloaded")
+        settle(page, 2.0)
+        grid = find_grid(page)
+        mark("ledger reloaded" + ("" if grid is not None else " (no grid)"))
     if grid is not None:
         try:
             grid.locator("#q").click()
@@ -362,12 +424,22 @@ with sync_playwright() as p:
             grid.locator("#reset").click()
             mark("filters reset")
             pause(1.5)
-            grid.locator('.ag-header-group-cell:has-text("Split by policy") .ag-header-expand-icon').first.click(timeout=5000)
-            mark("split group opened")
-            pause(2.0)
         except Exception as exc:
             mark(f"grid interaction: {str(exc)[:60]}")
-    smooth_scroll(page, 500, steps=14, dt=0.07)
+        # the grid is wider than the window: slide it to the split, status, payout and PayPal-id columns and back
+        try:
+            grid_scroll(grid, 0, 900, steps=30, dt=0.05)
+            mark("grid slid right (status, payout, PayPal id)")
+            pause(2.5)
+            grid.locator('.ag-header-group-cell:has-text("Split by policy") .ag-header-expand-icon-collapsed').first.click(timeout=5000)
+            mark("split group opened")
+            pause(2.0)
+            grid_scroll(grid, 900, 0, steps=30, dt=0.05)
+            pause(1.0)
+        except Exception as exc:
+            mark(f"grid slide: {str(exc)[:60]}")
+    page_scroll(page, 760)         # the page, not the grid: the per-athlete table underneath
+    mark("per-athlete table")
     pause(5.0)
 
     # ---- CLOSE: the code
@@ -378,6 +450,7 @@ with sync_playwright() as p:
     mark("github write-up")
     pause(4.0)
     goto(page, "/", 4.0)
+    pause(5.0)
     mark("end")
 
     json.dump(LOG, open(OUT / "nav_log.json", "w"), indent=1)
@@ -391,9 +464,9 @@ with sync_playwright() as p:
 
     # ---- optional second clip: the athlete-fund account's activity (its own profile, its own short video)
     if PROFILE_FUND.exists():
-        ctx2 = p.chromium.launch_persistent_context(str(PROFILE_FUND), headless=HEADLESS, viewport={"width": W, "height": H},
+        ctx2 = p.chromium.launch_persistent_context(str(PROFILE_FUND), headless=headless, viewport={"width": W, "height": H},
                                                     record_video_dir=str(OUT), record_video_size={"width": W, "height": H})
-        pg2 = ctx2.pages[0] if ctx2.pages else ctx2.new_page()
+        pg2 = fresh_page(ctx2)
         pg2.goto("https://www.sandbox.paypal.com/myaccount/activity/", wait_until="domcontentloaded", timeout=60000)
         time.sleep(8)
         try:
@@ -408,3 +481,7 @@ with sync_playwright() as p:
             fund.unlink()
         shutil.move(v2, fund)
         print("recorded:", fund)
+
+    for stray in OUT.glob("*.webm"):          # the first tab each profile opens by itself leaves an empty clip behind
+        if re.fullmatch(r"[0-9a-f]{32}\.webm", stray.name):
+            stray.unlink()

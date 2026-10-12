@@ -106,6 +106,10 @@ Merge requests require a green pipeline (claim gate + policies) and a human appr
 - Demo video (YouTube, < 3:00, public): `[link]`
 - The verified run to point judges at: merge request !1 (blocked → work item #2 → fixed → verified → merged) and the flow sessions linked from `docs/gitlab_life_after_code.md`.
 
+**YouTube upload (public, no music):**
+- Title: `SEEN on GitLab — an Editor-in-chief agent for fact-locked athlete stories (Life After Code)`
+- Description: `SEEN finds the women cricketers whose performance most exceeds the attention they get and writes their stories in three languages from sourced facts. Entry for GitLab's "Life After Code" hackathon (Path B, supervised autonomy): a deterministic claim gate runs in the pipeline on every merge and through a Duo Agent Platform flow on every merge request — the flow posts the claim table, labels the MR editor::blocked or editor::verified and files a work item; a person approves the merge; main runs tests, the gate, six governance policies, a container image, security scans, a tagged release, a deploy that pushes the verified commit to the hosting repository, and a scheduled monitor every six hours. Repo: https://gitlab.com/seen-hackathons/seen · live app: https://seen-unseen-xi.streamlit.app · narration: an open-source voice (Kokoro), no music.`
+
 **Built with:** gitlab-ci · gitlab-duo-agent-platform · ai-catalog-flows · python · duckdb · streamlit · playwright · docker · release-cli · gitlab-security-scanners
 
 **Optional fields:** Google Cloud bonus — only if `deploy-cloud-run` has run and the Cloud Run URL is live (the job and `deploy/cloudrun.md` are in the repo). Most Environmentally Impactful — do not opt in (we have no SCI measurement).
@@ -144,6 +148,10 @@ SEEN finds the eleven women cricketers whose performance most exceeds the attent
 - Hosted demo: https://seen-unseen-xi.streamlit.app (Sponsor Desk, Fan feed, Money ledger) — PayPal sandbox; pay with a sandbox personal account
 - Demo video (YouTube, < 3:00, public, no music, no third-party logos): `[link]`
 - Write-up: `docs/paypal_sponsor_desk.md`
+
+**YouTube upload (public, no music):**
+- Title: `SEEN Sponsor Desk — an agent sells verified women's-cricket stories and PayPal moves the money`
+- Description: `Entry for the PayPal AI Hackathon. The Sponsor Desk agent (NVIDIA Nemotron on Nebius, tools from PayPal's Agent Toolkit) turns a sponsor's brief into a priced package of claim-checked athlete stories and raises a PayPal checkout order; the sponsor approves in PayPal; on return SEEN captures the order, tags the stories "presented by" and sends one Payouts batch (60 / 30 / 10 to the athlete fund, the creator and SEEN). Fans tip a story for $2 the same way. Everything lands in an AG Grid money ledger. PayPal sandbox only — test money, real API calls (Orders v2, Invoicing v2, Payouts v1). Live app: https://seen-unseen-xi.streamlit.app · code: https://github.com/SainathGaikwad/seen · narration: an open-source voice (Kokoro), no music.`
 
 **Submission checklist (12 Nov):** registered on Devpost ✓ · sandbox credentials in Streamlit secrets and the hosted desk raising real sandbox orders ✓ · a committed ledger with real sandbox rows so the grid is not empty ✓ · video uploaded ✓ · AI tools and PayPal APIs named on the form ✓.
 

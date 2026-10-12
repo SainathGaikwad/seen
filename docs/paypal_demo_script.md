@@ -1,6 +1,6 @@
 # SEEN Sponsor Desk — PayPal AI Hackathon demo video (under 3:00)
 
-Narration ≈ 390 words ≈ 2:40 at 145 words a minute. One block per take, a second's pause between blocks. Screen
+Narration ≈ 315 words ≈ 2:15 at 145 words a minute — the screen gets room to breathe; do not add to it. One block per take, a second's pause between blocks. Screen
 recording follows the shot list; the film is cut to the narration. Rules from the hackathon page: under three minutes,
 public on YouTube, the project working end to end, **no third-party trademarks or copyrighted music** — PayPal's own
 checkout screens are the product being demonstrated and are fine; keep other logos (browser chrome, Streamlit footer)
@@ -18,16 +18,16 @@ safe content. Athletes outside the big markets get neither. So we built an agent
 PayPal moves the money.
 
 **THE DESK (0:32)**
-A sponsor types a brief: Hindi-speaking fans, bowlers from outside the big three, three hundred dollars. The desk
-agent — Nemotron on Nebius — reads the catalogue, prices a package inside policy: one to four athletes, verified
+A sponsor types a brief: Caribbean fans, Hayley Matthews, English and Urdu, one week. The desk agent — Nemotron on
+Nebius — reads the catalogue, prices a package inside policy: one to four athletes, verified
 languages only, the budget as a hard cap, and a price that rises with the athlete's visibility gap. Then it raises a
 PayPal checkout order with PayPal's Agent Toolkit. Every tool call is on screen. The agent cannot capture, pay or
 move money; the sponsor does that in PayPal.
 
 **THE PAYMENT (1:12)**
-The sponsor approves in PayPal checkout. On return, SEEN captures the order, tags the athletes' stories "presented
+The sponsor approves in PayPal checkout. On return, SEEN captures the order, tags the athlete's stories "presented
 by", and sends one Payouts batch: sixty per cent to the athlete fund, thirty to the creator who made the content, ten
-to SEEN. Sandbox money, real API calls — here is the batch arriving in the athlete fund's account.
+to SEEN. Sandbox money, real API calls.
 
 **THE TIP (1:45)**
 Fans do the same for two dollars: tip her story, PayPal, split seventy-twenty-ten, paid out.
@@ -52,7 +52,7 @@ for — and the money reaches her. SEEN: women's cricket, correctly, paid.
 | The desk | Sponsor Desk | type the brief, click **Ask the Sponsor Desk**; open the `catalogue`, `price_package` and `create_order` expanders (args + result); the package table and the split line; the summary |
 | The payment | click **Approve and pay in PayPal (sandbox)** | PayPal sandbox checkout (buyer already logged in) → Review Order → Pay Now → back on the Sponsor Desk: the green receipt + the payout-batch line; then Fan feed: the "Presented by" tag on the card; then sandbox.paypal.com logged in as the athlete-fund account: Activity shows the payout |
 | The tip | Fan feed | **Tip $2** → **Pay the tip in PayPal** → Pay Now → receipt on the Fan feed |
-| The ledger | Money ledger | quick-filter "Bryce", clear; sort by USD; open the *Split by policy* group; **Refresh payouts** → SUCCESS badges; **Export CSV**; the per-athlete grid with the share bars |
+| The ledger | Money ledger | **Refresh payouts**; quick-filter "Bryce", reset; slide the grid right to the *Split by policy* columns, the status and payout badges and the PayPal ids; open the *Split by policy* group; scroll the page to the per-athlete grid with the share bars |
 | Close | repo on GitHub | `seen/money/` folder, `vendor/paypal_agent_toolkit` NOTICE, `docs/paypal_sponsor_desk.md` |
 
 Timing targets: Hook 0:00–0:14 · Problem 0:14–0:32 · Desk 0:32–1:12 · Payment 1:12–1:45 · Tip 1:45–1:58 · Ledger
@@ -60,9 +60,12 @@ Timing targets: Hook 0:00–0:14 · Problem 0:14–0:32 · Desk 0:32–1:12 · P
 
 ## Recording tips
 
-- Log the sandbox **buyer** in at sandbox.paypal.com before recording so checkout needs no password on camera; log the
-  **athlete-fund** account in a second browser profile/window for the "money arriving" shot.
-- Use a fresh brief for the recording (e.g. "A Bridgetown rum brand wants Caribbean fans to meet Hayley Matthews in
-  English and Urdu for one week") so the order is new; the desk takes ~30 s with Nemotron — the cut keeps ~8 s of it.
-- Record the raw screen in one pass (5–7 minutes), narration block by block; drop both in `docs/rec_paypal/`
-  (git-ignored) and the film is cut from them, captions added like the previous two.
+- `python docs\record_paypal.py --login` once: log the sandbox **buyer** in at sandbox.paypal.com in the window that
+  opens, so checkout needs no password on camera (`--login-fund` does the same for the athlete-fund account, for an
+  optional "money arriving" clip).
+- `python docs\record_paypal.py` records the whole pass by itself (one tab, ~2½ minutes) into `docs/rec_paypal/`
+  (git-ignored): it prints `viewport 1600x900` after the warm-up and switches to a headless browser if the window on
+  your screen cannot show that size. Narration block by block (a phone or laptop mic in a quiet room, or the generated
+  voice) goes next to it; the film is cut to the narration with captions like the previous two.
+- The brief in the recorder is the one in the narration above ("A Bridgetown rum brand wants Caribbean fans to meet
+  Hayley Matthews in English and Urdu for one week", sponsor "Bridgetown Rum Co"); change both together.
