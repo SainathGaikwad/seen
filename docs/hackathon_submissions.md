@@ -103,7 +103,7 @@ Merge requests require a green pipeline (claim gate + policies) and a human appr
 - Public GitLab repository: https://gitlab.com/seen-hackathons/seen (MIT licence visible in About; pipeline history under CI/CD → Pipelines)
 - Deployed project: https://seen-unseen-xi.streamlit.app (stays live until winners are announced; monitored every six hours) `[+ Cloud Run URL if the bonus deploy is done]`
 - Original MIT-licensed project: https://github.com/SainathGaikwad/seen
-- Demo video (YouTube, < 3:00, public): `[link]`
+- Demo video (YouTube, < 3:00, public): https://youtu.be/2JWTNj6B89o
 - The verified run to point judges at: merge request !1 (blocked → work item #2 → fixed → verified → merged) and the flow sessions linked from `docs/gitlab_life_after_code.md`.
 
 **YouTube upload (public, no music):**
@@ -113,6 +113,8 @@ Merge requests require a green pipeline (claim gate + policies) and a human appr
 **Built with:** gitlab-ci · gitlab-duo-agent-platform · ai-catalog-flows · python · duckdb · streamlit · playwright · docker · release-cli · gitlab-security-scanners
 
 **Optional fields:** Google Cloud bonus — only if `deploy-cloud-run` has run and the Cloud Run URL is live (the job and `deploy/cloudrun.md` are in the repo). Most Environmentally Impactful — do not opt in (we have no SCI measurement).
+
+**Submitted 12 Oct 2026 (solo):** https://devpost.com/software/seen-the-unseen-xi-with-an-editor-in-chief-on-gitlab — editable until the deadline; after 27 Oct 1:00 pm UTC nothing may change (project, repo, video).
 
 **Submission checklist (27 Oct):** registered on Devpost ✓ · video uploaded, public, no music, no third-party logos ✓ · repo public with LICENSE in About ✓ · pipeline history visible ✓ · Path B fields (what was added; deployed URL; original URL) ✓ · level of autonomy = Supervised ✓ · stages ticked: plan, create, verify, package, secure, release, configure, monitor, govern ✓.
 
@@ -146,12 +148,14 @@ SEEN finds the eleven women cricketers whose performance most exceeds the attent
 **Links for the form:**
 - Repo: https://github.com/SainathGaikwad/seen (MIT, licence visible in About) · mirror https://gitlab.com/seen-hackathons/seen
 - Hosted demo: https://seen-unseen-xi.streamlit.app (Sponsor Desk, Fan feed, Money ledger) — PayPal sandbox; pay with a sandbox personal account
-- Demo video (YouTube, < 3:00, public, no music, no third-party logos): `[link]`
+- Demo video (YouTube, < 3:00, public, no music, no third-party logos): https://youtu.be/67ZOLRhB3lQ
 - Write-up: `docs/paypal_sponsor_desk.md`
 
 **YouTube upload (public, no music):**
 - Title: `SEEN Sponsor Desk — an agent sells verified women's-cricket stories and PayPal moves the money`
 - Description: `Entry for the PayPal AI Hackathon. The Sponsor Desk agent (NVIDIA Nemotron on Nebius, tools from PayPal's Agent Toolkit) turns a sponsor's brief into a priced package of claim-checked athlete stories and raises a PayPal checkout order; the sponsor approves in PayPal; on return SEEN captures the order, tags the stories "presented by" and sends one Payouts batch (60 / 30 / 10 to the athlete fund, the creator and SEEN). Fans tip a story for $2 the same way. Everything lands in an AG Grid money ledger. PayPal sandbox only — test money, real API calls (Orders v2, Invoicing v2, Payouts v1). Live app: https://seen-unseen-xi.streamlit.app · code: https://github.com/SainathGaikwad/seen · narration: an open-source voice (Kokoro), no music.`
+
+**Submitted 12 Oct 2026 (solo):** https://devpost.com/software/seen-sponsor-desk-money-for-athletes-the-market-overlooks — editable until the deadline (12 Nov 12:00 pm PST); freeze project, repo and video after it.
 
 **Submission checklist (12 Nov):** registered on Devpost ✓ · sandbox credentials in Streamlit secrets and the hosted desk raising real sandbox orders ✓ · a committed ledger with real sandbox rows so the grid is not empty ✓ · video uploaded ✓ · AI tools and PayPal APIs named on the form ✓.
 
@@ -165,7 +169,7 @@ SEEN finds the eleven women cricketers whose performance most exceeds the attent
 | by 15 Oct | Cloud Run deployment live; new 3-min video recorded against it |
 | 18 Oct | Builder Cup prototype submission deadline |
 | 19 Oct – 6 Nov | Builder Cup evaluation; finalists announced 7 Nov; Demo Day Singapore 4 Dec |
-| by 25 Oct | GitHub repo public, Nemotron deployment live, video uploaded to YouTube |
+| by 25 Oct | GitHub repo public, Nemotron deployment live, video uploaded to YouTube — done 12 Oct (youtu.be/2JWTNj6B89o, youtu.be/67ZOLRhB3lQ) |
 | 27 Oct, 18:30 IST | GitLab "Life After Code" submission deadline (winners ~16 Nov; demo must stay live until then) |
 | 12 Nov, 12:00 PST (13 Nov 01:30 IST) | PayPal AI Hackathon submission deadline |
 | 30 Oct, 22:30 IST | Nebius × NVIDIA submission deadline (demo must stay up to 15 Dec; winners ~11 Jan 2027) |
